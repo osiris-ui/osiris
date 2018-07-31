@@ -1,6 +1,6 @@
 {
   "name": "atlas",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A Vue.js 2.0 universal responsive UI component library",
   "main": "index.js",
   "scripts": {
