@@ -1,7 +1,7 @@
 module.exports = {
   outDir: 'dist',
   babel: {
-    babelrc: false
+    babelrc: false,
   },
   banner: true,
   css: true,

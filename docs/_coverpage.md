@@ -6,4 +6,4 @@
 > A Vue.js 2.0 universal responsive UI component library.
 
 [Github](https://github.com/cotabox/atlas)
-[Get Started](#atlas)
+[Get Started](#atlas-ui)
