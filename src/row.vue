@@ -38,16 +38,16 @@ export default {
     },
   },
 
-  // computed: {
-  //   style() {
-  //     const margin = `-${(this.gutter / 2)}px`;
+  computed: {
+    style() {
+      const margin = `-${(this.gutter / 2)}px`;
 
-  //     return {
-  //       marginLeft: margin,
-  //       marginRight: margin,
-  //     };
-  //   },
-  // },
+      return {
+        marginLeft: margin,
+        marginRight: margin,
+      };
+    },
+  },
 
   render(h) {
     return h(this.tag, {
@@ -59,7 +59,7 @@ export default {
         `is-direction-${this.direction}`,
         `is-${this.wrap}`,
       ],
-      // style: this.style,
+      style: this.style,
     }, this.$slots.default);
   },
 };
