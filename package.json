@@ -4,7 +4,8 @@
   "description": "A Vue.js 2.0 universal responsive UI component library",
   "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/Cotabox/atlas#readme",
   "devDependencies": {
     "@storybook/addon-storysource": "^3.4.8",
+    "@storybook/storybook-deployer": "^2.3.0",
     "@storybook/vue": "^3.4.8",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
