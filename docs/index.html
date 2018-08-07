@@ -7,21 +7,50 @@
   <meta name="description" content="A Vue.js 2.0 universal responsive UI component library">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <link rel="stylesheet" href="//unpkg.com/vuep/dist/vuep.css">
+  <link rel="stylesheet" href="//unpkg.com/atlas-style">
 </head>
 <body>
+  <style>
+    .box-1, .box-2 {
+      padding: 10px 0;
+      margin-bottom: 5px;
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .box-1 {
+      background-color: rgba(0, 153, 249, .5);
+    }
+
+    .box-2 {
+      background-color: rgba(38, 93, 127, .5);
+    }
+  </style>
   <div id="app"></div>
+  <script src="//unpkg.com/vue/dist/vue.min.js"></script>
+  <script src="//unpkg.com/atlas-ui"></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script src="//unpkg.com/docsify-demo-box-vue@1.0.8/dist/docsify-demo-box-vue.min.js"></script>
   <script>
+    var jsResources = '<scr' + 'ipt src="//unpkg.com/vue/dist/vue.js"></scr' + 'ipt>' + '<scr' + 'ipt src="//unpkg.com/atlas-ui"></scr' + 'ipt>';
+    var cssResources = '@import url("//unpkg.com/atlas-style");.box-1, .box-2 {padding: 10px 0;margin-bottom: 5px; width: 100%; border-radius: 5px; } .box-1 {background-color: rgba(0, 153, 249, .5);}.box-2 {background-color: rgba(38, 93, 127, .5);}';
+    var bootCode = '';
+    // var globalVariable = "leon"
+
     window.$docsify = {
       name: 'Atlas',
       repo: 'https://github.com/Cotabox/atlas',
       coverpage: true,
       themeColor: '#0099f9',
       loadSidebar: true,
+      plugins: [
+        DemoBoxVue.create(jsResources, cssResources, bootCode)
+      ],
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      }
     }
   </script>
-  <script src="//unpkg.com/vue/dist/vue.min.js"></script>
-  <script src="//unpkg.com/vuep"></script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 </body>
 </html>

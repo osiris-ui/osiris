@@ -1,5 +1,5 @@
 
-![logo](_media/icon.svg)
+<!-- ![logo](_media/icon.svg) -->
 
 # Atlas <small>0.2.0</small>
 
