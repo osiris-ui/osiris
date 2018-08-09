@@ -12,7 +12,7 @@
     "storybook": "start-storybook -p 9001 -c .storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "build": "rm -rf ./dist && bili",
-    "teste": "jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -53,6 +53,8 @@
     "vue": "^2.5.16"
   },
   "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/",
     "moduleFileExtensions": [
       "js",
       "json",
@@ -61,6 +63,9 @@
     "transform": {
       ".*\\.(vue)$": "vue-jest",
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
-    }
+    },
+    "testMatch": [
+      "<rootDir>/(tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))"
+    ]
   }
 }
