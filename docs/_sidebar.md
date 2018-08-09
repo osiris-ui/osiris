@@ -5,5 +5,6 @@
 - Basic
   - [Layout](layout.md)
   - [Color](color.md)
+  - [Typography](typography.md)
 
 - [Contributing](CONTRIBUTING.md)
