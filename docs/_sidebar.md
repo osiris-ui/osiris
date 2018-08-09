@@ -4,5 +4,6 @@
 
 - Basic
   - [Layout](layout.md)
+  - [Color](color.md)
 
 - [Contributing](CONTRIBUTING.md)
