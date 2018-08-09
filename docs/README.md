@@ -15,7 +15,7 @@ Check out the [Quick Start](#quick-start) documentation to get started.
 
 ## Contributing
 
-Check out the [Contributing Guide](../CONTRIBUTING.md) for more details.
+Check out the [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ### Credits
 
