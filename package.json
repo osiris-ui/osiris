@@ -11,7 +11,8 @@
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "build": "rm -rf ./dist && bili"
+    "build": "rm -rf ./dist && bili",
+    "teste": "jest"
   },
   "repository": {
     "type": "git",
@@ -49,5 +50,15 @@
   "dependencies": {
     "atlas-style": "^0.1.0",
     "vue": "^2.5.16"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest"
+    }
   }
 }
