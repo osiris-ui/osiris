@@ -7,7 +7,7 @@
   "unpkg": "dist/atlas-ui.min.js",
   "files": ["dist"],
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook",
+    "dev": "start-storybook -p 9001 -c .storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "build": "rm -rf ./dist && bili"
   },
