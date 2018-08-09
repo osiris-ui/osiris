@@ -16,4 +16,4 @@ In order to maintain the lib organized, please follow this steps before send any
 7) If you need to change any doc file and want to preview, you need `docsify` installed
 
 
-If you have any question please, open a issue!
+If you have any question please, [open a issue](https://github.com/Cotabox/atlas/issues)!
