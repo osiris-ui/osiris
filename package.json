@@ -5,7 +5,9 @@
   "main": "dist/atlas-ui.js",
   "module": "dist/atlas-ui.es.js",
   "unpkg": "dist/atlas-ui.min.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "deploy-storybook": "storybook-to-ghpages",
@@ -25,6 +27,7 @@
     "@storybook/addon-storysource": "^3.4.8",
     "@storybook/storybook-deployer": "^2.3.0",
     "@storybook/vue": "^3.4.8",
+    "@vue/test-utils": "^1.0.0-beta.24",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-preset-env": "^1.7.0",
@@ -37,7 +40,9 @@
     "eslint-plugin-html": "^4.0.5",
     "eslint-plugin-import": "^2.13.0",
     "file-loader": "^1.1.11",
+    "jest": "^23.4.2",
     "rollup-plugin-vue": "^3.0.0",
+    "vue-jest": "^2.6.0",
     "vue-loader": "^14.2.2",
     "vue-template-compiler": "^2.5.16"
   },
