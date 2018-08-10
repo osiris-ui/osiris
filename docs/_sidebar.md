@@ -6,5 +6,6 @@
   - [Layout](layout.md)
   - [Color](color.md)
   - [Typography](typography.md)
+  - [Button](button.md)
 
 - [Contributing](CONTRIBUTING.md)
