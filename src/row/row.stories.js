@@ -1,6 +1,6 @@
 import { storiesOf } from '@storybook/vue';
 
-import ARow from '../row.vue';
+import ARow from './row.vue';
 
 storiesOf('Row', module)
   // .add('default', () => '<a-row>simple row</a-row>');

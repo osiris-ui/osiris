@@ -1,5 +1,5 @@
-import row from './row.vue';
-import col from './col.vue';
+import row from './row';
+import col from './col';
 
 const components = [
   row,

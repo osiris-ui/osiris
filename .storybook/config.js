@@ -8,15 +8,8 @@ import '../src/atlas-style/dist/atlas-style.css';
 // Install Vue plugins.
 // Vue.use(Vuex);
 
-// Register custom components.
-
-import row from '../src/row.vue';
-
-Vue.component('a-row', row);
-
-
 function loadStories() {
-  const req = require.context('../src/stories', true, /\.stories\.js$/);
+  const req = require.context('../src', true, /\.stories\.js$/);
   req.keys().forEach(filename => req(filename));
 }
 

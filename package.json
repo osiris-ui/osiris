@@ -13,7 +13,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "build": "rm -rf ./dist && bili",
     "test": "jest",
-    "test:newsnapshot": "jest -- -u",
+    "test:newsnapshot": "npm run test -- -u",
     "lint": "eslint --ext .vue --ext .js src/",
     "lint:fix": "npm run lint --fix"
   },
@@ -75,7 +75,7 @@
       "<rootDir>/node_modules/jest-serializer-vue"
     ],
     "testMatch": [
-      "<rootDir>/(tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))"
+      "<rootDir>/(src/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))"
     ]
   },
   "husky": {

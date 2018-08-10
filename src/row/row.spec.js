@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Row from '../row.vue';
+import Row from './row.vue';
 
 describe('Row', () => {
   let wrapper;

@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import Col from '../col.vue';
+import Col from './col.vue';
 
 describe('Col', () => {
   let wrapper;

@@ -1,7 +1,7 @@
 import { storiesOf } from '@storybook/vue';
 
-import ARow from '../row.vue';
-import ACol from '../col.vue';
+import ARow from '../row/row.vue';
+import ACol from './col.vue';
 
 storiesOf('Col', module)
   // .add('default', () => '<a-row>simple row</a-row>');
