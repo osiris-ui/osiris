@@ -4,7 +4,7 @@ export default {
   props: {
     span: {
       type: Number,
-      default: 24
+      default: 24,
     },
     xs: Number,
     sm: Number,
@@ -13,12 +13,12 @@ export default {
     xl: Number,
     offset: {
       type: Number,
-      default: 0
+      default: 0,
     },
     tag: {
       type: String,
-      default: 'div'
-    }
+      default: 'div',
+    },
   },
 
   computed: {
@@ -28,7 +28,7 @@ export default {
 
       return {
         paddingLeft: padding,
-        paddingRight: padding
+        paddingRight: padding,
       };
     },
     classList() {
@@ -44,19 +44,18 @@ export default {
     },
     sizeClasses() {
       const sizeProps = ['xs', 'sm', 'md', 'lg', 'xl'];
-      return sizeProps.map(size => this.getSizeClasses.bind(this));
-    }
+      return sizeProps.map(size => this.getSizeClasses(size));
+    },
   },
   methods: {
     getSizeClasses(size) {
       switch (typeof this[size]) {
         case 'number':
           return `a-col-${size}-${this[size]}`;
-          break;
         case 'object':
           return this.getSizePropsClasses({
             colSize: size,
-            sizeProps: this[size]
+            sizeProps: this[size],
           });
         default:
           return [];
@@ -65,23 +64,22 @@ export default {
     getSizePropsClasses({ colSize, sizeProps = {} }) {
       const sizePropsKeys = Object.keys(sizeProps);
       return sizePropsKeys.map(
-        prop =>
-          prop !== 'span'
-            ? `a-col-${size}-${prop}-${sizeProps[prop]}`
-            : `a-col-${size}-${sizeProps[prop]}`
+        prop => (prop !== 'span'
+          ? `a-col-${colSize}-${prop}-${sizeProps[prop]}`
+          : `a-col-${colSize}-${sizeProps[prop]}`),
       );
-    }
+    },
   },
   render(h) {
     return h(
       this.tag,
       {
         class: this.classList,
-        style: this.style
+        style: this.style,
       },
-      this.$slots.default
+      this.$slots.default,
     );
-  }
+  },
 };
 </script>
 
