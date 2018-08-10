@@ -13,7 +13,9 @@
     "deploy-storybook": "storybook-to-ghpages",
     "build": "rm -rf ./dist && bili",
     "test": "jest",
-    "teste:newsnapshot": "jest -- -u"
+    "teste:newsnapshot": "jest -- -u",
+    "lint": "eslint --ext .vue --ext .js src/",
+    "lint:fix": "npm run lint --fix"
   },
   "repository": {
     "type": "git",
@@ -36,12 +38,15 @@
     "babel-preset-env": "^1.7.0",
     "bili": "^3.1.2",
     "css-loader": "^1.0.0",
-    "eslint": "^5.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.1.0",
     "eslint-plugin-html": "^4.0.5",
     "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
     "file-loader": "^1.1.11",
     "husky": "^1.0.0-rc.13",
     "jest": "^23.4.2",
@@ -76,7 +81,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test"
+      "pre-push": "npm run lint && npm test"
     }
   }
 }

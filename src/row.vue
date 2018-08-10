@@ -55,8 +55,8 @@ export default {
         `is-content-${this.content}`,
         `is-direction-${this.direction}`,
         `is-${this.wrap}`,
-      ]
-    }
+      ];
+    },
   },
 
   render(h) {
