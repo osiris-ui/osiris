@@ -13,7 +13,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "build": "rm -rf ./dist && bili",
     "test": "jest",
-    "teste:newsnapshot": "jest -- -u",
+    "test:newsnapshot": "jest -- -u",
     "lint": "eslint --ext .vue --ext .js src/",
     "lint:fix": "npm run lint --fix"
   },
