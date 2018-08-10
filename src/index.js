@@ -1,9 +1,11 @@
 import row from './row';
 import col from './col';
+import button from './button';
 
 const components = [
   row,
   col,
+  button,
 ];
 
 function install(Vue) {
@@ -20,4 +22,5 @@ export default {
   install,
   row,
   col,
+  button,
 };
