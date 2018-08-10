@@ -1,11 +1,10 @@
 <script>
 export default {
-
   name: 'aCol',
   props: {
     span: {
       type: Number,
-      default: 24,
+      default: 24
     },
     xs: Number,
     sm: Number,
@@ -14,12 +13,12 @@ export default {
     xl: Number,
     offset: {
       type: Number,
-      default: 0,
+      default: 0
     },
     tag: {
       type: String,
-      default: 'div',
-    },
+      default: 'div'
+    }
   },
 
   computed: {
@@ -29,36 +28,60 @@ export default {
 
       return {
         paddingLeft: padding,
-        paddingRight: padding,
+        paddingRight: padding
       };
     },
+    classList() {
+      return [...this.spanClasses, ...this.offsetClasses, ...this.sizeClasses];
+    },
+    spanClasses() {
+      return typeof this.span === 'number' ? [`a-col-${this.span}`] : [];
+    },
+    offsetClasses() {
+      return typeof this.offset === 'number'
+        ? [`a-col-offset-${this.offset}`]
+        : [];
+    },
+    sizeClasses() {
+      const sizeProps = ['xs', 'sm', 'md', 'lg', 'xl'];
+      return sizeProps.map(size => this.getSizeClasses.bind(this));
+    }
   },
-
+  methods: {
+    getSizeClasses(size) {
+      switch (typeof this[size]) {
+        case 'number':
+          return `a-col-${size}-${this[size]}`;
+          break;
+        case 'object':
+          return this.getSizePropsClasses({
+            colSize: size,
+            sizeProps: this[size]
+          });
+        default:
+          return [];
+      }
+    },
+    getSizePropsClasses({ colSize, sizeProps = {} }) {
+      const sizePropsKeys = Object.keys(sizeProps);
+      return sizePropsKeys.map(
+        prop =>
+          prop !== 'span'
+            ? `a-col-${size}-${prop}-${sizeProps[prop]}`
+            : `a-col-${size}-${sizeProps[prop]}`
+      );
+    }
+  },
   render(h) {
-    const classList = [];
-
-    ['span', 'offset'].forEach((prop) => {
-      if (this[prop] || this[prop] === 0) {
-        classList.push(prop !== 'span' ? `a-col-${prop}-${this[prop]}` : `a-col-${this[prop]}`);
-      }
-    });
-
-    ['xs', 'sm', 'md', 'lg', 'xl'].forEach((size) => {
-      if (typeof this[size] === 'number') {
-        classList.push(`a-col-${size}-${this[size]}`);
-      } else if (typeof this[size] === 'object') {
-        const props = this[size];
-        Object.keys(props).forEach((prop) => {
-          classList.push(prop !== 'span' ? `a-col-${size}-${prop}-${props[prop]}` : `a-col-${size}-${props[prop]}`);
-        });
-      }
-    });
-
-    return h(this.tag, {
-      class: classList,
-      style: this.style,
-    }, this.$slots.default);
-  },
+    return h(
+      this.tag,
+      {
+        class: this.classList,
+        style: this.style
+      },
+      this.$slots.default
+    );
+  }
 };
 </script>
 
