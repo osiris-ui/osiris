@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Row should match with the snapshot 1`] = `<div class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap" style="margin-left: -10px; margin-right: -10px;"></div>`;

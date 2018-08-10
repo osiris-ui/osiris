@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Col should match with the snapshot 1`] = `<div class="a-col-24 a-col-offset-0" style="padding-left: 0px; padding-right: 0px;"></div>`;

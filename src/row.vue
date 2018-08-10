@@ -47,18 +47,21 @@ export default {
         marginRight: margin,
       };
     },
-  },
-
-  render(h) {
-    return h(this.tag, {
-      class: [
+    classList() {
+      return [
         'a-row',
         `is-justify-${this.justify}`,
         `is-align-${this.align}`,
         `is-content-${this.content}`,
         `is-direction-${this.direction}`,
         `is-${this.wrap}`,
-      ],
+      ]
+    }
+  },
+
+  render(h) {
+    return h(this.tag, {
+      class: this.classList,
       style: this.style,
     }, this.$slots.default);
   },
