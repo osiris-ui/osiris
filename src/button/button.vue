@@ -1,5 +1,9 @@
 <template>
-  <button class="a-button" :class="`a-button--${type}`">
+  <button
+    class="a-button"
+    :class="`a-button--${type}`"
+    @click.prevent.stop="onClick"
+  >
     <slot></slot>
   </button>
 </template>
@@ -13,6 +17,10 @@ export default {
       type: String,
       default: 'default',
     },
+    onClick: {
+      type: Function,
+      default: () => {}
+    }
   },
 
   data() {

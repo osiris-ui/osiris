@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button when is a default button should be match with the snapshot 1`] = `<button class="a-button a-button--default"></button>`;
+
+exports[`Button when is a submit button should match with the snapshot 1`] = `<button class="a-button a-button--submit"></button>`;
