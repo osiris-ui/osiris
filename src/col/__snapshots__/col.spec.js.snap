@@ -1,3 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Col should match with the snapshot 1`] = `<div class="a-col-24 a-col-offset-0" style="padding-left: 0px; padding-right: 0px;"></div>`;
+exports[`Col when pass no prop should match with the snapshot 1`] = `<div class="a-col-24 a-col-offset-0" style="padding-left: 0px; padding-right: 0px;"></div>`;
+
+exports[`Col when pass props and the props are {"span":1,"xs":2,"sm":3,"md":4,"lg":5,"xl":6,"offset":7} should match with the snapshot 1`] = `<div class="a-col-1 a-col-offset-7 a-col-xs-2 a-col-sm-3 a-col-md-4 a-col-lg-5 a-col-xl-6" style="padding-left: 0px; padding-right: 0px;"></div>`;
+
+exports[`Col when pass props and the props are another tag like section should match with the snapshot 1`] = `<section class="a-col-24 a-col-offset-0" style="padding-left: 0px; padding-right: 0px;"></section>`;
