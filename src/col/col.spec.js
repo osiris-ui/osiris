@@ -18,7 +18,7 @@ describe('Col', () => {
     });
   });
 
-  describe('when pass props', () => {
+  describe('when pass some props', () => {
     const props = {
       span: 1,
       xs: 2,
