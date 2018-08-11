@@ -19,8 +19,8 @@ export default {
     },
     onClick: {
       type: Function,
-      default: () => {}
-    }
+      default: () => {},
+    },
   },
 
   data() {

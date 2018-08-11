@@ -5,7 +5,7 @@ describe('Button', () => {
   let wrapper;
   describe('when is a default button', () => {
     beforeEach(() => {
-      wrapper = shallowMount(Button)
+      wrapper = shallowMount(Button);
     });
 
     it('should be match with the snapshot', () => {

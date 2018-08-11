@@ -63,7 +63,7 @@ describe('Row', () => {
     describe('and the prop is another tag like section', () => {
       beforeEach(() => {
         wrapper = shallowMount(Row, {
-          propsData: { tag: 'section', },
+          propsData: { tag: 'section' },
         });
       });
 
