@@ -7,6 +7,9 @@ describe('Button', () => {
   const reset = () => wrapper.setProps({
     type: 'default',
     nativeType: 'button',
+    size: 'normal',
+    round: false,
+    circle: false,
     disabled: false,
   });
 
@@ -17,8 +20,10 @@ describe('Button', () => {
   afterEach(reset);
 
   it('should be a default button at startup', () => {
+    const defaultClasses = ['a-button', 'a-button--default', 'a-button--normal'];
+
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button', 'a-button--default');
+    expect(wrapper.classes()).toEqual(defaultClasses);
   });
 
   it('should be a primary button', () => {
@@ -28,6 +33,114 @@ describe('Button', () => {
 
     expect(wrapper.html()).toMatchSnapshot();
     expect(wrapper.classes()).toContain('a-button--primary');
+  });
+
+  it('should be a secondary button', () => {
+    wrapper.setProps({
+      type: 'secondary',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--secondary');
+  });
+
+  it('should be a tertiary button', () => {
+    wrapper.setProps({
+      type: 'tertiary',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--tertiary');
+  });
+
+  it('should be a success button', () => {
+    wrapper.setProps({
+      type: 'success',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--success');
+  });
+
+  it('should be a warning button', () => {
+    wrapper.setProps({
+      type: 'warning',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--warning');
+  });
+
+  it('should be a danger button', () => {
+    wrapper.setProps({
+      type: 'danger',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--danger');
+  });
+
+  it('should be a text button', () => {
+    wrapper.setProps({
+      type: 'text',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--text');
+  });
+
+  it('should be a mini button', () => {
+    wrapper.setProps({
+      size: 'mini',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--mini');
+  });
+
+  it('should be a small button', () => {
+    wrapper.setProps({
+      size: 'small',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--small');
+  });
+
+  it('should be a normal button', () => {
+    wrapper.setProps({
+      size: 'normal',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--normal');
+  });
+
+  it('should be a large button', () => {
+    wrapper.setProps({
+      size: 'large',
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--large');
+  });
+
+  it('should be a round button', () => {
+    wrapper.setProps({
+      round: true,
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('is-round');
+  });
+
+  it('should be a circle button', () => {
+    wrapper.setProps({
+      circle: true,
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('is-circle');
   });
 
   it('should have a nativeType submit', () => {
