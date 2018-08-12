@@ -1,6 +1,14 @@
 <template>
   <button
-    :class="`a-button--${type}`"
+    :class="[
+      `a-button--${type}`,
+      `a-button--${size}`,
+      {
+        'is-disabled': disabled,
+        'is-round': round,
+        'is-circle': circle,
+      }
+    ]"
     :type="nativeType"
     :disabled="disabled"
     class="a-button"
@@ -12,7 +20,7 @@
 <script>
 export default {
 
-  name: 'aButton',
+  name: 'AButton',
   props: {
     type: {
       type: String,
@@ -25,6 +33,21 @@ export default {
     },
 
     disabled: {
+      type: Boolean,
+      default: false,
+    },
+
+    size: {
+      type: String,
+      default: 'normal',
+    },
+
+    round: {
+      type: Boolean,
+      default: false,
+    },
+
+    circle: {
       type: Boolean,
       default: false,
     },
