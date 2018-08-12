@@ -21,9 +21,26 @@ storiesOf('Button', module)
       </div>
     `,
   }))
+  .add('plain', () => ({
+    components: { AButton },
+    template: `
+      <div>
+        <a-button plain>Default</a-button>
+        <a-button type="primary" plain>Primary</a-button>
+        <a-button type="secondary" plain>Secondary</a-button>
+        <a-button type="tertiary" plain>Tertiary</a-button>
+        <a-button type="success" plain>Success</a-button>
+        <a-button type="warning" plain>Warning</a-button>
+        <div style="margin-top:10px; margin-left: 0">
+          <a-button type="danger" plain>Danger</a-button>
+        </div>
+      </div>
+    `,
+  }))
   .add('disabled', () => ({
     components: { AButton },
     template: `
+    <div>
       <div>
         <a-button disabled>Default</a-button>
         <a-button type="primary" disabled>Primary</a-button>
@@ -35,7 +52,20 @@ storiesOf('Button', module)
           <a-button type="danger" disabled>Danger</a-button>
           <a-button type="text" disabled>Text</a-button>
         </div>
-      </div
+      </div>
+      <div style="margin-top: 10px">
+        <a-button plain disabled>Default</a-button>
+        <a-button type="primary" plain disabled>Primary</a-button>
+        <a-button type="secondary" plain disabled>Secondary</a-button>
+        <a-button type="tertiary" plain disabled>Tertiary</a-button>
+        <a-button type="success" plain disabled>Success</a-button>
+        <a-button type="warning" plain disabled>Warning</a-button>
+        <div style="margin-top:10px; margin-left: 0">
+          <a-button type="danger" plain disabled>Danger</a-button>
+          <a-button type="text" plain disabled>Text</a-button>
+        </div>
+      </div>
+    </div>
     `,
   }))
   .add('sizes', () => ({

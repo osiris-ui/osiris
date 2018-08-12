@@ -143,6 +143,15 @@ describe('Button', () => {
     expect(wrapper.classes()).toContain('is-circle');
   });
 
+  it('should be a plain button', () => {
+    wrapper.setProps({
+      plain: true,
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('is-plain');
+  });
+
   it('should have a nativeType submit', () => {
     wrapper.setProps({
       nativeType: 'submit',

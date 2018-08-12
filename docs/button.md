@@ -25,21 +25,59 @@ Base button usage
 export default {}
 </script>
 ```
+
+## Plain
+```html
+/*vue*/
+
+<template>
+  <div>
+    <a-button plain>Default</a-button>
+    <a-button type="primary" plain>Primary</a-button>
+    <a-button type="secondary" plain>Secondary</a-button>
+    <a-button type="tertiary" plain>Tertiary</a-button>
+    <div style="margin-top:10px; margin-left: 0">
+      <a-button type="success" plain>Success</a-button>
+      <a-button type="warning" plain>Warning</a-button>
+      <a-button type="danger" plain>Danger</a-button>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+```
+
 ## Disabled
 ```html
 /*vue*/
 
 <template>
   <div>
-    <a-button disabled>Default</a-button>
-    <a-button type="primary" disabled>Primary</a-button>
-    <a-button type="secondary" disabled>Secondary</a-button>
-    <a-button type="tertiary" disabled>Tertiary</a-button>
-    <div style="margin-top:10px; margin-left: 0">
-      <a-button type="success" disabled>Success</a-button>
-      <a-button type="warning" disabled>Warning</a-button>
-      <a-button type="danger" disabled>Danger</a-button>
-      <a-button type="text" disabled>Text</a-button>
+    <div>
+      <a-button disabled>Default</a-button>
+      <a-button type="primary" disabled>Primary</a-button>
+      <a-button type="secondary" disabled>Secondary</a-button>
+      <a-button type="tertiary" disabled>Tertiary</a-button>
+      <div style="margin-top:10px; margin-left: 0">
+        <a-button type="success" disabled>Success</a-button>
+        <a-button type="warning" disabled>Warning</a-button>
+        <a-button type="danger" disabled>Danger</a-button>
+        <a-button type="text" disabled>Text</a-button>
+      </div>
+    </div>
+    <div style="margin-top: 10px">
+      <a-button plain disabled>Default</a-button>
+      <a-button type="primary" plain disabled>Primary</a-button>
+      <a-button type="secondary" plain disabled>Secondary</a-button>
+      <a-button type="tertiary" plain disabled>Tertiary</a-button>
+      <div style="margin-top:10px; margin-left: 0">
+        <a-button type="success" plain disabled>Success</a-button>
+        <a-button type="warning" plain disabled>Warning</a-button>
+        <a-button type="danger" plain disabled>Danger</a-button>
+        <a-button type="text" plain disabled>Text</a-button>
+      </div>
     </div>
   </div>
 </template>

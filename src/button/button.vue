@@ -7,6 +7,7 @@
         'is-disabled': disabled,
         'is-round': round,
         'is-circle': circle,
+        'is-plain': plain,
       }
     ]"
     :type="nativeType"
@@ -48,6 +49,11 @@ export default {
     },
 
     circle: {
+      type: Boolean,
+      default: false,
+    },
+
+    plain: {
       type: Boolean,
       default: false,
     },
