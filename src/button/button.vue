@@ -1,9 +1,8 @@
 <template>
   <button
-    class="a-button"
     :class="`a-button--${type}`"
-    @click.prevent.stop="onClick"
-  >
+    class="a-button"
+    @click="handleClick">
     <slot></slot>
   </button>
 </template>
@@ -17,16 +16,12 @@ export default {
       type: String,
       default: 'default',
     },
-    onClick: {
-      type: Function,
-      default: () => {},
-    },
   },
 
-  data() {
-    return {
-
-    };
+  methods: {
+    handleClick(evt) {
+      return this.$emit('click', evt);
+    },
   },
 };
 </script>
