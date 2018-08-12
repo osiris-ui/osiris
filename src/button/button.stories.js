@@ -90,7 +90,7 @@ storiesOf('Button', module)
           <a-button type="text" size="small">Text Small</a-button>
           <a-button type="text" size="mini">Text Mini</a-button>
         </div>
-      </div
+      </div>
     `,
   }))
   .add('round', () => ({
