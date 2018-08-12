@@ -12,6 +12,8 @@ exports[`Button should be a mini button 1`] = `<button type="button" class="a-bu
 
 exports[`Button should be a normal button 1`] = `<button type="button" class="a-button a-button--default a-button--normal"></button>`;
 
+exports[`Button should be a plain button 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-plain"></button>`;
+
 exports[`Button should be a primary button 1`] = `<button type="button" class="a-button a-button--primary a-button--normal"></button>`;
 
 exports[`Button should be a round button 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-round"></button>`;
@@ -28,6 +30,6 @@ exports[`Button should be a text button 1`] = `<button type="button" class="a-bu
 
 exports[`Button should be a warning button 1`] = `<button type="button" class="a-button a-button--warning a-button--normal"></button>`;
 
-exports[`Button should be disabled 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-disabled" disabled="disabled"></button>`;
+exports[`Button should be disabled 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-disabled is-plain" disabled="disabled"></button>`;
 
-exports[`Button should have a nativeType submit 1`] = `<button type="submit" class="a-button a-button--default a-button--normal"></button>`;
+exports[`Button should have a nativeType submit 1`] = `<button type="submit" class="a-button a-button--default a-button--normal is-plain"></button>`;
