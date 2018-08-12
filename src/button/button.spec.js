@@ -1,48 +1,55 @@
-import { shallowMount } from '@vue/test-utils';
+import { mount } from '@vue/test-utils';
 import Button from './button.vue';
 
 describe('Button', () => {
   let wrapper;
-  describe('when is a default button', () => {
-    beforeEach(() => {
-      wrapper = shallowMount(Button);
-    });
 
-    it('should be match with the snapshot', () => {
-      expect(wrapper.html()).toMatchSnapshot();
-    });
+  const reset = () => wrapper.setProps({
+    type: 'default',
+    nativeType: 'button',
+    disabled: false,
   });
 
-  describe('when is a submit button', () => {
-    beforeEach(() => {
-      wrapper = shallowMount(Button, {
-        propsData: {
-          type: 'submit',
-        },
-      });
-    });
-
-    it('should match with the snapshot', () => {
-      expect(wrapper.html()).toMatchSnapshot();
-    });
+  beforeAll(() => {
+    wrapper = mount(Button);
   });
 
-  describe('when pass an onClick Function', () => {
-    const onClick = jest.fn();
+  afterEach(reset);
 
-    beforeEach(() => {
-      wrapper = shallowMount(Button, {
-        propsData: {
-          onClick,
-        },
-      });
+  it('should be a default button at startup', () => {
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button', 'a-button--default');
+  });
+
+  it('should be a primary button', () => {
+    wrapper.setProps({
+      type: 'primary',
     });
 
-    describe('when button is clicked', () => {
-      it('should call the onclick function', () => {
-        wrapper.findAll('button').trigger('click');
-        expect(onClick).toBeCalled();
-      });
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.classes()).toContain('a-button--primary');
+  });
+
+  it('should have a nativeType submit', () => {
+    wrapper.setProps({
+      nativeType: 'submit',
     });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.attributes().type).toBe('submit');
+  });
+
+  it('should be disabled', () => {
+    wrapper.setProps({
+      disabled: true,
+    });
+
+    expect(wrapper.html()).toMatchSnapshot();
+    expect(wrapper.attributes().disabled).toBeTruthy();
+  });
+
+  it('should emit click event', () => {
+    wrapper.findAll('button').trigger('click');
+    expect(wrapper.emitted().click).toBeTruthy();
   });
 });

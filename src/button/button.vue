@@ -1,6 +1,8 @@
 <template>
   <button
     :class="`a-button--${type}`"
+    :type="nativeType"
+    :disabled="disabled"
     class="a-button"
     @click="handleClick">
     <slot></slot>
@@ -15,6 +17,16 @@ export default {
     type: {
       type: String,
       default: 'default',
+    },
+
+    nativeType: {
+      type: String,
+      default: 'button',
+    },
+
+    disabled: {
+      type: Boolean,
+      default: false,
     },
   },
 

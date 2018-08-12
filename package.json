@@ -12,6 +12,7 @@
     "dev": "start-storybook -p 9001 -c .storybook",
     "deploy-storybook": "storybook-to-ghpages",
     "build": "rm -rf ./dist && bili",
+    "tdd": "jest --watch",
     "test": "jest",
     "test:newsnapshot": "npm run test -- -u",
     "lint": "eslint --ext .vue --ext .js src/",
