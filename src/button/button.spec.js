@@ -52,4 +52,14 @@ describe('Button', () => {
     wrapper.findAll('button').trigger('click');
     expect(wrapper.emitted().click).toBeTruthy();
   });
+
+  it('should render default slot', () => {
+    wrapper = mount(Button, {
+      slots: {
+        default: 'Default Button',
+      },
+    });
+
+    expect(wrapper.text()).toBe('Default Button');
+  });
 });
