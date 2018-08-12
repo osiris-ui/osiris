@@ -1,5 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button when is a default button should be match with the snapshot 1`] = `<button class="a-button a-button--default"></button>`;
+exports[`Button should be a circle button 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-circle"></button>`;
 
-exports[`Button when is a submit button should match with the snapshot 1`] = `<button class="a-button a-button--submit"></button>`;
+exports[`Button should be a danger button 1`] = `<button type="button" class="a-button a-button--danger a-button--normal"></button>`;
+
+exports[`Button should be a default button at startup 1`] = `<button type="button" class="a-button a-button--default a-button--normal"></button>`;
+
+exports[`Button should be a large button 1`] = `<button type="button" class="a-button a-button--default a-button--large"></button>`;
+
+exports[`Button should be a mini button 1`] = `<button type="button" class="a-button a-button--default a-button--mini"></button>`;
+
+exports[`Button should be a normal button 1`] = `<button type="button" class="a-button a-button--default a-button--normal"></button>`;
+
+exports[`Button should be a primary button 1`] = `<button type="button" class="a-button a-button--primary a-button--normal"></button>`;
+
+exports[`Button should be a round button 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-round"></button>`;
+
+exports[`Button should be a secondary button 1`] = `<button type="button" class="a-button a-button--secondary a-button--normal"></button>`;
+
+exports[`Button should be a small button 1`] = `<button type="button" class="a-button a-button--default a-button--small"></button>`;
+
+exports[`Button should be a success button 1`] = `<button type="button" class="a-button a-button--success a-button--normal"></button>`;
+
+exports[`Button should be a tertiary button 1`] = `<button type="button" class="a-button a-button--tertiary a-button--normal"></button>`;
+
+exports[`Button should be a text button 1`] = `<button type="button" class="a-button a-button--text a-button--normal"></button>`;
+
+exports[`Button should be a warning button 1`] = `<button type="button" class="a-button a-button--warning a-button--normal"></button>`;
+
+exports[`Button should be disabled 1`] = `<button type="button" class="a-button a-button--default a-button--normal is-disabled" disabled="disabled"></button>`;
+
+exports[`Button should have a nativeType submit 1`] = `<button type="submit" class="a-button a-button--default a-button--normal"></button>`;

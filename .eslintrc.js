@@ -1,15 +1,20 @@
 module.exports = {
   root: true,
-  parser: 'babel-eslint',
+  parserOptions: {
+    parser: 'babel-eslint',
+  },
   env: {
     browser: true,
     node: true,
-    jest: true
+    jest: true,
   },
-  extends: 'airbnb-base',
+  extends: [
+    'plugin:vue/recommended',
+    'airbnb-base',
+  ],
   // required to lint *.vue files
   plugins: [
-    'html'
+    'vue',
   ],
   // add your custom rules here
   rules: {
@@ -23,6 +28,7 @@ module.exports = {
     'func-names': 1,
     'linebreak-style': 0,
     'import/no-extraneous-dependencies': 0,
+    'vue/require-default-prop': 0,
   },
-  globals: {}
+  globals: {},
 }

@@ -1,32 +1,62 @@
 <template>
   <button
+    :class="[
+      `a-button--${type}`,
+      `a-button--${size}`,
+      {
+        'is-disabled': disabled,
+        'is-round': round,
+        'is-circle': circle,
+      }
+    ]"
+    :type="nativeType"
+    :disabled="disabled"
     class="a-button"
-    :class="`a-button--${type}`"
-    @click.prevent.stop="onClick"
-  >
-    <slot></slot>
+    @click="handleClick">
+    <slot />
   </button>
 </template>
 
 <script>
 export default {
 
-  name: 'aButton',
+  name: 'AButton',
   props: {
     type: {
       type: String,
       default: 'default',
     },
-    onClick: {
-      type: Function,
-      default: () => {},
+
+    nativeType: {
+      type: String,
+      default: 'button',
+    },
+
+    disabled: {
+      type: Boolean,
+      default: false,
+    },
+
+    size: {
+      type: String,
+      default: 'normal',
+    },
+
+    round: {
+      type: Boolean,
+      default: false,
+    },
+
+    circle: {
+      type: Boolean,
+      default: false,
     },
   },
 
-  data() {
-    return {
-
-    };
+  methods: {
+    handleClick(evt) {
+      return this.$emit('click', evt);
+    },
   },
 };
 </script>
