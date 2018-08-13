@@ -10,4 +10,4 @@ cache:
 before_script:
   - npm run build
 after_success:
-  - npm run coverage
+  - bash <(curl -s https://codecov.io/bash) -e TRAVIS_NODE_VERSION
