@@ -34,10 +34,14 @@ All information about heading, paragraphs etc...
 
 <p style="font-size: 1rem; line-height: 1.5rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae ut facere rerum, asperiores debitis, culpa blanditiis ratione at tempora beatae eaque maxime magni reprehenderit! Voluptates in, amet consectetur dignissimos natus suscipit veniam, possimus qui excepturi impedit sapiente illo. Quae ab voluptatibus nulla ratione. Nulla doloribus animi similique libero mollitia maxime!</p>
 
-> .small
+> p.small
 
 <p class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur quos sunt soluta odit magni fugiat libero quasi optio dolor ut minima iure, fugit voluptatum eum debitis reiciendis ad accusantium. Minus nam eos officia iure dicta provident est dolores accusamus obcaecati pariatur ratione, sed, quas nulla ad voluptatum aliquam veniam ex?</p>
 
 > small
 
 <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quo!</small>
+
+> small.small
+
+<small class="small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, quo!</small>

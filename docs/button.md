@@ -1,5 +1,15 @@
 # Button
 
+| Attribute | Description | Type | Accepted Value | Default |
+|--|--|--|--|--|
+| size |  size of button | String | large/normal/small/mini | normal |
+| type | button visual type | String | default/primary/secondary/tertiary<br>/success/warning/danger/text | default |
+| plain |  whether a plain button | Boolean | true/false | false |
+| round |  whether a round button | Boolean | true/false | false |
+| circle |  whether a circle button | Boolean | true/false | false |
+| disabled |  if button is disabled | Boolean | true/false | false |
+| nativeType |  same as native button type | String | button/submit | button |
+
 ## Types
 ```html
 /*vue*/
