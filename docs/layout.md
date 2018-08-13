@@ -1,6 +1,6 @@
 # Layout
 
-We use a flex based grid system with 24 columns by default with a 20px gutter. 
+We use a flex based grid system with 24 columns with a 20px gutter by default. 
 
 ### Row Attributes
 

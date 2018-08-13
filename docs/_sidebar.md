@@ -7,5 +7,6 @@
   - [Color](color.md)
   - [Typography](typography.md)
   - [Button](button.md)
+  - [Icon](icon.md)
 
 - [Contributing](CONTRIBUTING.md)

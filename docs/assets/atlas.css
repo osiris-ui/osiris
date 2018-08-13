@@ -38,3 +38,25 @@
   margin: 0;
   /*color: #313541;*/
 }
+
+/* ICONS CLASSES */
+
+.icon-demobox {
+  padding: 10px;
+  text-align: center;
+  margin-right: 5px;
+  vertical-align: top;
+  border: 1px solid #dfe6ee;
+  width: 24%;
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.icon-demobox .box {
+  margin-bottom: 5px;
+}
+
+.icon-demobox p {
+  margin: 0;
+  /*color: #313541;*/
+}

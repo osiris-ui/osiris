@@ -1,7 +1,5 @@
 # Button
 
-Base button usage
-
 ## Types
 ```html
 /*vue*/
