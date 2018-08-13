@@ -9,4 +9,7 @@
   - [Button](button.md)
   - [Icon](icon.md)
 
+- Form
+  - [Input](input.md)
+
 - [Contributing](CONTRIBUTING.md)
