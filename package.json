@@ -30,6 +30,7 @@
   "homepage": "https://github.com/Cotabox/atlas#readme",
   "devDependencies": {
     "@storybook/addon-knobs": "^3.4.10",
+    "@storybook/addon-storyshots": "^3.4.10",
     "@storybook/addon-storysource": "^3.4.8",
     "@storybook/storybook-deployer": "^2.3.0",
     "@storybook/vue": "^3.4.8",
@@ -83,6 +84,9 @@
     ],
     "testMatch": [
       "<rootDir>/(src/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx))"
+    ],
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(@storybook/.*\\.vue$))"
     ]
   },
   "husky": {
