@@ -1,5 +1,10 @@
 import { storiesOf } from '@storybook/vue';
-import { withKnobs, text, number, select } from '@storybook/addon-knobs/vue';
+import {
+  withKnobs,
+  text,
+  number,
+  select,
+} from '@storybook/addon-knobs/vue';
 
 import ARow from './row.vue';
 
@@ -7,13 +12,13 @@ const justifyOptions = {
   center: 'center',
   flexStart: 'flex-start',
   flexEnd: 'flex-end',
-  baseline: 'baseline'
+  baseline: 'baseline',
 };
 
 const alignOptions = {
   center: 'center',
   flexStart: 'flex-start',
-  flexEnd: 'flex-end'
+  flexEnd: 'flex-end',
 };
 
 storiesOf('Row', module)
