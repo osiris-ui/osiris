@@ -1,0 +1,2063 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button circle 1`] = `
+<div>
+  <button
+    class="a-button a-button--default a-button--normal is-circle"
+    type="button"
+  >
+    D
+  </button>
+   
+  <button
+    class="a-button a-button--primary a-button--normal is-circle"
+    type="button"
+  >
+    P
+  </button>
+   
+  <button
+    class="a-button a-button--secondary a-button--normal is-circle"
+    type="button"
+  >
+    S
+  </button>
+   
+  <button
+    class="a-button a-button--tertiary a-button--normal is-circle"
+    type="button"
+  >
+    T
+  </button>
+   
+  <button
+    class="a-button a-button--success a-button--normal is-circle"
+    type="button"
+  >
+    SC
+  </button>
+   
+  <button
+    class="a-button a-button--warning a-button--normal is-circle"
+    type="button"
+  >
+    W
+  </button>
+   
+  <button
+    class="a-button a-button--danger a-button--normal is-circle"
+    type="button"
+  >
+    D
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button disabled 1`] = `
+<div>
+  <div>
+    <button
+      class="a-button a-button--default a-button--normal is-disabled"
+      disabled="disabled"
+      type="button"
+    >
+      Default
+    </button>
+     
+    <button
+      class="a-button a-button--primary a-button--normal is-disabled"
+      disabled="disabled"
+      type="button"
+    >
+      Primary
+    </button>
+     
+    <button
+      class="a-button a-button--secondary a-button--normal is-disabled"
+      disabled="disabled"
+      type="button"
+    >
+      Secondary
+    </button>
+     
+    <button
+      class="a-button a-button--tertiary a-button--normal is-disabled"
+      disabled="disabled"
+      type="button"
+    >
+      Tertiary
+    </button>
+     
+    <button
+      class="a-button a-button--success a-button--normal is-disabled"
+      disabled="disabled"
+      type="button"
+    >
+      Success
+    </button>
+     
+    <button
+      class="a-button a-button--warning a-button--normal is-disabled"
+      disabled="disabled"
+      type="button"
+    >
+      Warning
+    </button>
+     
+    <div
+      style="margin-top: 10px; margin-left: 0px;"
+    >
+      <button
+        class="a-button a-button--danger a-button--normal is-disabled"
+        disabled="disabled"
+        type="button"
+      >
+        Danger
+      </button>
+       
+      <button
+        class="a-button a-button--text a-button--normal is-disabled"
+        disabled="disabled"
+        type="button"
+      >
+        Text
+      </button>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--default a-button--normal is-disabled is-plain"
+      disabled="disabled"
+      type="button"
+    >
+      Default
+    </button>
+     
+    <button
+      class="a-button a-button--primary a-button--normal is-disabled is-plain"
+      disabled="disabled"
+      type="button"
+    >
+      Primary
+    </button>
+     
+    <button
+      class="a-button a-button--secondary a-button--normal is-disabled is-plain"
+      disabled="disabled"
+      type="button"
+    >
+      Secondary
+    </button>
+     
+    <button
+      class="a-button a-button--tertiary a-button--normal is-disabled is-plain"
+      disabled="disabled"
+      type="button"
+    >
+      Tertiary
+    </button>
+     
+    <button
+      class="a-button a-button--success a-button--normal is-disabled is-plain"
+      disabled="disabled"
+      type="button"
+    >
+      Success
+    </button>
+     
+    <button
+      class="a-button a-button--warning a-button--normal is-disabled is-plain"
+      disabled="disabled"
+      type="button"
+    >
+      Warning
+    </button>
+     
+    <div
+      style="margin-top: 10px; margin-left: 0px;"
+    >
+      <button
+        class="a-button a-button--danger a-button--normal is-disabled is-plain"
+        disabled="disabled"
+        type="button"
+      >
+        Danger
+      </button>
+       
+      <button
+        class="a-button a-button--text a-button--normal is-disabled is-plain"
+        disabled="disabled"
+        type="button"
+      >
+        Text
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button plain 1`] = `
+<div>
+  <button
+    class="a-button a-button--default a-button--normal is-plain"
+    type="button"
+  >
+    Default
+  </button>
+   
+  <button
+    class="a-button a-button--primary a-button--normal is-plain"
+    type="button"
+  >
+    Primary
+  </button>
+   
+  <button
+    class="a-button a-button--secondary a-button--normal is-plain"
+    type="button"
+  >
+    Secondary
+  </button>
+   
+  <button
+    class="a-button a-button--tertiary a-button--normal is-plain"
+    type="button"
+  >
+    Tertiary
+  </button>
+   
+  <button
+    class="a-button a-button--success a-button--normal is-plain"
+    type="button"
+  >
+    Success
+  </button>
+   
+  <button
+    class="a-button a-button--warning a-button--normal is-plain"
+    type="button"
+  >
+    Warning
+  </button>
+   
+  <div
+    style="margin-top: 10px; margin-left: 0px;"
+  >
+    <button
+      class="a-button a-button--danger a-button--normal is-plain"
+      type="button"
+    >
+      Danger
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button round 1`] = `
+<div>
+  <button
+    class="a-button a-button--default a-button--normal is-round"
+    type="button"
+  >
+    Default
+  </button>
+   
+  <button
+    class="a-button a-button--primary a-button--normal is-round"
+    type="button"
+  >
+    Primary
+  </button>
+   
+  <button
+    class="a-button a-button--secondary a-button--normal is-round"
+    type="button"
+  >
+    Secondary
+  </button>
+   
+  <button
+    class="a-button a-button--tertiary a-button--normal is-round"
+    type="button"
+  >
+    Tertiary
+  </button>
+   
+  <button
+    class="a-button a-button--success a-button--normal is-round"
+    type="button"
+  >
+    Success
+  </button>
+   
+  <button
+    class="a-button a-button--warning a-button--normal is-round"
+    type="button"
+  >
+    Warning
+  </button>
+   
+  <div
+    style="margin-top: 10px; margin-left: 0px;"
+  >
+    <button
+      class="a-button a-button--danger a-button--normal is-round"
+      type="button"
+    >
+      Danger
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button sizes 1`] = `
+<div>
+  <div>
+    <button
+      class="a-button a-button--default a-button--large"
+      type="button"
+    >
+      Default Large
+    </button>
+     
+    <button
+      class="a-button a-button--default a-button--normal"
+      type="button"
+    >
+      Default Normal
+    </button>
+     
+    <button
+      class="a-button a-button--default a-button--small"
+      type="button"
+    >
+      Default Small
+    </button>
+     
+    <button
+      class="a-button a-button--default a-button--mini"
+      type="button"
+    >
+      Default Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--primary a-button--large"
+      type="button"
+    >
+      Primary Large
+    </button>
+     
+    <button
+      class="a-button a-button--primary a-button--normal"
+      type="button"
+    >
+      Primary Normal
+    </button>
+     
+    <button
+      class="a-button a-button--primary a-button--small"
+      type="button"
+    >
+      Primary Small
+    </button>
+     
+    <button
+      class="a-button a-button--primary a-button--mini"
+      type="button"
+    >
+      Primary Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--secondary a-button--large"
+      type="button"
+    >
+      Secondary Large
+    </button>
+     
+    <button
+      class="a-button a-button--secondary a-button--normal"
+      type="button"
+    >
+      Secondary Normal
+    </button>
+     
+    <button
+      class="a-button a-button--secondary a-button--small"
+      type="button"
+    >
+      Secondary Small
+    </button>
+     
+    <button
+      class="a-button a-button--secondary a-button--mini"
+      type="button"
+    >
+      Secondary Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--tertiary a-button--large"
+      type="button"
+    >
+      Tertiary Large
+    </button>
+     
+    <button
+      class="a-button a-button--tertiary a-button--normal"
+      type="button"
+    >
+      Tertiary Normal
+    </button>
+     
+    <button
+      class="a-button a-button--tertiary a-button--small"
+      type="button"
+    >
+      Tertiary Small
+    </button>
+     
+    <button
+      class="a-button a-button--tertiary a-button--mini"
+      type="button"
+    >
+      Tertiary Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--success a-button--large"
+      type="button"
+    >
+      Success Large
+    </button>
+     
+    <button
+      class="a-button a-button--success a-button--normal"
+      type="button"
+    >
+      Success Normal
+    </button>
+     
+    <button
+      class="a-button a-button--success a-button--small"
+      type="button"
+    >
+      Success Small
+    </button>
+     
+    <button
+      class="a-button a-button--success a-button--mini"
+      type="button"
+    >
+      Success Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--warning a-button--large"
+      type="button"
+    >
+      Warning Large
+    </button>
+     
+    <button
+      class="a-button a-button--warning a-button--normal"
+      type="button"
+    >
+      Warning Normal
+    </button>
+     
+    <button
+      class="a-button a-button--warning a-button--small"
+      type="button"
+    >
+      Warning Small
+    </button>
+     
+    <button
+      class="a-button a-button--warning a-button--mini"
+      type="button"
+    >
+      Warning Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--danger a-button--large"
+      type="button"
+    >
+      Danger Large
+    </button>
+     
+    <button
+      class="a-button a-button--danger a-button--normal"
+      type="button"
+    >
+      Danger Normal
+    </button>
+     
+    <button
+      class="a-button a-button--danger a-button--small"
+      type="button"
+    >
+      Danger Small
+    </button>
+     
+    <button
+      class="a-button a-button--danger a-button--mini"
+      type="button"
+    >
+      Danger Mini
+    </button>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <button
+      class="a-button a-button--text a-button--large"
+      type="button"
+    >
+      Text Large
+    </button>
+     
+    <button
+      class="a-button a-button--text a-button--normal"
+      type="button"
+    >
+      Text Normal
+    </button>
+     
+    <button
+      class="a-button a-button--text a-button--small"
+      type="button"
+    >
+      Text Small
+    </button>
+     
+    <button
+      class="a-button a-button--text a-button--mini"
+      type="button"
+    >
+      Text Mini
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button types 1`] = `
+<div>
+  <button
+    class="a-button a-button--default a-button--normal"
+    type="button"
+  >
+    Default
+  </button>
+   
+  <button
+    class="a-button a-button--primary a-button--normal"
+    type="button"
+  >
+    Primary
+  </button>
+   
+  <button
+    class="a-button a-button--secondary a-button--normal"
+    type="button"
+  >
+    Secondary
+  </button>
+   
+  <button
+    class="a-button a-button--tertiary a-button--normal"
+    type="button"
+  >
+    Tertiary
+  </button>
+   
+  <button
+    class="a-button a-button--success a-button--normal"
+    type="button"
+  >
+    Success
+  </button>
+   
+  <button
+    class="a-button a-button--warning a-button--normal"
+    type="button"
+  >
+    Warning
+  </button>
+   
+  <div
+    style="margin-top: 10px; margin-left: 0px;"
+  >
+    <button
+      class="a-button a-button--danger a-button--normal"
+      type="button"
+    >
+      Danger
+    </button>
+     
+    <button
+      class="a-button a-button--text a-button--normal"
+      type="button"
+    >
+      Text
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Col default 1`] = `
+<div
+  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  style="margin-left: -10px; margin-right: -10px;"
+>
+  <div
+    class="a-col-12 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    b
+  </div>
+   
+  <div
+    class="a-col-4 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    c
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    d
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    e
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    f
+  </div>
+</div>
+`;
+
+exports[`Storyshots Col offset 1`] = `
+<div
+  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  style="margin-left: -10px; margin-right: -10px;"
+>
+  <div
+    class="a-col-1 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-2 a-col-offset-21"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    b
+  </div>
+   
+  <div
+    class="a-col-4 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    c
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    d
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-4"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    e
+  </div>
+   
+  <div
+    class="a-col-8 a-col-offset-0"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    f
+  </div>
+</div>
+`;
+
+exports[`Storyshots Col responsive 1`] = `
+<div
+  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  style="margin-left: -10px; margin-right: -10px;"
+>
+  <div
+    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+   
+  <div
+    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    style="padding-left: 10px; padding-right: 10px;"
+  >
+    a
+  </div>
+</div>
+`;
+
+exports[`Storyshots Icons default 1`] = `
+<div>
+  <i
+    class="a-icon a-icon-alert-octagon"
+  />
+   
+  <i
+    class="a-icon a-icon-alert-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-activity"
+  />
+   
+  <i
+    class="a-icon a-icon-alert-triangle"
+  />
+   
+  <i
+    class="a-icon a-icon-align-center"
+  />
+   
+  <i
+    class="a-icon a-icon-airplay"
+  />
+   
+  <i
+    class="a-icon a-icon-align-justify"
+  />
+   
+  <i
+    class="a-icon a-icon-align-left"
+  />
+   
+  <i
+    class="a-icon a-icon-align-right"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-down-left"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-down-right"
+  />
+   
+  <i
+    class="a-icon a-icon-anchor"
+  />
+   
+  <i
+    class="a-icon a-icon-aperture"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-left"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-right"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-down"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-up-left"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-up-right"
+  />
+   
+  <i
+    class="a-icon a-icon-arrow-up"
+  />
+   
+  <i
+    class="a-icon a-icon-award"
+  />
+   
+  <i
+    class="a-icon a-icon-bar-chart"
+  />
+   
+  <i
+    class="a-icon a-icon-at-sign"
+  />
+   
+  <i
+    class="a-icon a-icon-bar-chart-"
+  />
+   
+  <i
+    class="a-icon a-icon-battery-charging"
+  />
+   
+  <i
+    class="a-icon a-icon-bell-off"
+  />
+   
+  <i
+    class="a-icon a-icon-battery"
+  />
+   
+  <i
+    class="a-icon a-icon-bluetooth"
+  />
+   
+  <i
+    class="a-icon a-icon-bell"
+  />
+   
+  <i
+    class="a-icon a-icon-book"
+  />
+   
+  <i
+    class="a-icon a-icon-briefcase"
+  />
+   
+  <i
+    class="a-icon a-icon-camera-off"
+  />
+   
+  <i
+    class="a-icon a-icon-calendar"
+  />
+   
+  <i
+    class="a-icon a-icon-bookmark"
+  />
+   
+  <i
+    class="a-icon a-icon-box"
+  />
+   
+  <i
+    class="a-icon a-icon-camera"
+  />
+   
+  <i
+    class="a-icon a-icon-check-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-check"
+  />
+   
+  <i
+    class="a-icon a-icon-check-square"
+  />
+   
+  <i
+    class="a-icon a-icon-cast"
+  />
+   
+  <i
+    class="a-icon a-icon-chevron-down"
+  />
+   
+  <i
+    class="a-icon a-icon-chevron-left"
+  />
+   
+  <i
+    class="a-icon a-icon-chevron-right"
+  />
+   
+  <i
+    class="a-icon a-icon-chevron-up"
+  />
+   
+  <i
+    class="a-icon a-icon-chevrons-down"
+  />
+   
+  <i
+    class="a-icon a-icon-chevrons-right"
+  />
+   
+  <i
+    class="a-icon a-icon-chevrons-up"
+  />
+   
+  <i
+    class="a-icon a-icon-chevrons-left"
+  />
+   
+  <i
+    class="a-icon a-icon-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-clipboard"
+  />
+   
+  <i
+    class="a-icon a-icon-chrome"
+  />
+   
+  <i
+    class="a-icon a-icon-clock"
+  />
+   
+  <i
+    class="a-icon a-icon-cloud-lightning"
+  />
+   
+  <i
+    class="a-icon a-icon-cloud-drizzle"
+  />
+   
+  <i
+    class="a-icon a-icon-cloud-rain"
+  />
+   
+  <i
+    class="a-icon a-icon-cloud-off"
+  />
+   
+  <i
+    class="a-icon a-icon-codepen"
+  />
+   
+  <i
+    class="a-icon a-icon-cloud-snow"
+  />
+   
+  <i
+    class="a-icon a-icon-compass"
+  />
+   
+  <i
+    class="a-icon a-icon-copy"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-down-right"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-down-left"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-left-down"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-left-up"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-up-left"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-up-right"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-right-down"
+  />
+   
+  <i
+    class="a-icon a-icon-corner-right-up"
+  />
+   
+  <i
+    class="a-icon a-icon-cpu"
+  />
+   
+  <i
+    class="a-icon a-icon-credit-card"
+  />
+   
+  <i
+    class="a-icon a-icon-crosshair"
+  />
+   
+  <i
+    class="a-icon a-icon-disc"
+  />
+   
+  <i
+    class="a-icon a-icon-delete"
+  />
+   
+  <i
+    class="a-icon a-icon-download-cloud"
+  />
+   
+  <i
+    class="a-icon a-icon-download"
+  />
+   
+  <i
+    class="a-icon a-icon-droplet"
+  />
+   
+  <i
+    class="a-icon a-icon-edit-"
+  />
+   
+  <i
+    class="a-icon a-icon-edit"
+  />
+   
+  <i
+    class="a-icon a-icon-edit-1"
+  />
+   
+  <i
+    class="a-icon a-icon-external-link"
+  />
+   
+  <i
+    class="a-icon a-icon-eye"
+  />
+   
+  <i
+    class="a-icon a-icon-feather"
+  />
+   
+  <i
+    class="a-icon a-icon-facebook"
+  />
+   
+  <i
+    class="a-icon a-icon-file-minus"
+  />
+   
+  <i
+    class="a-icon a-icon-eye-off"
+  />
+   
+  <i
+    class="a-icon a-icon-fast-forward"
+  />
+   
+  <i
+    class="a-icon a-icon-file-text"
+  />
+   
+  <i
+    class="a-icon a-icon-film"
+  />
+   
+  <i
+    class="a-icon a-icon-file"
+  />
+   
+  <i
+    class="a-icon a-icon-file-plus"
+  />
+   
+  <i
+    class="a-icon a-icon-folder"
+  />
+   
+  <i
+    class="a-icon a-icon-filter"
+  />
+   
+  <i
+    class="a-icon a-icon-flag"
+  />
+   
+  <i
+    class="a-icon a-icon-globe"
+  />
+   
+  <i
+    class="a-icon a-icon-grid"
+  />
+   
+  <i
+    class="a-icon a-icon-heart"
+  />
+   
+  <i
+    class="a-icon a-icon-home"
+  />
+   
+  <i
+    class="a-icon a-icon-github"
+  />
+   
+  <i
+    class="a-icon a-icon-image"
+  />
+   
+  <i
+    class="a-icon a-icon-inbox"
+  />
+   
+  <i
+    class="a-icon a-icon-layers"
+  />
+   
+  <i
+    class="a-icon a-icon-info"
+  />
+   
+  <i
+    class="a-icon a-icon-instagram"
+  />
+   
+  <i
+    class="a-icon a-icon-layout"
+  />
+   
+  <i
+    class="a-icon a-icon-link-"
+  />
+   
+  <i
+    class="a-icon a-icon-life-buoy"
+  />
+   
+  <i
+    class="a-icon a-icon-link"
+  />
+   
+  <i
+    class="a-icon a-icon-log-in"
+  />
+   
+  <i
+    class="a-icon a-icon-list"
+  />
+   
+  <i
+    class="a-icon a-icon-lock"
+  />
+   
+  <i
+    class="a-icon a-icon-log-out"
+  />
+   
+  <i
+    class="a-icon a-icon-loader"
+  />
+   
+  <i
+    class="a-icon a-icon-mail"
+  />
+   
+  <i
+    class="a-icon a-icon-maximize-"
+  />
+   
+  <i
+    class="a-icon a-icon-map"
+  />
+   
+  <i
+    class="a-icon a-icon-maximize"
+  />
+   
+  <i
+    class="a-icon a-icon-map-pin"
+  />
+   
+  <i
+    class="a-icon a-icon-menu"
+  />
+   
+  <i
+    class="a-icon a-icon-message-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-message-square"
+  />
+   
+  <i
+    class="a-icon a-icon-minimize-"
+  />
+   
+  <i
+    class="a-icon a-icon-mic-off"
+  />
+   
+  <i
+    class="a-icon a-icon-minus-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-mic"
+  />
+   
+  <i
+    class="a-icon a-icon-minus-square"
+  />
+   
+  <i
+    class="a-icon a-icon-minus"
+  />
+   
+  <i
+    class="a-icon a-icon-moon"
+  />
+   
+  <i
+    class="a-icon a-icon-monitor"
+  />
+   
+  <i
+    class="a-icon a-icon-more-vertical"
+  />
+   
+  <i
+    class="a-icon a-icon-more-horizontal"
+  />
+   
+  <i
+    class="a-icon a-icon-move"
+  />
+   
+  <i
+    class="a-icon a-icon-music"
+  />
+   
+  <i
+    class="a-icon a-icon-navigation-"
+  />
+   
+  <i
+    class="a-icon a-icon-navigation"
+  />
+   
+  <i
+    class="a-icon a-icon-octagon"
+  />
+   
+  <i
+    class="a-icon a-icon-package"
+  />
+   
+  <i
+    class="a-icon a-icon-pause-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-pause"
+  />
+   
+  <i
+    class="a-icon a-icon-percent"
+  />
+   
+  <i
+    class="a-icon a-icon-phone-call"
+  />
+   
+  <i
+    class="a-icon a-icon-phone-forwarded"
+  />
+   
+  <i
+    class="a-icon a-icon-phone-missed"
+  />
+   
+  <i
+    class="a-icon a-icon-phone-off"
+  />
+   
+  <i
+    class="a-icon a-icon-phone-incoming"
+  />
+   
+  <i
+    class="a-icon a-icon-phone"
+  />
+   
+  <i
+    class="a-icon a-icon-phone-outgoing"
+  />
+   
+  <i
+    class="a-icon a-icon-pie-chart"
+  />
+   
+  <i
+    class="a-icon a-icon-play-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-play"
+  />
+   
+  <i
+    class="a-icon a-icon-plus-square"
+  />
+   
+  <i
+    class="a-icon a-icon-plus-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-plus"
+  />
+   
+  <i
+    class="a-icon a-icon-pocket"
+  />
+   
+  <i
+    class="a-icon a-icon-printer"
+  />
+   
+  <i
+    class="a-icon a-icon-power"
+  />
+   
+  <i
+    class="a-icon a-icon-radio"
+  />
+   
+  <i
+    class="a-icon a-icon-repeat"
+  />
+   
+  <i
+    class="a-icon a-icon-refresh-ccw"
+  />
+   
+  <i
+    class="a-icon a-icon-rewind"
+  />
+   
+  <i
+    class="a-icon a-icon-rotate-ccw"
+  />
+   
+  <i
+    class="a-icon a-icon-refresh-cw"
+  />
+   
+  <i
+    class="a-icon a-icon-rotate-cw"
+  />
+   
+  <i
+    class="a-icon a-icon-save"
+  />
+   
+  <i
+    class="a-icon a-icon-search"
+  />
+   
+  <i
+    class="a-icon a-icon-server"
+  />
+   
+  <i
+    class="a-icon a-icon-scissors"
+  />
+   
+  <i
+    class="a-icon a-icon-share-"
+  />
+   
+  <i
+    class="a-icon a-icon-share"
+  />
+   
+  <i
+    class="a-icon a-icon-shield"
+  />
+   
+  <i
+    class="a-icon a-icon-settings"
+  />
+   
+  <i
+    class="a-icon a-icon-skip-back"
+  />
+   
+  <i
+    class="a-icon a-icon-shuffle"
+  />
+   
+  <i
+    class="a-icon a-icon-sidebar"
+  />
+   
+  <i
+    class="a-icon a-icon-skip-forward"
+  />
+   
+  <i
+    class="a-icon a-icon-slack"
+  />
+   
+  <i
+    class="a-icon a-icon-slash"
+  />
+   
+  <i
+    class="a-icon a-icon-smartphone"
+  />
+   
+  <i
+    class="a-icon a-icon-square"
+  />
+   
+  <i
+    class="a-icon a-icon-speaker"
+  />
+   
+  <i
+    class="a-icon a-icon-star"
+  />
+   
+  <i
+    class="a-icon a-icon-stop-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-sun"
+  />
+   
+  <i
+    class="a-icon a-icon-sunrise"
+  />
+   
+  <i
+    class="a-icon a-icon-tablet"
+  />
+   
+  <i
+    class="a-icon a-icon-tag"
+  />
+   
+  <i
+    class="a-icon a-icon-sunset"
+  />
+   
+  <i
+    class="a-icon a-icon-target"
+  />
+   
+  <i
+    class="a-icon a-icon-thermometer"
+  />
+   
+  <i
+    class="a-icon a-icon-thumbs-up"
+  />
+   
+  <i
+    class="a-icon a-icon-thumbs-down"
+  />
+   
+  <i
+    class="a-icon a-icon-toggle-left"
+  />
+   
+  <i
+    class="a-icon a-icon-toggle-right"
+  />
+   
+  <i
+    class="a-icon a-icon-trash-"
+  />
+   
+  <i
+    class="a-icon a-icon-trash"
+  />
+   
+  <i
+    class="a-icon a-icon-trending-up"
+  />
+   
+  <i
+    class="a-icon a-icon-trending-down"
+  />
+   
+  <i
+    class="a-icon a-icon-triangle"
+  />
+   
+  <i
+    class="a-icon a-icon-type"
+  />
+   
+  <i
+    class="a-icon a-icon-twitter"
+  />
+   
+  <i
+    class="a-icon a-icon-upload"
+  />
+   
+  <i
+    class="a-icon a-icon-umbrella"
+  />
+   
+  <i
+    class="a-icon a-icon-upload-cloud"
+  />
+   
+  <i
+    class="a-icon a-icon-unlock"
+  />
+   
+  <i
+    class="a-icon a-icon-user-check"
+  />
+   
+  <i
+    class="a-icon a-icon-user-minus"
+  />
+   
+  <i
+    class="a-icon a-icon-user-plus"
+  />
+   
+  <i
+    class="a-icon a-icon-user-x"
+  />
+   
+  <i
+    class="a-icon a-icon-user"
+  />
+   
+  <i
+    class="a-icon a-icon-users"
+  />
+   
+  <i
+    class="a-icon a-icon-video-off"
+  />
+   
+  <i
+    class="a-icon a-icon-video"
+  />
+   
+  <i
+    class="a-icon a-icon-voicemail"
+  />
+   
+  <i
+    class="a-icon a-icon-volume-x"
+  />
+   
+  <i
+    class="a-icon a-icon-volume-"
+  />
+   
+  <i
+    class="a-icon a-icon-volume-1"
+  />
+   
+  <i
+    class="a-icon a-icon-volume"
+  />
+   
+  <i
+    class="a-icon a-icon-watch"
+  />
+   
+  <i
+    class="a-icon a-icon-wifi"
+  />
+   
+  <i
+    class="a-icon a-icon-x-square"
+  />
+   
+  <i
+    class="a-icon a-icon-wind"
+  />
+   
+  <i
+    class="a-icon a-icon-x"
+  />
+   
+  <i
+    class="a-icon a-icon-x-circle"
+  />
+   
+  <i
+    class="a-icon a-icon-zap"
+  />
+   
+  <i
+    class="a-icon a-icon-zoom-in"
+  />
+   
+  <i
+    class="a-icon a-icon-zoom-out"
+  />
+   
+  <i
+    class="a-icon a-icon-command"
+  />
+   
+  <i
+    class="a-icon a-icon-cloud"
+  />
+   
+  <i
+    class="a-icon a-icon-hash"
+  />
+   
+  <i
+    class="a-icon a-icon-headphones"
+  />
+</div>
+`;
+
+exports[`Storyshots Input default 1`] = `
+<div
+  class="a-input a-input--normal"
+  style="width: 300px;"
+>
+  <input
+    class="a-input__inner"
+    max="Infinity"
+    maxlength="Infinity"
+    min="0"
+    minlength="0"
+    placeholder="Type here"
+    type="text"
+  />
+   
+  <!---->
+   
+  <!---->
+    
+</div>
+`;
+
+exports[`Storyshots Input disabled 1`] = `
+<div
+  class="a-input a-input--normal is-disabled"
+  style="width: 300px;"
+>
+  <input
+    class="a-input__inner"
+    disabled="disabled"
+    max="Infinity"
+    maxlength="Infinity"
+    min="0"
+    minlength="0"
+    placeholder="Type here"
+    type="text"
+  />
+   
+  <!---->
+   
+  <!---->
+    
+</div>
+`;
+
+exports[`Storyshots Input readonly 1`] = `
+<div
+  class="a-input a-input--normal"
+  style="width: 300px;"
+>
+  <input
+    class="a-input__inner"
+    max="Infinity"
+    maxlength="Infinity"
+    min="0"
+    minlength="0"
+    placeholder="Type here"
+    readonly="readonly"
+    type="text"
+  />
+   
+  <!---->
+   
+  <!---->
+    
+</div>
+`;
+
+exports[`Storyshots Input sizes 1`] = `
+<div>
+  <div
+    class="a-input a-input--large"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Large size"
+      type="text"
+    />
+     
+    <!---->
+     
+    <!---->
+      
+  </div>
+   
+  <div
+    class="a-input a-input--normal"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Normal size"
+      type="text"
+    />
+     
+    <!---->
+     
+    <!---->
+      
+  </div>
+   
+  <div
+    class="a-input a-input--small"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Small Size"
+      type="text"
+    />
+     
+    <!---->
+     
+    <!---->
+      
+  </div>
+   
+  <div
+    class="a-input a-input--mini"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Mini Size"
+      type="text"
+    />
+     
+    <!---->
+     
+    <!---->
+      
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input with icon 1`] = `
+<div>
+  <div
+    class="a-input a-input--normal a-input__prefix"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Type here"
+      type="text"
+    />
+     
+    <i
+      class="a-input__icon--prefix a-icon a-icon-search"
+    />
+     
+    <!---->
+      
+  </div>
+   
+  <div
+    class="a-input a-input--normal a-input__suffix"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Type here"
+      type="text"
+    />
+     
+    <!---->
+     
+    <i
+      class="a-input__icon--suffix a-icon a-icon-calendar"
+    />
+      
+  </div>
+   
+  <div
+    class="a-input a-input--normal a-input__prefix a-input__suffix"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Type here"
+      type="text"
+    />
+     
+    <i
+      class="a-input__icon--prefix a-icon a-icon-search"
+    />
+     
+    <i
+      class="a-input__icon--suffix a-icon a-icon-calendar"
+    />
+      
+  </div>
+   
+  <div
+    class="a-input a-input--normal a-input__prefix"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder=""
+      type="text"
+    />
+     
+    <!---->
+     
+    <!---->
+     
+    <i
+      class="a-icon a-icon-search a-input__icon--prefix"
+      placeholder="Type here"
+    />
+     
+  </div>
+   
+  <div
+    class="a-input a-input--normal a-input__suffix"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder=""
+      type="text"
+    />
+     
+    <!---->
+     
+    <!---->
+      
+    <i
+      class="a-icon a-icon-calendar a-input__icon--suffix"
+      placeholder="Type here"
+    />
+  </div>
+</div>
+`;
+
+exports[`Storyshots Input with status 1`] = `
+<div>
+  <div
+    class="a-input a-input--normal a-input__suffix is-success"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Type here"
+      type="text"
+    />
+     
+    <!---->
+     
+    <i
+      class="a-input__icon--suffix a-icon a-icon-check"
+    />
+      
+  </div>
+   
+  <div
+    class="a-input a-input--normal a-input__suffix is-error"
+    style="width: 300px;"
+  >
+    <input
+      class="a-input__inner"
+      max="Infinity"
+      maxlength="Infinity"
+      min="0"
+      minlength="0"
+      placeholder="Type here"
+      type="text"
+    />
+     
+    <!---->
+     
+    <i
+      class="a-input__icon--suffix a-icon a-icon-x"
+    />
+      
+  </div>
+</div>
+`;
+
+exports[`Storyshots Row default 1`] = `
+<div
+  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  style="margin-left: -10px; margin-right: -10px;"
+>
+  simple row
+</div>
+`;
+
+exports[`Storyshots Row justify and align center 1`] = `
+<div
+  class="a-row is-justify-center is-align-center is-content-flex-start is-direction-row is-wrap"
+  style="margin-left: -10px; margin-right: -10px;"
+>
+  <div
+    style="width: 25%; box-sizing: border-box;"
+  >
+    
+        box 1
+      
+  </div>
+   
+  <div
+    style="width: 25%; box-sizing: border-box;"
+  >
+    
+          box 2
+      
+  </div>
+</div>
+`;
+
+exports[`Storyshots Row justify center 1`] = `
+<div
+  class="a-row is-justify-center is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  style="margin-left: -10px; margin-right: -10px;"
+>
+  
+      simple row
+    
+</div>
+`;
