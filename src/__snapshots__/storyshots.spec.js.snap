@@ -2019,6 +2019,130 @@ exports[`Storyshots Input with status 1`] = `
 </div>
 `;
 
+exports[`Storyshots Radio default 1`] = `
+<div>
+  <p>
+    Selected Value: 1
+  </p>
+   
+  <label
+    class="a-radio--medium is-checked"
+    role="radio"
+  >
+    <input
+      aria-hidden="true"
+      class="a-radio__inner"
+      name="radio"
+      type="radio"
+      value="1"
+    />
+     
+    <span
+      class="a-radio__label"
+    >
+      
+      1
+    
+    </span>
+  </label>
+   
+  <label
+    class="a-radio--medium"
+    role="radio"
+  >
+    <input
+      aria-hidden="true"
+      class="a-radio__inner"
+      name="radio"
+      type="radio"
+      value="2"
+    />
+     
+    <span
+      class="a-radio__label"
+    >
+      
+      2
+    
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Radio with a disabled 1`] = `
+<div>
+  <p>
+    Selected Value: 2
+  </p>
+   
+  <label
+    class="a-radio--medium is-disabled"
+    role="radio"
+  >
+    <input
+      aria-hidden="true"
+      class="a-radio__inner"
+      disabled="disabled"
+      name="radio"
+      type="radio"
+      value="1"
+    />
+     
+    <span
+      class="a-radio__label"
+    >
+      
+      Disabled
+    
+    </span>
+  </label>
+   
+  <label
+    class="a-radio--medium is-checked"
+    role="radio"
+  >
+    <input
+      aria-hidden="true"
+      class="a-radio__inner"
+      name="radio"
+      type="radio"
+      value="2"
+    />
+     
+    <span
+      class="a-radio__label"
+    >
+      
+      2
+    
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Radio with editable size 1`] = `
+<label
+  class="a-radio--medium"
+  role="radio"
+>
+  <input
+    aria-hidden="true"
+    class="a-radio__inner"
+    name="radio"
+    type="radio"
+    value="1"
+  />
+   
+  <span
+    class="a-radio__label"
+  >
+    
+      Radio
+    
+  </span>
+</label>
+`;
+
 exports[`Storyshots Row default 1`] = `
 <div
   class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
