@@ -19,7 +19,7 @@
   />
   <span class="a-radio__label">
     <slot>
-      {{value}} - {{name}} - {{label}}
+      {{label}}
     </slot>
   </span>
 </label>
