@@ -2,7 +2,8 @@
   <label
     :class="[
     `a-radio--${size}`,
-    {'is-disabled': disabled}
+    {'is-disabled': disabled},
+    {'is-checked': isChecked}
     ]"
     role="radio"
   >
@@ -13,6 +14,7 @@
     :name="name"
     :value="value"
     :checked="isChecked"
+    :disabled="disabled"
     @change.prevent.stop="handleChange"
   />
   <span class="a-radio__label">
