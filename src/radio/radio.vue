@@ -1,10 +1,10 @@
 <template>
   <label
     :class="[
-      `a-radio--${size}`,
-      {'is-disabled': disabled},
-      {'is-checked': isChecked}
-    ]"
+      `a-radio--${size}`, {
+      'is-disabled': disabled,
+      'is-checked': isChecked
+    }]"
     role="radio"
   >
     <input
