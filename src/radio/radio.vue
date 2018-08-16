@@ -10,7 +10,7 @@
     <input
       :name="name"
       :value="value"
-      :checked="isChecked"
+      v-model="modelValue"
       :disabled="disabled"
       type="radio"
       class="a-radio__inner"
@@ -52,18 +52,7 @@ export default {
   },
   computed: {
     isChecked() {
-      if (this.modelValue === undefined) {
-        return this.checked;
-      }
-
       return this.modelValue === this.value;
-    },
-  },
-  watch: {
-    checked(newValue) {
-      if (newValue !== this.isChecked) {
-        this.handleChange();
-      }
     },
   },
   methods: {
