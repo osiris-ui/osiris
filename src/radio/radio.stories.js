@@ -55,6 +55,6 @@ storiesOf('Radio', module)
         :value="1"
         name="radio"
         label="Radio"
-        :size="${select('size', SIZES, SIZES.medium)}"
+        size="${select('size', SIZES, String(SIZES.medium))}"
       />`,
   }));

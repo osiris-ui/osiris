@@ -2,12 +2,14 @@ import row from './row';
 import col from './col';
 import button from './button';
 import input from './input';
+import radio from './radio';
 
 const components = [
   row,
   col,
   button,
   input,
+  radio,
 ];
 
 function install(Vue) {
@@ -26,4 +28,5 @@ export default {
   col,
   button,
   input,
+  radio,
 };

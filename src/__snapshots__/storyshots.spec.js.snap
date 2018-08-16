@@ -2026,7 +2026,7 @@ exports[`Storyshots Radio default 1`] = `
   </p>
    
   <label
-    class="a-radio--medium is-checked"
+    class="a-radio a-radio--medium is-checked"
     role="radio"
   >
     <input
@@ -2047,7 +2047,7 @@ exports[`Storyshots Radio default 1`] = `
   </label>
    
   <label
-    class="a-radio--medium"
+    class="a-radio a-radio--medium"
     role="radio"
   >
     <input
@@ -2076,7 +2076,7 @@ exports[`Storyshots Radio with a disabled 1`] = `
   </p>
    
   <label
-    class="a-radio--medium is-disabled"
+    class="a-radio a-radio--medium is-disabled"
     role="radio"
   >
     <input
@@ -2098,7 +2098,7 @@ exports[`Storyshots Radio with a disabled 1`] = `
   </label>
    
   <label
-    class="a-radio--medium is-checked"
+    class="a-radio a-radio--medium is-checked"
     role="radio"
   >
     <input
@@ -2122,7 +2122,7 @@ exports[`Storyshots Radio with a disabled 1`] = `
 
 exports[`Storyshots Radio with editable size 1`] = `
 <label
-  class="a-radio--medium"
+  class="a-radio a-radio--medium"
   role="radio"
 >
   <input

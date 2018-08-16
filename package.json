@@ -1,6 +1,6 @@
 {
   "name": "atlas-ui",
-  "version": "0.6.4",
+  "version": "0.7.0",
   "description": "A Vue.js 2.0 universal responsive UI component library",
   "main": "dist/atlas-ui.js",
   "module": "dist/atlas-ui.es.js",
@@ -67,9 +67,11 @@
   "jest": {
     "verbose": true,
     "testURL": "http://localhost/",
+    "collectCoverage": true,
     "coverageDirectory": "./coverage/",
     "collectCoverageFrom": [
-      "src"
+      "src/**/*.{js,vue}",
+      "!**/node_modules/**"
     ],
     "moduleFileExtensions": [
       "js",
