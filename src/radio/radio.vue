@@ -1,6 +1,7 @@
 <template>
   <label
     :class="[
+      'a-radio',
       `a-radio--${size}`, {
         'is-disabled': disabled,
         'is-checked': isChecked

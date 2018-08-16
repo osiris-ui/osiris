@@ -67,9 +67,11 @@
   "jest": {
     "verbose": true,
     "testURL": "http://localhost/",
+    "collectCoverage": true,
     "coverageDirectory": "./coverage/",
     "collectCoverageFrom": [
-      "src"
+      "src/*.{js,vue}",
+      "!**/node_modules/**"
     ],
     "moduleFileExtensions": [
       "js",
