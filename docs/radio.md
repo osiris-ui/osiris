@@ -12,7 +12,11 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    modelValue: 1,
+  },
+}
 </script>
 ```
 
@@ -29,6 +33,10 @@ export default {}
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    modelValue: 1,
+  },
+}
 </script>
 ```
