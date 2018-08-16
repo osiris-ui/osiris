@@ -35,10 +35,6 @@ export default {
   props: {
     label: [String, Number],
     disabled: Boolean,
-    checked: {
-      type: Boolean,
-      default: false,
-    },
     modelValue: {
       type: [String, Number, Boolean],
       default: undefined,
