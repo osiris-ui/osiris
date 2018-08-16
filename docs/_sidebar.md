@@ -11,5 +11,6 @@
 
 - Form
   - [Input](input.md)
+  - [Radio](radio.md)
 
 - [Contributing](CONTRIBUTING.md)
