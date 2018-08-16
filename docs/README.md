@@ -1,6 +1,7 @@
 # Atlas UI
 
 ![https://npmjs.com/package/atlas-ui](https://img.shields.io/npm/v/atlas-ui.svg?colorB=0099f9)
+[![Build Status](https://travis-ci.org/Cotabox/atlas.svg?branch=master)](https://travis-ci.org/Cotabox/atlas)
 > A Vue.js 2.0 universal responsive UI component library..
 
 
