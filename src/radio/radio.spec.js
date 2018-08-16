@@ -14,7 +14,7 @@ describe('Radio', () => {
   describe('when is default', () => {
     it('should have expected classes', () => {
       expect(wrapper.classes())
-        .toEqual(['a-radio--medium']);
+        .toEqual(['a-radio', 'a-radio--medium']);
     });
   });
 
@@ -97,7 +97,7 @@ describe('Radio', () => {
 
     it('should have a-radio--large class', () => {
       expect(wrapper.classes())
-        .toEqual(expect.arrayContaining(['a-radio--large']));
+        .toEqual(expect.arrayContaining(['a-radio', 'a-radio--large']));
     });
   });
 });
