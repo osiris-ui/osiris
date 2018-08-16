@@ -25,7 +25,7 @@ export default {}
 
 <template>
   <div>
-    <input v-model="searchInput" placeholder="Type to filter">
+    <a-input v-model="searchInput" placeholder="Type to filter" width="100%" suffix-icon="a-icon a-icon-search"></a-input>
     <div>
       <div style="margin-top: 20px;   display: flex;
   align-items: stretch;
