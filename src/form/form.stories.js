@@ -2,6 +2,7 @@ import { storiesOf } from '@storybook/vue';
 import {
   withKnobs,
   select,
+  text,
 } from '@storybook/addon-knobs/vue';
 
 import AForm from './form.vue';
@@ -27,7 +28,8 @@ storiesOf('Form', module)
 
     template: `
       <a-form
-        label-position="${select('Label Position', POSITION, String(POSITION.top))}">
+        label-position="${select('Label Position', POSITION, String(POSITION.top))}"
+        label-width="${text('Label Width', '100px')}">
         <a-form-item
           label="E-mail"
           prop="email">
