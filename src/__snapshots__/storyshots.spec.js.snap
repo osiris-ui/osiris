@@ -782,6 +782,51 @@ exports[`Storyshots Col responsive 1`] = `
 </div>
 `;
 
+exports[`Storyshots Form basic usage 1`] = `
+<form
+  class="a-form a-form--top"
+  style="width: 100%;"
+>
+  <div
+    class="a-form-item"
+  >
+    <label
+      class="a-form-item__label"
+      for="email"
+      style="width: 100px;"
+    >
+      
+    E-mail
+  
+    </label>
+      
+    <div
+      class="a-form-item__content"
+    >
+      <div
+        class="a-input a-input--normal"
+        style="width: 300px;"
+      >
+        <input
+          class="a-input__inner"
+          max="Infinity"
+          maxlength="Infinity"
+          min="0"
+          minlength="0"
+          placeholder=""
+          type="text"
+        />
+         
+        <!---->
+         
+        <!---->
+          
+      </div>
+    </div>
+  </div>
+</form>
+`;
+
 exports[`Storyshots Icons default 1`] = `
 <div>
   <i
