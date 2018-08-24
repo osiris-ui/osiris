@@ -1,10 +1,10 @@
 {
-  "name": "atlas-ui",
+  "name": "@osiris-ui/osiris",
   "version": "0.7.0",
   "description": "A Vue.js 2.0 universal responsive UI component library",
-  "main": "dist/atlas-ui.js",
-  "module": "dist/atlas-ui.es.js",
-  "unpkg": "dist/atlas-ui.min.js",
+  "main": "dist/osiris-ui.js",
+  "module": "dist/osiris-ui.es.js",
+  "unpkg": "dist/osiris-ui.min.js",
   "files": [
     "dist"
   ],
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cotabox/atlas.git"
+    "url": "git+https://github.com/osiris-ui/osiris.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Cotabox/atlas/issues"
+    "url": "https://github.com/osiris-ui/osiris/issues"
   },
-  "homepage": "https://github.com/Cotabox/atlas#readme",
+  "homepage": "https://github.com/osiris-ui/osiris#readme",
   "devDependencies": {
     "@storybook/addon-knobs": "^3.4.10",
     "@storybook/addon-storyshots": "^3.4.10",
@@ -60,7 +60,6 @@
     "vue-template-compiler": "^2.5.16"
   },
   "dependencies": {
-    "atlas-style": "^0.1.0",
     "codecov": "^3.0.4",
     "vue": "^2.5.16"
   },
