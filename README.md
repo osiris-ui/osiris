@@ -1,9 +1,19 @@
-# Osiris UI
+<p align="center">
+  <img src="orisis.svg">
+</p>
 
-![https://npmjs.com/package/@orisis-ui/orisis](https://img.shields.io/npm/v/@orisis-ui/oriris.svg?colorB=0099f9)
-[![Build Status](https://travis-ci.org/orisis-ui/osiris.svg?branch=master)](https://travis-ci.org/osiris-ui/osiris)
+<p align="center">
+  <a href="https://travis-ci.org/osiris-ui/osiris">
+    <img src="https://travis-ci.org/orisis-ui/osiris.svg?branch=master">
+  </a>
+  <a href="https://npmjs.com/package/@orisis-ui/orisis">
+    <img src="https://img.shields.io/npm/v/@orisis-ui/oriris.svg?colorB=0099f9">
+  </a>
+</p>
+
 > A Vue.js 2.0 universal responsive UI component library..
 
+### 🚧 Under development, we working to release 1.0.0 very soon :fire:
 
 ## Docs
 
