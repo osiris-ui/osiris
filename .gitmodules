@@ -1,3 +1,3 @@
-[submodule "src/atlas-style"]
-	path = src/atlas-style
-	url = https://github.com/Cotabox/atlas-style
+[submodule "src/osiris-style"]
+	path = src/osiris-style
+	url = https://github.com/osiris-ui/osiris-style.git
