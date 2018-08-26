@@ -1,6 +1,6 @@
 {
   "name": "@osiris-ui/osiris",
-  "version": "0.7.1",
+  "version": "0.7.2",
   "description": "A Vue.js 2.0 universal responsive UI component library",
   "main": "dist/osiris-ui.js",
   "module": "dist/osiris-ui.es.js",

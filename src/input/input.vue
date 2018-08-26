@@ -1,14 +1,14 @@
 <template>
   <div
     :style="{ width }"
-    :class="[`a-input--${size}`, {
+    :class="[`o-input--${size}`, {
       'is-disabled': disabled,
-      'a-input__prefix': prefixIcon || hasPrefix,
-      'a-input__suffix': suffixIcon || hasSuffix || isError || isSuccess,
+      'o-input__prefix': prefixIcon || hasPrefix,
+      'o-input__suffix': suffixIcon || hasSuffix || isError || isSuccess,
       'is-success': isSuccess,
       'is-error': isError,
     }]"
-    class="a-input">
+    class="o-input">
     <input
       :placeholder="placeholder"
       :type="type"
@@ -19,7 +19,7 @@
       :minlength="minlength"
       :maxlength="maxlength"
       :disabled="disabled"
-      class="a-input__inner"
+      class="o-input__inner"
       @focus="handleFocus"
       @blur="handleBlur"
       @input="handleInput">
@@ -27,16 +27,16 @@
     <i
       v-if="prefixIcon"
       :class="`${ prefixIcon }`"
-      class="a-input__icon--prefix"/>
+      class="o-input__icon--prefix"/>
     <i
       v-if="suffixIcon || isError || isSuccess"
       :class="isError || isSuccess ? {
-        'a-icon a-icon-x': isError,
-        'a-icon a-icon-check': isSuccess,
+        'o-icon o-icon-x': isError,
+        'o-icon o-icon-check': isSuccess,
       } : `${
         suffixIcon
       }`"
-      class="a-input__icon--suffix"/>
+      class="o-input__icon--suffix"/>
 
     <slot name="prefix" />
     <slot name="suffix" />

@@ -15,7 +15,7 @@ describe('Row', () => {
 
     it('should have expected classList', () => {
       const expected = [
-        'a-row',
+        'o-row',
         'is-justify-flex-start',
         'is-align-flex-start',
         'is-content-flex-start',
@@ -48,7 +48,7 @@ describe('Row', () => {
 
       it('should have an expected classList', () => {
         const expected = [
-          'a-row',
+          'o-row',
           'is-justify-flex-end',
           'is-align-flex-end',
           'is-content-center',

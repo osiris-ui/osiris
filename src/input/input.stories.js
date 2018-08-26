@@ -1,56 +1,56 @@
 import { storiesOf } from '@storybook/vue';
 
-import AInput from './input.vue';
+import OInput from './input.vue';
 
 storiesOf('Input', module)
-  // .add('default', () => '<a-row>simple row</a-row>');
+  // .add('default', () => '<o-row>simple row</o-row>');
   .add('default', () => ({
-    components: { AInput },
-    template: '<a-input placeholder="Type here"></a-input>',
+    components: { OInput },
+    template: '<o-input placeholder="Type here"></o-input>',
   }))
   .add('with icon', () => ({
-    components: { AInput },
+    components: { OInput },
     template: `
     <div>
-      <a-input prefix-icon="a-icon a-icon-search" placeholder="Type here"></a-input>
-      <a-input suffix-icon="a-icon a-icon-calendar" placeholder="Type here"></a-input>
-      <a-input suffix-icon="a-icon a-icon-calendar" prefix-icon="a-icon a-icon-search" placeholder="Type here"></a-input>
+      <o-input prefix-icon="o-icon o-icon-search" placeholder="Type here"></o-input>
+      <o-input suffix-icon="o-icon o-icon-calendar" placeholder="Type here"></o-input>
+      <o-input suffix-icon="o-icon o-icon-calendar" prefix-icon="o-icon o-icon-search" placeholder="Type here"></o-input>
 
-      <a-input>
-        <i class="a-icon a-icon-search a-input__icon--prefix" slot="prefix" placeholder="Type here"></i>
-      </a-input>
+      <o-input>
+        <i class="o-icon o-icon-search o-input__icon--prefix" slot="prefix" placeholder="Type here"></i>
+      </o-input>
 
-      <a-input>
-        <i class="a-icon a-icon-calendar a-input__icon--suffix" slot="suffix" placeholder="Type here"></i>
-      </a-input>
+      <o-input>
+        <i class="o-icon o-icon-calendar o-input__icon--suffix" slot="suffix" placeholder="Type here"></i>
+      </o-input>
     </div>
     `,
   }))
   .add('with status', () => ({
-    components: { AInput },
+    components: { OInput },
     template: `
     <div>
-      <a-input placeholder="Type here" value="Yay, you did it!" is-success></a-input>
-      <a-input placeholder="Type here" value="Opsss, this is an error" is-error></a-input>
+      <o-input placeholder="Type here" value="Yay, you did it!" is-success></o-input>
+      <o-input placeholder="Type here" value="Opsss, this is an error" is-error></o-input>
     </div>
     `,
   }))
   .add('sizes', () => ({
-    components: { AInput },
+    components: { OInput },
     template: `
     <div>
-      <a-input placeholder="Large size" size="large"></a-input>
-      <a-input placeholder="Normal size"></a-input>
-      <a-input placeholder="Small Size" size="small"></a-input>
-      <a-input placeholder="Mini Size" size="mini"></a-input>
+      <o-input placeholder="Large size" size="large"></o-input>
+      <o-input placeholder="Normal size"></o-input>
+      <o-input placeholder="Small Size" size="small"></o-input>
+      <o-input placeholder="Mini Size" size="mini"></o-input>
     </div>
     `,
   }))
   .add('disabled', () => ({
-    components: { AInput },
-    template: '<a-input placeholder="Type here" disabled></a-input>',
+    components: { OInput },
+    template: '<o-input placeholder="Type here" disabled></o-input>',
   }))
   .add('readonly', () => ({
-    components: { AInput },
-    template: '<a-input placeholder="Type here" value="Ops, this is just readonly" readonly></a-input>',
+    components: { OInput },
+    template: '<o-input placeholder="Type here" value="Ops, this is just readonly" readonly></o-input>',
   }));

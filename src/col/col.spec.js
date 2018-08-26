@@ -13,7 +13,7 @@ describe('Col', () => {
     });
 
     it('should have default classList', () => {
-      const expected = ['a-col-24', 'a-col-offset-0'];
+      const expected = ['o-col-24', 'o-col-offset-0'];
       expect(wrapper.vm.classList).toEqual(expected);
     });
   });
@@ -44,13 +44,13 @@ describe('Col', () => {
 
       it('should have exactly expected classList', () => {
         const expected = [
-          'a-col-1',
-          'a-col-offset-7',
-          'a-col-xs-2',
-          'a-col-sm-3',
-          'a-col-md-4',
-          'a-col-lg-5',
-          'a-col-xl-6',
+          'o-col-1',
+          'o-col-offset-7',
+          'o-col-xs-2',
+          'o-col-sm-3',
+          'o-col-md-4',
+          'o-col-lg-5',
+          'o-col-xl-6',
         ];
 
         expect(wrapper.vm.classList).toEqual(expected);

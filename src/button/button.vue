@@ -1,8 +1,8 @@
 <template>
   <button
     :class="[
-      `a-button--${type}`,
-      `a-button--${size}`,
+      `o-button--${type}`,
+      `o-button--${size}`,
       {
         'is-disabled': disabled,
         'is-round': round,
@@ -12,7 +12,7 @@
     ]"
     :type="nativeType"
     :disabled="disabled"
-    class="a-button"
+    class="o-button"
     @click="handleClick">
     <slot />
   </button>
@@ -21,7 +21,7 @@
 <script>
 export default {
 
-  name: 'AButton',
+  name: 'OButton',
   props: {
     type: {
       type: String,

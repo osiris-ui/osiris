@@ -5,50 +5,44 @@ This are the set of colors used in all Atlas components.
 ## Main Color
 
 <div class="color-demobox">
-  <div class="box" style="background-color: #0099f9"></div>
-  <small>Default</small>
-  <p>#0099f9</p>
+  <div class="box" style="background-color: #FF2F54"></div>
+  <small>Primary</small>
+  <p>#FF2F54</p>
 </div>
 
 <div class="color-demobox">
-  <div class="box" style="background-color: #0085DA"></div>
-  <small>Gradient</small>
-  <p>#0085DA</p>
+  <div class="box" style="background-color: #141334"></div>
+  <small>Secondary</small>
+  <p>#141334</p>
 </div>
 
 ## Additional
 
 <div class="color-demobox">
-  <div class="box" style="background-color: #8c6cd1"></div>
-  <small>Additional 1</small>
-  <p>#8C6CD1</p>
-</div>
-
-<div class="color-demobox">
-  <div class="box" style="background-color: #eb60a4"></div>
-  <small>Additional 2</small>
-  <p>#EB60A4</p>
+  <div class="box" style="background-color: #2B9FEA"></div>
+  <small>Info</small>
+  <p>#2B9FEA</p>
 </div>
 
 
 <div class="color-demobox">
-  <div class="box" style="background-color: #56BD5B"></div>
-  <small>Positive</small>
-  <p>#56BD5B</p>
+  <div class="box" style="background-color: #17C671"></div>
+  <small>Success</small>
+  <p>#17C671</p>
 </div>
 
 
 <div class="color-demobox">
-  <div class="box" style="background-color: #F7B422"></div>
-  <small>Alert</small>
-  <p>#F7B422</p>
+  <div class="box" style="background-color: #FFB400"></div>
+  <small>Warning</small>
+  <p>#FFB400</p>
 </div>
 
 
 <div class="color-demobox">
-  <div class="box" style="background-color: #E1464E"></div>
-  <small>Negative</small>
-  <p>#E1464E</p>
+  <div class="box" style="background-color: #C4183C"></div>
+  <small>Danger</small>
+  <p>#C4183C</p>
 </div>
 
 ## Lines, borders and shadows

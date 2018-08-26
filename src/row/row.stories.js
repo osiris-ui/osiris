@@ -6,7 +6,7 @@ import {
   select,
 } from '@storybook/addon-knobs/vue';
 
-import ARow from './row.vue';
+import ORow from './row.vue';
 
 const justifyOptions = {
   center: 'center',
@@ -24,19 +24,19 @@ const alignOptions = {
 storiesOf('Row', module)
   .addDecorator(withKnobs)
   .add('default', () => ({
-    components: { ARow },
-    template: `<a-row>${text('text', 'simple row')}</a-row>`,
+    components: { ORow },
+    template: `<o-row>${text('text', 'simple row')}</o-row>`,
   }))
   .add('justify center', () => ({
-    components: { ARow },
-    template: `<a-row
+    components: { ORow },
+    template: `<o-row
       justify="${select('justify', justifyOptions, justifyOptions.center)}">
       ${text('text', 'simple row')}
-    </a-row>`,
+    </o-row>`,
   }))
   .add('justify and align center', () => ({
-    components: { ARow },
-    template: `<a-row justify="${select('justify', justifyOptions, justifyOptions.center)}"
+    components: { ORow },
+    template: `<o-row justify="${select('justify', justifyOptions, justifyOptions.center)}"
       :gutter="${number('gutter', 20)}"
       align="${select('align', alignOptions, alignOptions.center)}">
       <div style="width: 25%; box-sizing: border-box">
@@ -45,5 +45,5 @@ storiesOf('Row', module)
       <div style="width: 25%; box-sizing: border-box">
           ${text('box2 text', 'box 2')}
       </div>
-    </a-row>`,
+    </o-row>`,
   }));

@@ -6,15 +6,17 @@
 
 <template>
   <div>
-    <a-radio v-model="modelValue" :value="1" name="radio" label="1" />
-    <a-radio v-model="modelValue" :value="2" name="radio" label="2" />
+    <a-radio :value="1" label="1" v-model="modelValue"></a-radio>
+    <a-radio :value="2" label="2" v-model="modelValue"></a-radio>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    modelValue: 1,
+    return {
+      modelValue: 1,
+    };
   },
 }
 </script>
@@ -27,15 +29,17 @@ export default {
 
 <template>
   <div>
-    <a-radio v-model="modelValue" :value="1" :disabled="true" name="radio" label="Disabled" />
-    <a-radio v-model="modelValue" :value="2" name="radio" label="2" />
+    <a-radio v-model="modelValue" :value="1" name="radio" label="1"></a-radio>
+    <a-radio v-model="modelValue" :value="2" name="radio" label="2" disabled></a-radio>
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    modelValue: 1,
+    return {
+      modelValue: 1,
+    };
   },
 }
 </script>

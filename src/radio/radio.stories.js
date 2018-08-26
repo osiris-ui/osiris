@@ -4,7 +4,7 @@ import {
   select,
 } from '@storybook/addon-knobs/vue';
 
-import ARadio from './radio.vue';
+import ORadio from './radio.vue';
 
 const SIZES = {
   small: 'small',
@@ -14,7 +14,7 @@ const SIZES = {
 
 storiesOf('Radio', module)
   .add('default', () => ({
-    components: { ARadio },
+    components: { ORadio },
     data() {
       return {
         modelValue: 1,
@@ -23,14 +23,14 @@ storiesOf('Radio', module)
     template: `
     <div>
       <p>Selected Value: {{modelValue}}</p>
-      <a-radio v-model="modelValue" :value="1" name="radio" label="1" />
-      <a-radio v-model="modelValue" :value="2" name="radio" label="2" />
+      <o-radio v-model="modelValue" :value="1" name="radio" label="1" />
+      <o-radio v-model="modelValue" :value="2" name="radio" label="2" />
     </div>
     `,
   }))
   .add('with a disabled', () => ({
     components: {
-      ARadio,
+      ORadio,
     },
     data() {
       return {
@@ -40,18 +40,18 @@ storiesOf('Radio', module)
     template: `
     <div>
       <p>Selected Value: {{modelValue}}</p>
-      <a-radio v-model="modelValue" :value="1" :disabled="true" name="radio" label="Disabled" />
-      <a-radio v-model="modelValue" :value="2" name="radio" label="2" />
+      <o-radio v-model="modelValue" :value="1" :disabled="true" name="radio" label="Disabled" />
+      <o-radio v-model="modelValue" :value="2" name="radio" label="2" />
     </div>
     `,
   }))
   .addDecorator(withKnobs)
   .add('with editable size', () => ({
     components: {
-      ARadio,
+      ORadio,
     },
     template: `
-      <a-radio
+      <o-radio
         :value="1"
         name="radio"
         label="Radio"

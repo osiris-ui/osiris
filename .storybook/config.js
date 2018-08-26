@@ -1,7 +1,7 @@
 import { configure } from '@storybook/vue';
 import Vue from 'vue';
 
-import '../src/atlas-style/dist/atlas-style.css';
+import '../src/osiris-style/dist/osiris-style.css';
 
 // Import your custom components.
 

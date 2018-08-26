@@ -1,8 +1,8 @@
 <template>
   <label
     :class="[
-      'a-radio',
-      `a-radio--${size}`, {
+      'o-radio',
+      `o-radio--${size}`, {
         'is-disabled': disabled,
         'is-checked': isChecked
     }]"
@@ -14,11 +14,11 @@
       v-model="modelValue"
       :disabled="disabled"
       type="radio"
-      class="a-radio__inner"
+      class="o-radio__inner"
       aria-hidden="true"
       @change.prevent.stop="handleChange"
     >
-    <span class="a-radio__label">
+    <span class="o-radio__label">
       <slot>
         {{ label }}
       </slot>
@@ -28,7 +28,7 @@
 
 <script>
 export default {
-  name: 'ARadio',
+  name: 'ORadio',
   model: {
     prop: 'modelValue',
     event: 'change',

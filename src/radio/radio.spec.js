@@ -13,8 +13,7 @@ describe('Radio', () => {
 
   describe('when is default', () => {
     it('should have expected classes', () => {
-      expect(wrapper.classes())
-        .toEqual(['a-radio', 'a-radio--medium']);
+      expect(wrapper.classes()).toEqual(['o-radio', 'o-radio--medium']);
     });
   });
 
@@ -41,7 +40,7 @@ describe('Radio', () => {
     });
 
     it('should have a label', () => {
-      const label = wrapper.find('.a-radio__label');
+      const label = wrapper.find('.o-radio__label');
       expect(label.text()).toEqual('label');
     });
   });
@@ -95,9 +94,9 @@ describe('Radio', () => {
       });
     });
 
-    it('should have a-radio--large class', () => {
+    it('should have o-radio--large class', () => {
       expect(wrapper.classes())
-        .toEqual(expect.arrayContaining(['a-radio', 'a-radio--large']));
+        .toEqual(expect.arrayContaining(['o-radio', 'o-radio--large']));
     });
   });
 });
