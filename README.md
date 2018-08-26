@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="orisis.svg">
+  <img src="osiris.svg">
 </p>
 
 <p align="center">
   <a href="https://travis-ci.org/osiris-ui/osiris">
     <img src="https://travis-ci.org/orisis-ui/osiris.svg?branch=master">
   </a>
-  <a href="https://npmjs.com/package/@orisis-ui/orisis">
-    <img src="https://img.shields.io/npm/v/@orisis-ui/oriris.svg?colorB=0099f9">
+  <a href="https://npmjs.com/package/@osiris-ui/osiris">
+    <img src="https://img.shields.io/npm/v/@osiris-ui/osiris.svg?colorB=0099f9">
   </a>
 </p>
 
