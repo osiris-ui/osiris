@@ -11,7 +11,7 @@ storiesOf('Button', module)
         <a-button>Default</a-button>
         <a-button type="primary">Primary</a-button>
         <a-button type="secondary">Secondary</a-button>
-        <a-button type="tertiary">Tertiary</a-button>
+        <a-button type="info">Info</a-button>
         <a-button type="success">Success</a-button>
         <a-button type="warning">Warning</a-button>
         <div style="margin-top:10px; margin-left: 0">
@@ -28,7 +28,7 @@ storiesOf('Button', module)
         <a-button plain>Default</a-button>
         <a-button type="primary" plain>Primary</a-button>
         <a-button type="secondary" plain>Secondary</a-button>
-        <a-button type="tertiary" plain>Tertiary</a-button>
+        <a-button type="info" plain>Info</a-button>
         <a-button type="success" plain>Success</a-button>
         <a-button type="warning" plain>Warning</a-button>
         <div style="margin-top:10px; margin-left: 0">
@@ -45,7 +45,7 @@ storiesOf('Button', module)
         <a-button disabled>Default</a-button>
         <a-button type="primary" disabled>Primary</a-button>
         <a-button type="secondary" disabled>Secondary</a-button>
-        <a-button type="tertiary" disabled>Tertiary</a-button>
+        <a-button type="info" disabled>Info</a-button>
         <a-button type="success" disabled>Success</a-button>
         <a-button type="warning" disabled>Warning</a-button>
         <div style="margin-top:10px; margin-left: 0">
@@ -57,7 +57,7 @@ storiesOf('Button', module)
         <a-button plain disabled>Default</a-button>
         <a-button type="primary" plain disabled>Primary</a-button>
         <a-button type="secondary" plain disabled>Secondary</a-button>
-        <a-button type="tertiary" plain disabled>Tertiary</a-button>
+        <a-button type="info" plain disabled>Info</a-button>
         <a-button type="success" plain disabled>Success</a-button>
         <a-button type="warning" plain disabled>Warning</a-button>
         <div style="margin-top:10px; margin-left: 0">
@@ -91,10 +91,10 @@ storiesOf('Button', module)
           <a-button type="secondary" size="mini">Secondary Mini</a-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="tertiary" size="large">Tertiary Large</a-button>
-          <a-button type="tertiary">Tertiary Normal</a-button>
-          <a-button type="tertiary" size="small">Tertiary Small</a-button>
-          <a-button type="tertiary" size="mini">Tertiary Mini</a-button>
+          <a-button type="info" size="large">Info Large</a-button>
+          <a-button type="info">Info Normal</a-button>
+          <a-button type="info" size="small">Info Small</a-button>
+          <a-button type="info" size="mini">Info Mini</a-button>
         </div>
         <div style="margin-top: 10px">
           <a-button type="success" size="large">Success Large</a-button>
@@ -130,7 +130,7 @@ storiesOf('Button', module)
         <a-button round>Default</a-button>
         <a-button type="primary" round>Primary</a-button>
         <a-button type="secondary" round>Secondary</a-button>
-        <a-button type="tertiary" round>Tertiary</a-button>
+        <a-button type="info" round>Info</a-button>
         <a-button type="success" round>Success</a-button>
         <a-button type="warning" round>Warning</a-button>
         <div style="margin-top:10px; margin-left: 0">
@@ -146,7 +146,7 @@ storiesOf('Button', module)
         <a-button circle>D</a-button>
         <a-button type="primary" circle>P</a-button>
         <a-button type="secondary" circle>S</a-button>
-        <a-button type="tertiary" circle>T</a-button>
+        <a-button type="info" circle>I</a-button>
         <a-button type="success" circle>SC</a-button>
         <a-button type="warning" circle>W</a-button>
         <a-button type="danger" circle>D</a-button>

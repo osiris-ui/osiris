@@ -44,13 +44,13 @@ describe('Button', () => {
     expect(wrapper.classes()).toContain('a-button--secondary');
   });
 
-  it('should be a tertiary button', () => {
+  it('should be a info button', () => {
     wrapper.setProps({
-      type: 'tertiary',
+      type: 'info',
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--tertiary');
+    expect(wrapper.classes()).toContain('a-button--info');
   });
 
   it('should be a success button', () => {
