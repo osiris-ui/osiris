@@ -20,7 +20,7 @@
 /*vue*/
 
 <template>
-  <a-input placeholder="Type a text"></a-input>
+  <o-input placeholder="Type a text"></o-input>
 </template>
 
 <script>
@@ -34,7 +34,7 @@ export default {}
 /*vue*/
 
 <template>
-  <a-input placeholder="Type a text" width="100%"></a-input>
+  <o-input placeholder="Type a text" width="100%"></o-input>
 </template>
 
 <script>
@@ -49,8 +49,8 @@ export default {}
 
 <template>
   <div>
-    <a-input placeholder="Type a text" prefix-icon="a-icon a-icon-search"></a-input>
-    <a-input placeholder="Type a text" suffix-icon="a-icon a-icon-calendar"></a-input>
+    <o-input placeholder="Type a text" prefix-icon="o-icon o-icon-search"></o-input>
+    <o-input placeholder="Type a text" suffix-icon="o-icon o-icon-calendar"></o-input>
   </div>
 </template>
 
@@ -66,8 +66,8 @@ export default {}
 
 <template>
   <div>
-    <a-input placeholder="Type here" value="Yay, you did it!" is-success></a-input>
-    <a-input placeholder="Type here" value="Opsss, this is an error" is-error></a-input>
+    <o-input placeholder="Type here" value="Yay, you did it!" is-success></o-input>
+    <o-input placeholder="Type here" value="Opsss, this is an error" is-error></o-input>
   </div>
 </template>
 
@@ -84,12 +84,12 @@ export default {}
 <template>
   <div>
     <div>
-      <a-input placeholder="Large size" size="large"></a-input>
-      <a-input placeholder="Normal size"></a-input>
+      <o-input placeholder="Large size" size="large"></o-input>
+      <o-input placeholder="Normal size"></o-input>
     </div>
     <div style="margin-top: 10px">
-      <a-input placeholder="Small Size" size="small"></a-input>
-      <a-input placeholder="Mini Size" size="mini"></a-input>
+      <o-input placeholder="Small Size" size="small"></o-input>
+      <o-input placeholder="Mini Size" size="mini"></o-input>
     </div>
   </div>
 </template>
@@ -106,7 +106,7 @@ export default {}
 /*vue*/
 
 <template>
-  <a-input placeholder="Type a text" disabled></a-input>
+  <o-input placeholder="Type a text" disabled></o-input>
 </template>
 
 <script>
@@ -120,7 +120,7 @@ export default {}
 /*vue*/
 
 <template>
-  <a-input placeholder="Type a text" readonly></a-input>
+  <o-input placeholder="Type a text" readonly></o-input>
 </template>
 
 <script>
