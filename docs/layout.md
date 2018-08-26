@@ -31,38 +31,38 @@ We use a flex based grid system with 24 columns with a 20px gutter by default.
 ```html
 /*vue*/
 <template>
-  <a-row>
-    <a-col :span="24">
+  <o-row>
+    <o-col :span="24">
       <div class="box-1"></div>
-    </a-col>
-    <a-col :span="12">
+    </o-col>
+    <o-col :span="12">
       <div class="box-2"></div>
-    </a-col>
-    <a-col :span="12">
+    </o-col>
+    <o-col :span="12">
       <div class="box-1"></div>
-    </a-col>
-    <a-col :span="8">
+    </o-col>
+    <o-col :span="8">
       <div class="box-2"></div>
-    </a-col>
-    <a-col :span="8">
+    </o-col>
+    <o-col :span="8">
       <div class="box-1"></div>
-    </a-col>
-    <a-col :span="8">
+    </o-col>
+    <o-col :span="8">
       <div class="box-2"></div>
-    </a-col>
-    <a-col :span="6">
+    </o-col>
+    <o-col :span="6">
       <div class="box-1"></div>
-    </a-col>
-    <a-col :span="6">
+    </o-col>
+    <o-col :span="6">
       <div class="box-2"></div>
-    </a-col>
-    <a-col :span="6">
+    </o-col>
+    <o-col :span="6">
       <div class="box-1"></div>
-    </a-col>
-    <a-col :span="6">
+    </o-col>
+    <o-col :span="6">
       <div class="box-2"></div>
-    </a-col>
-  </a-row>
+    </o-col>
+  </o-row>
 </template>
 
 <script>
