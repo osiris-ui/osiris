@@ -3,49 +3,49 @@
 exports[`Storyshots Button circle 1`] = `
 <div>
   <button
-    class="a-button a-button--default a-button--normal is-circle"
+    class="o-button o-button--default o-button--normal is-circle"
     type="button"
   >
     D
   </button>
    
   <button
-    class="a-button a-button--primary a-button--normal is-circle"
+    class="o-button o-button--primary o-button--normal is-circle"
     type="button"
   >
     P
   </button>
    
   <button
-    class="a-button a-button--secondary a-button--normal is-circle"
+    class="o-button o-button--secondary o-button--normal is-circle"
     type="button"
   >
     S
   </button>
    
   <button
-    class="a-button a-button--tertiary a-button--normal is-circle"
+    class="o-button o-button--info o-button--normal is-circle"
     type="button"
   >
-    T
+    I
   </button>
    
   <button
-    class="a-button a-button--success a-button--normal is-circle"
+    class="o-button o-button--success o-button--normal is-circle"
     type="button"
   >
     SC
   </button>
    
   <button
-    class="a-button a-button--warning a-button--normal is-circle"
+    class="o-button o-button--warning o-button--normal is-circle"
     type="button"
   >
     W
   </button>
    
   <button
-    class="a-button a-button--danger a-button--normal is-circle"
+    class="o-button o-button--danger o-button--normal is-circle"
     type="button"
   >
     D
@@ -57,7 +57,7 @@ exports[`Storyshots Button disabled 1`] = `
 <div>
   <div>
     <button
-      class="a-button a-button--default a-button--normal is-disabled"
+      class="o-button o-button--default o-button--normal is-disabled"
       disabled="disabled"
       type="button"
     >
@@ -65,7 +65,7 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--primary a-button--normal is-disabled"
+      class="o-button o-button--primary o-button--normal is-disabled"
       disabled="disabled"
       type="button"
     >
@@ -73,7 +73,7 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--secondary a-button--normal is-disabled"
+      class="o-button o-button--secondary o-button--normal is-disabled"
       disabled="disabled"
       type="button"
     >
@@ -81,15 +81,15 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--tertiary a-button--normal is-disabled"
+      class="o-button o-button--info o-button--normal is-disabled"
       disabled="disabled"
       type="button"
     >
-      Tertiary
+      Info
     </button>
      
     <button
-      class="a-button a-button--success a-button--normal is-disabled"
+      class="o-button o-button--success o-button--normal is-disabled"
       disabled="disabled"
       type="button"
     >
@@ -97,7 +97,7 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--warning a-button--normal is-disabled"
+      class="o-button o-button--warning o-button--normal is-disabled"
       disabled="disabled"
       type="button"
     >
@@ -108,7 +108,7 @@ exports[`Storyshots Button disabled 1`] = `
       style="margin-top: 10px; margin-left: 0px;"
     >
       <button
-        class="a-button a-button--danger a-button--normal is-disabled"
+        class="o-button o-button--danger o-button--normal is-disabled"
         disabled="disabled"
         type="button"
       >
@@ -116,7 +116,7 @@ exports[`Storyshots Button disabled 1`] = `
       </button>
        
       <button
-        class="a-button a-button--text a-button--normal is-disabled"
+        class="o-button o-button--text o-button--normal is-disabled"
         disabled="disabled"
         type="button"
       >
@@ -129,7 +129,7 @@ exports[`Storyshots Button disabled 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--default a-button--normal is-disabled is-plain"
+      class="o-button o-button--default o-button--normal is-disabled is-plain"
       disabled="disabled"
       type="button"
     >
@@ -137,7 +137,7 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--primary a-button--normal is-disabled is-plain"
+      class="o-button o-button--primary o-button--normal is-disabled is-plain"
       disabled="disabled"
       type="button"
     >
@@ -145,7 +145,7 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--secondary a-button--normal is-disabled is-plain"
+      class="o-button o-button--secondary o-button--normal is-disabled is-plain"
       disabled="disabled"
       type="button"
     >
@@ -153,15 +153,15 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--tertiary a-button--normal is-disabled is-plain"
+      class="o-button o-button--info o-button--normal is-disabled is-plain"
       disabled="disabled"
       type="button"
     >
-      Tertiary
+      Info
     </button>
      
     <button
-      class="a-button a-button--success a-button--normal is-disabled is-plain"
+      class="o-button o-button--success o-button--normal is-disabled is-plain"
       disabled="disabled"
       type="button"
     >
@@ -169,7 +169,7 @@ exports[`Storyshots Button disabled 1`] = `
     </button>
      
     <button
-      class="a-button a-button--warning a-button--normal is-disabled is-plain"
+      class="o-button o-button--warning o-button--normal is-disabled is-plain"
       disabled="disabled"
       type="button"
     >
@@ -180,7 +180,7 @@ exports[`Storyshots Button disabled 1`] = `
       style="margin-top: 10px; margin-left: 0px;"
     >
       <button
-        class="a-button a-button--danger a-button--normal is-disabled is-plain"
+        class="o-button o-button--danger o-button--normal is-disabled is-plain"
         disabled="disabled"
         type="button"
       >
@@ -188,7 +188,7 @@ exports[`Storyshots Button disabled 1`] = `
       </button>
        
       <button
-        class="a-button a-button--text a-button--normal is-disabled is-plain"
+        class="o-button o-button--text o-button--normal is-disabled is-plain"
         disabled="disabled"
         type="button"
       >
@@ -202,42 +202,42 @@ exports[`Storyshots Button disabled 1`] = `
 exports[`Storyshots Button plain 1`] = `
 <div>
   <button
-    class="a-button a-button--default a-button--normal is-plain"
+    class="o-button o-button--default o-button--normal is-plain"
     type="button"
   >
     Default
   </button>
    
   <button
-    class="a-button a-button--primary a-button--normal is-plain"
+    class="o-button o-button--primary o-button--normal is-plain"
     type="button"
   >
     Primary
   </button>
    
   <button
-    class="a-button a-button--secondary a-button--normal is-plain"
+    class="o-button o-button--secondary o-button--normal is-plain"
     type="button"
   >
     Secondary
   </button>
    
   <button
-    class="a-button a-button--tertiary a-button--normal is-plain"
+    class="o-button o-button--info o-button--normal is-plain"
     type="button"
   >
-    Tertiary
+    Info
   </button>
    
   <button
-    class="a-button a-button--success a-button--normal is-plain"
+    class="o-button o-button--success o-button--normal is-plain"
     type="button"
   >
     Success
   </button>
    
   <button
-    class="a-button a-button--warning a-button--normal is-plain"
+    class="o-button o-button--warning o-button--normal is-plain"
     type="button"
   >
     Warning
@@ -247,7 +247,7 @@ exports[`Storyshots Button plain 1`] = `
     style="margin-top: 10px; margin-left: 0px;"
   >
     <button
-      class="a-button a-button--danger a-button--normal is-plain"
+      class="o-button o-button--danger o-button--normal is-plain"
       type="button"
     >
       Danger
@@ -259,42 +259,42 @@ exports[`Storyshots Button plain 1`] = `
 exports[`Storyshots Button round 1`] = `
 <div>
   <button
-    class="a-button a-button--default a-button--normal is-round"
+    class="o-button o-button--default o-button--normal is-round"
     type="button"
   >
     Default
   </button>
    
   <button
-    class="a-button a-button--primary a-button--normal is-round"
+    class="o-button o-button--primary o-button--normal is-round"
     type="button"
   >
     Primary
   </button>
    
   <button
-    class="a-button a-button--secondary a-button--normal is-round"
+    class="o-button o-button--secondary o-button--normal is-round"
     type="button"
   >
     Secondary
   </button>
    
   <button
-    class="a-button a-button--tertiary a-button--normal is-round"
+    class="o-button o-button--info o-button--normal is-round"
     type="button"
   >
-    Tertiary
+    Info
   </button>
    
   <button
-    class="a-button a-button--success a-button--normal is-round"
+    class="o-button o-button--success o-button--normal is-round"
     type="button"
   >
     Success
   </button>
    
   <button
-    class="a-button a-button--warning a-button--normal is-round"
+    class="o-button o-button--warning o-button--normal is-round"
     type="button"
   >
     Warning
@@ -304,7 +304,7 @@ exports[`Storyshots Button round 1`] = `
     style="margin-top: 10px; margin-left: 0px;"
   >
     <button
-      class="a-button a-button--danger a-button--normal is-round"
+      class="o-button o-button--danger o-button--normal is-round"
       type="button"
     >
       Danger
@@ -317,28 +317,28 @@ exports[`Storyshots Button sizes 1`] = `
 <div>
   <div>
     <button
-      class="a-button a-button--default a-button--large"
+      class="o-button o-button--default o-button--large"
       type="button"
     >
       Default Large
     </button>
      
     <button
-      class="a-button a-button--default a-button--normal"
+      class="o-button o-button--default o-button--normal"
       type="button"
     >
       Default Normal
     </button>
      
     <button
-      class="a-button a-button--default a-button--small"
+      class="o-button o-button--default o-button--small"
       type="button"
     >
       Default Small
     </button>
      
     <button
-      class="a-button a-button--default a-button--mini"
+      class="o-button o-button--default o-button--mini"
       type="button"
     >
       Default Mini
@@ -349,28 +349,28 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--primary a-button--large"
+      class="o-button o-button--primary o-button--large"
       type="button"
     >
       Primary Large
     </button>
      
     <button
-      class="a-button a-button--primary a-button--normal"
+      class="o-button o-button--primary o-button--normal"
       type="button"
     >
       Primary Normal
     </button>
      
     <button
-      class="a-button a-button--primary a-button--small"
+      class="o-button o-button--primary o-button--small"
       type="button"
     >
       Primary Small
     </button>
      
     <button
-      class="a-button a-button--primary a-button--mini"
+      class="o-button o-button--primary o-button--mini"
       type="button"
     >
       Primary Mini
@@ -381,28 +381,28 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--secondary a-button--large"
+      class="o-button o-button--secondary o-button--large"
       type="button"
     >
       Secondary Large
     </button>
      
     <button
-      class="a-button a-button--secondary a-button--normal"
+      class="o-button o-button--secondary o-button--normal"
       type="button"
     >
       Secondary Normal
     </button>
      
     <button
-      class="a-button a-button--secondary a-button--small"
+      class="o-button o-button--secondary o-button--small"
       type="button"
     >
       Secondary Small
     </button>
      
     <button
-      class="a-button a-button--secondary a-button--mini"
+      class="o-button o-button--secondary o-button--mini"
       type="button"
     >
       Secondary Mini
@@ -413,31 +413,31 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--tertiary a-button--large"
+      class="o-button o-button--info o-button--large"
       type="button"
     >
-      Tertiary Large
+      Info Large
     </button>
      
     <button
-      class="a-button a-button--tertiary a-button--normal"
+      class="o-button o-button--info o-button--normal"
       type="button"
     >
-      Tertiary Normal
+      Info Normal
     </button>
      
     <button
-      class="a-button a-button--tertiary a-button--small"
+      class="o-button o-button--info o-button--small"
       type="button"
     >
-      Tertiary Small
+      Info Small
     </button>
      
     <button
-      class="a-button a-button--tertiary a-button--mini"
+      class="o-button o-button--info o-button--mini"
       type="button"
     >
-      Tertiary Mini
+      Info Mini
     </button>
   </div>
    
@@ -445,28 +445,28 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--success a-button--large"
+      class="o-button o-button--success o-button--large"
       type="button"
     >
       Success Large
     </button>
      
     <button
-      class="a-button a-button--success a-button--normal"
+      class="o-button o-button--success o-button--normal"
       type="button"
     >
       Success Normal
     </button>
      
     <button
-      class="a-button a-button--success a-button--small"
+      class="o-button o-button--success o-button--small"
       type="button"
     >
       Success Small
     </button>
      
     <button
-      class="a-button a-button--success a-button--mini"
+      class="o-button o-button--success o-button--mini"
       type="button"
     >
       Success Mini
@@ -477,28 +477,28 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--warning a-button--large"
+      class="o-button o-button--warning o-button--large"
       type="button"
     >
       Warning Large
     </button>
      
     <button
-      class="a-button a-button--warning a-button--normal"
+      class="o-button o-button--warning o-button--normal"
       type="button"
     >
       Warning Normal
     </button>
      
     <button
-      class="a-button a-button--warning a-button--small"
+      class="o-button o-button--warning o-button--small"
       type="button"
     >
       Warning Small
     </button>
      
     <button
-      class="a-button a-button--warning a-button--mini"
+      class="o-button o-button--warning o-button--mini"
       type="button"
     >
       Warning Mini
@@ -509,28 +509,28 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--danger a-button--large"
+      class="o-button o-button--danger o-button--large"
       type="button"
     >
       Danger Large
     </button>
      
     <button
-      class="a-button a-button--danger a-button--normal"
+      class="o-button o-button--danger o-button--normal"
       type="button"
     >
       Danger Normal
     </button>
      
     <button
-      class="a-button a-button--danger a-button--small"
+      class="o-button o-button--danger o-button--small"
       type="button"
     >
       Danger Small
     </button>
      
     <button
-      class="a-button a-button--danger a-button--mini"
+      class="o-button o-button--danger o-button--mini"
       type="button"
     >
       Danger Mini
@@ -541,28 +541,28 @@ exports[`Storyshots Button sizes 1`] = `
     style="margin-top: 10px;"
   >
     <button
-      class="a-button a-button--text a-button--large"
+      class="o-button o-button--text o-button--large"
       type="button"
     >
       Text Large
     </button>
      
     <button
-      class="a-button a-button--text a-button--normal"
+      class="o-button o-button--text o-button--normal"
       type="button"
     >
       Text Normal
     </button>
      
     <button
-      class="a-button a-button--text a-button--small"
+      class="o-button o-button--text o-button--small"
       type="button"
     >
       Text Small
     </button>
      
     <button
-      class="a-button a-button--text a-button--mini"
+      class="o-button o-button--text o-button--mini"
       type="button"
     >
       Text Mini
@@ -574,42 +574,42 @@ exports[`Storyshots Button sizes 1`] = `
 exports[`Storyshots Button types 1`] = `
 <div>
   <button
-    class="a-button a-button--default a-button--normal"
+    class="o-button o-button--default o-button--normal"
     type="button"
   >
     Default
   </button>
    
   <button
-    class="a-button a-button--primary a-button--normal"
+    class="o-button o-button--primary o-button--normal"
     type="button"
   >
     Primary
   </button>
    
   <button
-    class="a-button a-button--secondary a-button--normal"
+    class="o-button o-button--secondary o-button--normal"
     type="button"
   >
     Secondary
   </button>
    
   <button
-    class="a-button a-button--tertiary a-button--normal"
+    class="o-button o-button--info o-button--normal"
     type="button"
   >
-    Tertiary
+    Info
   </button>
    
   <button
-    class="a-button a-button--success a-button--normal"
+    class="o-button o-button--success o-button--normal"
     type="button"
   >
     Success
   </button>
    
   <button
-    class="a-button a-button--warning a-button--normal"
+    class="o-button o-button--warning o-button--normal"
     type="button"
   >
     Warning
@@ -619,14 +619,14 @@ exports[`Storyshots Button types 1`] = `
     style="margin-top: 10px; margin-left: 0px;"
   >
     <button
-      class="a-button a-button--danger a-button--normal"
+      class="o-button o-button--danger o-button--normal"
       type="button"
     >
       Danger
     </button>
      
     <button
-      class="a-button a-button--text a-button--normal"
+      class="o-button o-button--text o-button--normal"
       type="button"
     >
       Text
@@ -637,46 +637,46 @@ exports[`Storyshots Button types 1`] = `
 
 exports[`Storyshots Col default 1`] = `
 <div
-  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
   style="margin-left: -10px; margin-right: -10px;"
 >
   <div
-    class="a-col-12 a-col-offset-0"
+    class="o-col-12 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-8 a-col-offset-0"
+    class="o-col-8 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     b
   </div>
    
   <div
-    class="a-col-4 a-col-offset-0"
+    class="o-col-4 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     c
   </div>
    
   <div
-    class="a-col-8 a-col-offset-0"
+    class="o-col-8 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     d
   </div>
    
   <div
-    class="a-col-8 a-col-offset-0"
+    class="o-col-8 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     e
   </div>
    
   <div
-    class="a-col-8 a-col-offset-0"
+    class="o-col-8 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     f
@@ -686,46 +686,46 @@ exports[`Storyshots Col default 1`] = `
 
 exports[`Storyshots Col offset 1`] = `
 <div
-  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
   style="margin-left: -10px; margin-right: -10px;"
 >
   <div
-    class="a-col-1 a-col-offset-0"
+    class="o-col-1 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-2 a-col-offset-21"
+    class="o-col-2 o-col-offset-21"
     style="padding-left: 10px; padding-right: 10px;"
   >
     b
   </div>
    
   <div
-    class="a-col-4 a-col-offset-0"
+    class="o-col-4 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     c
   </div>
    
   <div
-    class="a-col-8 a-col-offset-0"
+    class="o-col-8 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     d
   </div>
    
   <div
-    class="a-col-8 a-col-offset-4"
+    class="o-col-8 o-col-offset-4"
     style="padding-left: 10px; padding-right: 10px;"
   >
     e
   </div>
    
   <div
-    class="a-col-8 a-col-offset-0"
+    class="o-col-8 o-col-offset-0"
     style="padding-left: 10px; padding-right: 10px;"
   >
     f
@@ -735,46 +735,46 @@ exports[`Storyshots Col offset 1`] = `
 
 exports[`Storyshots Col responsive 1`] = `
 <div
-  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
   style="margin-left: -10px; margin-right: -10px;"
 >
   <div
-    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    class="o-col-24 o-col-offset-0 o-col-xs-24 o-col-sm-12 o-col-md-8 o-col-lg-6 o-col-xl-3"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    class="o-col-24 o-col-offset-0 o-col-xs-24 o-col-sm-12 o-col-md-8 o-col-lg-6 o-col-xl-3"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    class="o-col-24 o-col-offset-0 o-col-xs-24 o-col-sm-12 o-col-md-8 o-col-lg-6 o-col-xl-3"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    class="o-col-24 o-col-offset-0 o-col-xs-24 o-col-sm-12 o-col-md-8 o-col-lg-6 o-col-xl-3"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    class="o-col-24 o-col-offset-0 o-col-xs-24 o-col-sm-12 o-col-md-8 o-col-lg-6 o-col-xl-3"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
   </div>
    
   <div
-    class="a-col-24 a-col-offset-0 a-col-xs-24 a-col-sm-12 a-col-md-8 a-col-lg-6 a-col-xl-3"
+    class="o-col-24 o-col-offset-0 o-col-xs-24 o-col-sm-12 o-col-md-8 o-col-lg-6 o-col-xl-3"
     style="padding-left: 10px; padding-right: 10px;"
   >
     a
@@ -784,14 +784,14 @@ exports[`Storyshots Col responsive 1`] = `
 
 exports[`Storyshots Form basic usage 1`] = `
 <form
-  class="a-form a-form--top"
+  class="o-form o-form--top"
   style="width: 100%;"
 >
   <div
-    class="a-form-item"
+    class="o-form-item"
   >
     <label
-      class="a-form-item__label"
+      class="o-form-item__label"
       for="email"
       style="width: 100px;"
     >
@@ -801,14 +801,14 @@ exports[`Storyshots Form basic usage 1`] = `
     </label>
       
     <div
-      class="a-form-item__content"
+      class="o-form-item__content"
     >
       <div
-        class="a-input a-input--normal"
+        class="o-input o-input--normal"
         style="width: 300px;"
       >
         <input
-          class="a-input__inner"
+          class="o-input__inner"
           max="Infinity"
           maxlength="Infinity"
           min="0"
@@ -830,926 +830,926 @@ exports[`Storyshots Form basic usage 1`] = `
 exports[`Storyshots Icons default 1`] = `
 <div>
   <i
-    class="a-icon a-icon-alert-octagon"
+    class="o-icon o-icon-alert-octagon"
   />
    
   <i
-    class="a-icon a-icon-alert-circle"
+    class="o-icon o-icon-alert-circle"
   />
    
   <i
-    class="a-icon a-icon-activity"
+    class="o-icon o-icon-activity"
   />
    
   <i
-    class="a-icon a-icon-alert-triangle"
+    class="o-icon o-icon-alert-triangle"
   />
    
   <i
-    class="a-icon a-icon-align-center"
+    class="o-icon o-icon-align-center"
   />
    
   <i
-    class="a-icon a-icon-airplay"
+    class="o-icon o-icon-airplay"
   />
    
   <i
-    class="a-icon a-icon-align-justify"
+    class="o-icon o-icon-align-justify"
   />
    
   <i
-    class="a-icon a-icon-align-left"
+    class="o-icon o-icon-align-left"
   />
    
   <i
-    class="a-icon a-icon-align-right"
+    class="o-icon o-icon-align-right"
   />
    
   <i
-    class="a-icon a-icon-arrow-down-left"
+    class="o-icon o-icon-arrow-down-left"
   />
    
   <i
-    class="a-icon a-icon-arrow-down-right"
+    class="o-icon o-icon-arrow-down-right"
   />
    
   <i
-    class="a-icon a-icon-anchor"
+    class="o-icon o-icon-anchor"
   />
    
   <i
-    class="a-icon a-icon-aperture"
+    class="o-icon o-icon-aperture"
   />
    
   <i
-    class="a-icon a-icon-arrow-left"
+    class="o-icon o-icon-arrow-left"
   />
    
   <i
-    class="a-icon a-icon-arrow-right"
+    class="o-icon o-icon-arrow-right"
   />
    
   <i
-    class="a-icon a-icon-arrow-down"
+    class="o-icon o-icon-arrow-down"
   />
    
   <i
-    class="a-icon a-icon-arrow-up-left"
+    class="o-icon o-icon-arrow-up-left"
   />
    
   <i
-    class="a-icon a-icon-arrow-up-right"
+    class="o-icon o-icon-arrow-up-right"
   />
    
   <i
-    class="a-icon a-icon-arrow-up"
+    class="o-icon o-icon-arrow-up"
   />
    
   <i
-    class="a-icon a-icon-award"
+    class="o-icon o-icon-award"
   />
    
   <i
-    class="a-icon a-icon-bar-chart"
+    class="o-icon o-icon-bar-chart"
   />
    
   <i
-    class="a-icon a-icon-at-sign"
+    class="o-icon o-icon-at-sign"
   />
    
   <i
-    class="a-icon a-icon-bar-chart-"
+    class="o-icon o-icon-bar-chart-"
   />
    
   <i
-    class="a-icon a-icon-battery-charging"
+    class="o-icon o-icon-battery-charging"
   />
    
   <i
-    class="a-icon a-icon-bell-off"
+    class="o-icon o-icon-bell-off"
   />
    
   <i
-    class="a-icon a-icon-battery"
+    class="o-icon o-icon-battery"
   />
    
   <i
-    class="a-icon a-icon-bluetooth"
+    class="o-icon o-icon-bluetooth"
   />
    
   <i
-    class="a-icon a-icon-bell"
+    class="o-icon o-icon-bell"
   />
    
   <i
-    class="a-icon a-icon-book"
+    class="o-icon o-icon-book"
   />
    
   <i
-    class="a-icon a-icon-briefcase"
+    class="o-icon o-icon-briefcase"
   />
    
   <i
-    class="a-icon a-icon-camera-off"
+    class="o-icon o-icon-camero-off"
   />
    
   <i
-    class="a-icon a-icon-calendar"
+    class="o-icon o-icon-calendar"
   />
    
   <i
-    class="a-icon a-icon-bookmark"
+    class="o-icon o-icon-bookmark"
   />
    
   <i
-    class="a-icon a-icon-box"
+    class="o-icon o-icon-box"
   />
    
   <i
-    class="a-icon a-icon-camera"
+    class="o-icon o-icon-camera"
   />
    
   <i
-    class="a-icon a-icon-check-circle"
+    class="o-icon o-icon-check-circle"
   />
    
   <i
-    class="a-icon a-icon-check"
+    class="o-icon o-icon-check"
   />
    
   <i
-    class="a-icon a-icon-check-square"
+    class="o-icon o-icon-check-square"
   />
    
   <i
-    class="a-icon a-icon-cast"
+    class="o-icon o-icon-cast"
   />
    
   <i
-    class="a-icon a-icon-chevron-down"
+    class="o-icon o-icon-chevron-down"
   />
    
   <i
-    class="a-icon a-icon-chevron-left"
+    class="o-icon o-icon-chevron-left"
   />
    
   <i
-    class="a-icon a-icon-chevron-right"
+    class="o-icon o-icon-chevron-right"
   />
    
   <i
-    class="a-icon a-icon-chevron-up"
+    class="o-icon o-icon-chevron-up"
   />
    
   <i
-    class="a-icon a-icon-chevrons-down"
+    class="o-icon o-icon-chevrons-down"
   />
    
   <i
-    class="a-icon a-icon-chevrons-right"
+    class="o-icon o-icon-chevrons-right"
   />
    
   <i
-    class="a-icon a-icon-chevrons-up"
+    class="o-icon o-icon-chevrons-up"
   />
    
   <i
-    class="a-icon a-icon-chevrons-left"
+    class="o-icon o-icon-chevrons-left"
   />
    
   <i
-    class="a-icon a-icon-circle"
+    class="o-icon o-icon-circle"
   />
    
   <i
-    class="a-icon a-icon-clipboard"
+    class="o-icon o-icon-clipboard"
   />
    
   <i
-    class="a-icon a-icon-chrome"
+    class="o-icon o-icon-chrome"
   />
    
   <i
-    class="a-icon a-icon-clock"
+    class="o-icon o-icon-clock"
   />
    
   <i
-    class="a-icon a-icon-cloud-lightning"
+    class="o-icon o-icon-cloud-lightning"
   />
    
   <i
-    class="a-icon a-icon-cloud-drizzle"
+    class="o-icon o-icon-cloud-drizzle"
   />
    
   <i
-    class="a-icon a-icon-cloud-rain"
+    class="o-icon o-icon-cloud-rain"
   />
    
   <i
-    class="a-icon a-icon-cloud-off"
+    class="o-icon o-icon-cloud-off"
   />
    
   <i
-    class="a-icon a-icon-codepen"
+    class="o-icon o-icon-codepen"
   />
    
   <i
-    class="a-icon a-icon-cloud-snow"
+    class="o-icon o-icon-cloud-snow"
   />
    
   <i
-    class="a-icon a-icon-compass"
+    class="o-icon o-icon-compass"
   />
    
   <i
-    class="a-icon a-icon-copy"
+    class="o-icon o-icon-copy"
   />
    
   <i
-    class="a-icon a-icon-corner-down-right"
+    class="o-icon o-icon-corner-down-right"
   />
    
   <i
-    class="a-icon a-icon-corner-down-left"
+    class="o-icon o-icon-corner-down-left"
   />
    
   <i
-    class="a-icon a-icon-corner-left-down"
+    class="o-icon o-icon-corner-left-down"
   />
    
   <i
-    class="a-icon a-icon-corner-left-up"
+    class="o-icon o-icon-corner-left-up"
   />
    
   <i
-    class="a-icon a-icon-corner-up-left"
+    class="o-icon o-icon-corner-up-left"
   />
    
   <i
-    class="a-icon a-icon-corner-up-right"
+    class="o-icon o-icon-corner-up-right"
   />
    
   <i
-    class="a-icon a-icon-corner-right-down"
+    class="o-icon o-icon-corner-right-down"
   />
    
   <i
-    class="a-icon a-icon-corner-right-up"
+    class="o-icon o-icon-corner-right-up"
   />
    
   <i
-    class="a-icon a-icon-cpu"
+    class="o-icon o-icon-cpu"
   />
    
   <i
-    class="a-icon a-icon-credit-card"
+    class="o-icon o-icon-credit-card"
   />
    
   <i
-    class="a-icon a-icon-crosshair"
+    class="o-icon o-icon-crosshair"
   />
    
   <i
-    class="a-icon a-icon-disc"
+    class="o-icon o-icon-disc"
   />
    
   <i
-    class="a-icon a-icon-delete"
+    class="o-icon o-icon-delete"
   />
    
   <i
-    class="a-icon a-icon-download-cloud"
+    class="o-icon o-icon-download-cloud"
   />
    
   <i
-    class="a-icon a-icon-download"
+    class="o-icon o-icon-download"
   />
    
   <i
-    class="a-icon a-icon-droplet"
+    class="o-icon o-icon-droplet"
   />
    
   <i
-    class="a-icon a-icon-edit-"
+    class="o-icon o-icon-edit-"
   />
    
   <i
-    class="a-icon a-icon-edit"
+    class="o-icon o-icon-edit"
   />
    
   <i
-    class="a-icon a-icon-edit-1"
+    class="o-icon o-icon-edit-1"
   />
    
   <i
-    class="a-icon a-icon-external-link"
+    class="o-icon o-icon-external-link"
   />
    
   <i
-    class="a-icon a-icon-eye"
+    class="o-icon o-icon-eye"
   />
    
   <i
-    class="a-icon a-icon-feather"
+    class="o-icon o-icon-feather"
   />
    
   <i
-    class="a-icon a-icon-facebook"
+    class="o-icon o-icon-facebook"
   />
    
   <i
-    class="a-icon a-icon-file-minus"
+    class="o-icon o-icon-file-minus"
   />
    
   <i
-    class="a-icon a-icon-eye-off"
+    class="o-icon o-icon-eye-off"
   />
    
   <i
-    class="a-icon a-icon-fast-forward"
+    class="o-icon o-icon-fast-forward"
   />
    
   <i
-    class="a-icon a-icon-file-text"
+    class="o-icon o-icon-file-text"
   />
    
   <i
-    class="a-icon a-icon-film"
+    class="o-icon o-icon-film"
   />
    
   <i
-    class="a-icon a-icon-file"
+    class="o-icon o-icon-file"
   />
    
   <i
-    class="a-icon a-icon-file-plus"
+    class="o-icon o-icon-file-plus"
   />
    
   <i
-    class="a-icon a-icon-folder"
+    class="o-icon o-icon-folder"
   />
    
   <i
-    class="a-icon a-icon-filter"
+    class="o-icon o-icon-filter"
   />
    
   <i
-    class="a-icon a-icon-flag"
+    class="o-icon o-icon-flag"
   />
    
   <i
-    class="a-icon a-icon-globe"
+    class="o-icon o-icon-globe"
   />
    
   <i
-    class="a-icon a-icon-grid"
+    class="o-icon o-icon-grid"
   />
    
   <i
-    class="a-icon a-icon-heart"
+    class="o-icon o-icon-heart"
   />
    
   <i
-    class="a-icon a-icon-home"
+    class="o-icon o-icon-home"
   />
    
   <i
-    class="a-icon a-icon-github"
+    class="o-icon o-icon-github"
   />
    
   <i
-    class="a-icon a-icon-image"
+    class="o-icon o-icon-image"
   />
    
   <i
-    class="a-icon a-icon-inbox"
+    class="o-icon o-icon-inbox"
   />
    
   <i
-    class="a-icon a-icon-layers"
+    class="o-icon o-icon-layers"
   />
    
   <i
-    class="a-icon a-icon-info"
+    class="o-icon o-icon-info"
   />
    
   <i
-    class="a-icon a-icon-instagram"
+    class="o-icon o-icon-instagram"
   />
    
   <i
-    class="a-icon a-icon-layout"
+    class="o-icon o-icon-layout"
   />
    
   <i
-    class="a-icon a-icon-link-"
+    class="o-icon o-icon-link-"
   />
    
   <i
-    class="a-icon a-icon-life-buoy"
+    class="o-icon o-icon-life-buoy"
   />
    
   <i
-    class="a-icon a-icon-link"
+    class="o-icon o-icon-link"
   />
    
   <i
-    class="a-icon a-icon-log-in"
+    class="o-icon o-icon-log-in"
   />
    
   <i
-    class="a-icon a-icon-list"
+    class="o-icon o-icon-list"
   />
    
   <i
-    class="a-icon a-icon-lock"
+    class="o-icon o-icon-lock"
   />
    
   <i
-    class="a-icon a-icon-log-out"
+    class="o-icon o-icon-log-out"
   />
    
   <i
-    class="a-icon a-icon-loader"
+    class="o-icon o-icon-loader"
   />
    
   <i
-    class="a-icon a-icon-mail"
+    class="o-icon o-icon-mail"
   />
    
   <i
-    class="a-icon a-icon-maximize-"
+    class="o-icon o-icon-maximize-"
   />
    
   <i
-    class="a-icon a-icon-map"
+    class="o-icon o-icon-map"
   />
    
   <i
-    class="a-icon a-icon-maximize"
+    class="o-icon o-icon-maximize"
   />
    
   <i
-    class="a-icon a-icon-map-pin"
+    class="o-icon o-icon-map-pin"
   />
    
   <i
-    class="a-icon a-icon-menu"
+    class="o-icon o-icon-menu"
   />
    
   <i
-    class="a-icon a-icon-message-circle"
+    class="o-icon o-icon-message-circle"
   />
    
   <i
-    class="a-icon a-icon-message-square"
+    class="o-icon o-icon-message-square"
   />
    
   <i
-    class="a-icon a-icon-minimize-"
+    class="o-icon o-icon-minimize-"
   />
    
   <i
-    class="a-icon a-icon-mic-off"
+    class="o-icon o-icon-mic-off"
   />
    
   <i
-    class="a-icon a-icon-minus-circle"
+    class="o-icon o-icon-minus-circle"
   />
    
   <i
-    class="a-icon a-icon-mic"
+    class="o-icon o-icon-mic"
   />
    
   <i
-    class="a-icon a-icon-minus-square"
+    class="o-icon o-icon-minus-square"
   />
    
   <i
-    class="a-icon a-icon-minus"
+    class="o-icon o-icon-minus"
   />
    
   <i
-    class="a-icon a-icon-moon"
+    class="o-icon o-icon-moon"
   />
    
   <i
-    class="a-icon a-icon-monitor"
+    class="o-icon o-icon-monitor"
   />
    
   <i
-    class="a-icon a-icon-more-vertical"
+    class="o-icon o-icon-more-vertical"
   />
    
   <i
-    class="a-icon a-icon-more-horizontal"
+    class="o-icon o-icon-more-horizontal"
   />
    
   <i
-    class="a-icon a-icon-move"
+    class="o-icon o-icon-move"
   />
    
   <i
-    class="a-icon a-icon-music"
+    class="o-icon o-icon-music"
   />
    
   <i
-    class="a-icon a-icon-navigation-"
+    class="o-icon o-icon-navigation-"
   />
    
   <i
-    class="a-icon a-icon-navigation"
+    class="o-icon o-icon-navigation"
   />
    
   <i
-    class="a-icon a-icon-octagon"
+    class="o-icon o-icon-octagon"
   />
    
   <i
-    class="a-icon a-icon-package"
+    class="o-icon o-icon-package"
   />
    
   <i
-    class="a-icon a-icon-pause-circle"
+    class="o-icon o-icon-pause-circle"
   />
    
   <i
-    class="a-icon a-icon-pause"
+    class="o-icon o-icon-pause"
   />
    
   <i
-    class="a-icon a-icon-percent"
+    class="o-icon o-icon-percent"
   />
    
   <i
-    class="a-icon a-icon-phone-call"
+    class="o-icon o-icon-phone-call"
   />
    
   <i
-    class="a-icon a-icon-phone-forwarded"
+    class="o-icon o-icon-phone-forwarded"
   />
    
   <i
-    class="a-icon a-icon-phone-missed"
+    class="o-icon o-icon-phone-missed"
   />
    
   <i
-    class="a-icon a-icon-phone-off"
+    class="o-icon o-icon-phone-off"
   />
    
   <i
-    class="a-icon a-icon-phone-incoming"
+    class="o-icon o-icon-phone-incoming"
   />
    
   <i
-    class="a-icon a-icon-phone"
+    class="o-icon o-icon-phone"
   />
    
   <i
-    class="a-icon a-icon-phone-outgoing"
+    class="o-icon o-icon-phone-outgoing"
   />
    
   <i
-    class="a-icon a-icon-pie-chart"
+    class="o-icon o-icon-pie-chart"
   />
    
   <i
-    class="a-icon a-icon-play-circle"
+    class="o-icon o-icon-play-circle"
   />
    
   <i
-    class="a-icon a-icon-play"
+    class="o-icon o-icon-play"
   />
    
   <i
-    class="a-icon a-icon-plus-square"
+    class="o-icon o-icon-plus-square"
   />
    
   <i
-    class="a-icon a-icon-plus-circle"
+    class="o-icon o-icon-plus-circle"
   />
    
   <i
-    class="a-icon a-icon-plus"
+    class="o-icon o-icon-plus"
   />
    
   <i
-    class="a-icon a-icon-pocket"
+    class="o-icon o-icon-pocket"
   />
    
   <i
-    class="a-icon a-icon-printer"
+    class="o-icon o-icon-printer"
   />
    
   <i
-    class="a-icon a-icon-power"
+    class="o-icon o-icon-power"
   />
    
   <i
-    class="a-icon a-icon-radio"
+    class="o-icon o-icon-radio"
   />
    
   <i
-    class="a-icon a-icon-repeat"
+    class="o-icon o-icon-repeat"
   />
    
   <i
-    class="a-icon a-icon-refresh-ccw"
+    class="o-icon o-icon-refresh-ccw"
   />
    
   <i
-    class="a-icon a-icon-rewind"
+    class="o-icon o-icon-rewind"
   />
    
   <i
-    class="a-icon a-icon-rotate-ccw"
+    class="o-icon o-icon-rotate-ccw"
   />
    
   <i
-    class="a-icon a-icon-refresh-cw"
+    class="o-icon o-icon-refresh-cw"
   />
    
   <i
-    class="a-icon a-icon-rotate-cw"
+    class="o-icon o-icon-rotate-cw"
   />
    
   <i
-    class="a-icon a-icon-save"
+    class="o-icon o-icon-save"
   />
    
   <i
-    class="a-icon a-icon-search"
+    class="o-icon o-icon-search"
   />
    
   <i
-    class="a-icon a-icon-server"
+    class="o-icon o-icon-server"
   />
    
   <i
-    class="a-icon a-icon-scissors"
+    class="o-icon o-icon-scissors"
   />
    
   <i
-    class="a-icon a-icon-share-"
+    class="o-icon o-icon-share-"
   />
    
   <i
-    class="a-icon a-icon-share"
+    class="o-icon o-icon-share"
   />
    
   <i
-    class="a-icon a-icon-shield"
+    class="o-icon o-icon-shield"
   />
    
   <i
-    class="a-icon a-icon-settings"
+    class="o-icon o-icon-settings"
   />
    
   <i
-    class="a-icon a-icon-skip-back"
+    class="o-icon o-icon-skip-back"
   />
    
   <i
-    class="a-icon a-icon-shuffle"
+    class="o-icon o-icon-shuffle"
   />
    
   <i
-    class="a-icon a-icon-sidebar"
+    class="o-icon o-icon-sidebar"
   />
    
   <i
-    class="a-icon a-icon-skip-forward"
+    class="o-icon o-icon-skip-forward"
   />
    
   <i
-    class="a-icon a-icon-slack"
+    class="o-icon o-icon-slack"
   />
    
   <i
-    class="a-icon a-icon-slash"
+    class="o-icon o-icon-slash"
   />
    
   <i
-    class="a-icon a-icon-smartphone"
+    class="o-icon o-icon-smartphone"
   />
    
   <i
-    class="a-icon a-icon-square"
+    class="o-icon o-icon-square"
   />
    
   <i
-    class="a-icon a-icon-speaker"
+    class="o-icon o-icon-speaker"
   />
    
   <i
-    class="a-icon a-icon-star"
+    class="o-icon o-icon-star"
   />
    
   <i
-    class="a-icon a-icon-stop-circle"
+    class="o-icon o-icon-stop-circle"
   />
    
   <i
-    class="a-icon a-icon-sun"
+    class="o-icon o-icon-sun"
   />
    
   <i
-    class="a-icon a-icon-sunrise"
+    class="o-icon o-icon-sunrise"
   />
    
   <i
-    class="a-icon a-icon-tablet"
+    class="o-icon o-icon-tablet"
   />
    
   <i
-    class="a-icon a-icon-tag"
+    class="o-icon o-icon-tag"
   />
    
   <i
-    class="a-icon a-icon-sunset"
+    class="o-icon o-icon-sunset"
   />
    
   <i
-    class="a-icon a-icon-target"
+    class="o-icon o-icon-target"
   />
    
   <i
-    class="a-icon a-icon-thermometer"
+    class="o-icon o-icon-thermometer"
   />
    
   <i
-    class="a-icon a-icon-thumbs-up"
+    class="o-icon o-icon-thumbs-up"
   />
    
   <i
-    class="a-icon a-icon-thumbs-down"
+    class="o-icon o-icon-thumbs-down"
   />
    
   <i
-    class="a-icon a-icon-toggle-left"
+    class="o-icon o-icon-toggle-left"
   />
    
   <i
-    class="a-icon a-icon-toggle-right"
+    class="o-icon o-icon-toggle-right"
   />
    
   <i
-    class="a-icon a-icon-trash-"
+    class="o-icon o-icon-trash-"
   />
    
   <i
-    class="a-icon a-icon-trash"
+    class="o-icon o-icon-trash"
   />
    
   <i
-    class="a-icon a-icon-trending-up"
+    class="o-icon o-icon-trending-up"
   />
    
   <i
-    class="a-icon a-icon-trending-down"
+    class="o-icon o-icon-trending-down"
   />
    
   <i
-    class="a-icon a-icon-triangle"
+    class="o-icon o-icon-triangle"
   />
    
   <i
-    class="a-icon a-icon-type"
+    class="o-icon o-icon-type"
   />
    
   <i
-    class="a-icon a-icon-twitter"
+    class="o-icon o-icon-twitter"
   />
    
   <i
-    class="a-icon a-icon-upload"
+    class="o-icon o-icon-upload"
   />
    
   <i
-    class="a-icon a-icon-umbrella"
+    class="o-icon o-icon-umbrella"
   />
    
   <i
-    class="a-icon a-icon-upload-cloud"
+    class="o-icon o-icon-upload-cloud"
   />
    
   <i
-    class="a-icon a-icon-unlock"
+    class="o-icon o-icon-unlock"
   />
    
   <i
-    class="a-icon a-icon-user-check"
+    class="o-icon o-icon-user-check"
   />
    
   <i
-    class="a-icon a-icon-user-minus"
+    class="o-icon o-icon-user-minus"
   />
    
   <i
-    class="a-icon a-icon-user-plus"
+    class="o-icon o-icon-user-plus"
   />
    
   <i
-    class="a-icon a-icon-user-x"
+    class="o-icon o-icon-user-x"
   />
    
   <i
-    class="a-icon a-icon-user"
+    class="o-icon o-icon-user"
   />
    
   <i
-    class="a-icon a-icon-users"
+    class="o-icon o-icon-users"
   />
    
   <i
-    class="a-icon a-icon-video-off"
+    class="o-icon o-icon-video-off"
   />
    
   <i
-    class="a-icon a-icon-video"
+    class="o-icon o-icon-video"
   />
    
   <i
-    class="a-icon a-icon-voicemail"
+    class="o-icon o-icon-voicemail"
   />
    
   <i
-    class="a-icon a-icon-volume-x"
+    class="o-icon o-icon-volume-x"
   />
    
   <i
-    class="a-icon a-icon-volume-"
+    class="o-icon o-icon-volume-"
   />
    
   <i
-    class="a-icon a-icon-volume-1"
+    class="o-icon o-icon-volume-1"
   />
    
   <i
-    class="a-icon a-icon-volume"
+    class="o-icon o-icon-volume"
   />
    
   <i
-    class="a-icon a-icon-watch"
+    class="o-icon o-icon-watch"
   />
    
   <i
-    class="a-icon a-icon-wifi"
+    class="o-icon o-icon-wifi"
   />
    
   <i
-    class="a-icon a-icon-x-square"
+    class="o-icon o-icon-x-square"
   />
    
   <i
-    class="a-icon a-icon-wind"
+    class="o-icon o-icon-wind"
   />
    
   <i
-    class="a-icon a-icon-x"
+    class="o-icon o-icon-x"
   />
    
   <i
-    class="a-icon a-icon-x-circle"
+    class="o-icon o-icon-x-circle"
   />
    
   <i
-    class="a-icon a-icon-zap"
+    class="o-icon o-icon-zap"
   />
    
   <i
-    class="a-icon a-icon-zoom-in"
+    class="o-icon o-icon-zoom-in"
   />
    
   <i
-    class="a-icon a-icon-zoom-out"
+    class="o-icon o-icon-zoom-out"
   />
    
   <i
-    class="a-icon a-icon-command"
+    class="o-icon o-icon-command"
   />
    
   <i
-    class="a-icon a-icon-cloud"
+    class="o-icon o-icon-cloud"
   />
    
   <i
-    class="a-icon a-icon-hash"
+    class="o-icon o-icon-hash"
   />
    
   <i
-    class="a-icon a-icon-headphones"
+    class="o-icon o-icon-headphones"
   />
 </div>
 `;
 
 exports[`Storyshots Input default 1`] = `
 <div
-  class="a-input a-input--normal"
+  class="o-input o-input--normal"
   style="width: 300px;"
 >
   <input
-    class="a-input__inner"
+    class="o-input__inner"
     max="Infinity"
     maxlength="Infinity"
     min="0"
@@ -1767,11 +1767,11 @@ exports[`Storyshots Input default 1`] = `
 
 exports[`Storyshots Input disabled 1`] = `
 <div
-  class="a-input a-input--normal is-disabled"
+  class="o-input o-input--normal is-disabled"
   style="width: 300px;"
 >
   <input
-    class="a-input__inner"
+    class="o-input__inner"
     disabled="disabled"
     max="Infinity"
     maxlength="Infinity"
@@ -1790,11 +1790,11 @@ exports[`Storyshots Input disabled 1`] = `
 
 exports[`Storyshots Input readonly 1`] = `
 <div
-  class="a-input a-input--normal"
+  class="o-input o-input--normal"
   style="width: 300px;"
 >
   <input
-    class="a-input__inner"
+    class="o-input__inner"
     max="Infinity"
     maxlength="Infinity"
     min="0"
@@ -1814,11 +1814,11 @@ exports[`Storyshots Input readonly 1`] = `
 exports[`Storyshots Input sizes 1`] = `
 <div>
   <div
-    class="a-input a-input--large"
+    class="o-input o-input--large"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1834,11 +1834,11 @@ exports[`Storyshots Input sizes 1`] = `
   </div>
    
   <div
-    class="a-input a-input--normal"
+    class="o-input o-input--normal"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1854,11 +1854,11 @@ exports[`Storyshots Input sizes 1`] = `
   </div>
    
   <div
-    class="a-input a-input--small"
+    class="o-input o-input--small"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1874,11 +1874,11 @@ exports[`Storyshots Input sizes 1`] = `
   </div>
    
   <div
-    class="a-input a-input--mini"
+    class="o-input o-input--mini"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1898,11 +1898,11 @@ exports[`Storyshots Input sizes 1`] = `
 exports[`Storyshots Input with icon 1`] = `
 <div>
   <div
-    class="a-input a-input--normal a-input__prefix"
+    class="o-input o-input--normal o-input__prefix"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1912,7 +1912,7 @@ exports[`Storyshots Input with icon 1`] = `
     />
      
     <i
-      class="a-input__icon--prefix a-icon a-icon-search"
+      class="o-input__icon--prefix o-icon o-icon-search"
     />
      
     <!---->
@@ -1920,11 +1920,11 @@ exports[`Storyshots Input with icon 1`] = `
   </div>
    
   <div
-    class="a-input a-input--normal a-input__suffix"
+    class="o-input o-input--normal o-input__suffix"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1936,17 +1936,17 @@ exports[`Storyshots Input with icon 1`] = `
     <!---->
      
     <i
-      class="a-input__icon--suffix a-icon a-icon-calendar"
+      class="o-input__icon--suffix o-icon o-icon-calendar"
     />
       
   </div>
    
   <div
-    class="a-input a-input--normal a-input__prefix a-input__suffix"
+    class="o-input o-input--normal o-input__prefix o-input__suffix"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1956,21 +1956,21 @@ exports[`Storyshots Input with icon 1`] = `
     />
      
     <i
-      class="a-input__icon--prefix a-icon a-icon-search"
+      class="o-input__icon--prefix o-icon o-icon-search"
     />
      
     <i
-      class="a-input__icon--suffix a-icon a-icon-calendar"
+      class="o-input__icon--suffix o-icon o-icon-calendar"
     />
       
   </div>
    
   <div
-    class="a-input a-input--normal a-input__prefix"
+    class="o-input o-input--normal o-input__prefix"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -1984,18 +1984,18 @@ exports[`Storyshots Input with icon 1`] = `
     <!---->
      
     <i
-      class="a-icon a-icon-search a-input__icon--prefix"
+      class="o-icon o-icon-search o-input__icon--prefix"
       placeholder="Type here"
     />
      
   </div>
    
   <div
-    class="a-input a-input--normal a-input__suffix"
+    class="o-input o-input--normal o-input__suffix"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -2009,7 +2009,7 @@ exports[`Storyshots Input with icon 1`] = `
     <!---->
       
     <i
-      class="a-icon a-icon-calendar a-input__icon--suffix"
+      class="o-icon o-icon-calendar o-input__icon--suffix"
       placeholder="Type here"
     />
   </div>
@@ -2019,11 +2019,11 @@ exports[`Storyshots Input with icon 1`] = `
 exports[`Storyshots Input with status 1`] = `
 <div>
   <div
-    class="a-input a-input--normal a-input__suffix is-success"
+    class="o-input o-input--normal o-input__suffix is-success"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -2035,17 +2035,17 @@ exports[`Storyshots Input with status 1`] = `
     <!---->
      
     <i
-      class="a-input__icon--suffix a-icon a-icon-check"
+      class="o-input__icon--suffix o-icon o-icon-check"
     />
       
   </div>
    
   <div
-    class="a-input a-input--normal a-input__suffix is-error"
+    class="o-input o-input--normal o-input__suffix is-error"
     style="width: 300px;"
   >
     <input
-      class="a-input__inner"
+      class="o-input__inner"
       max="Infinity"
       maxlength="Infinity"
       min="0"
@@ -2057,7 +2057,7 @@ exports[`Storyshots Input with status 1`] = `
     <!---->
      
     <i
-      class="a-input__icon--suffix a-icon a-icon-x"
+      class="o-input__icon--suffix o-icon o-icon-x"
     />
       
   </div>
@@ -2071,19 +2071,19 @@ exports[`Storyshots Radio default 1`] = `
   </p>
    
   <label
-    class="a-radio a-radio--medium is-checked"
+    class="o-radio o-radio--medium is-checked"
     role="radio"
   >
     <input
       aria-hidden="true"
-      class="a-radio__inner"
+      class="o-radio__inner"
       name="radio"
       type="radio"
       value="1"
     />
      
     <span
-      class="a-radio__label"
+      class="o-radio__label"
     >
       
       1
@@ -2092,19 +2092,19 @@ exports[`Storyshots Radio default 1`] = `
   </label>
    
   <label
-    class="a-radio a-radio--medium"
+    class="o-radio o-radio--medium"
     role="radio"
   >
     <input
       aria-hidden="true"
-      class="a-radio__inner"
+      class="o-radio__inner"
       name="radio"
       type="radio"
       value="2"
     />
      
     <span
-      class="a-radio__label"
+      class="o-radio__label"
     >
       
       2
@@ -2121,12 +2121,12 @@ exports[`Storyshots Radio with a disabled 1`] = `
   </p>
    
   <label
-    class="a-radio a-radio--medium is-disabled"
+    class="o-radio o-radio--medium is-disabled"
     role="radio"
   >
     <input
       aria-hidden="true"
-      class="a-radio__inner"
+      class="o-radio__inner"
       disabled="disabled"
       name="radio"
       type="radio"
@@ -2134,7 +2134,7 @@ exports[`Storyshots Radio with a disabled 1`] = `
     />
      
     <span
-      class="a-radio__label"
+      class="o-radio__label"
     >
       
       Disabled
@@ -2143,19 +2143,19 @@ exports[`Storyshots Radio with a disabled 1`] = `
   </label>
    
   <label
-    class="a-radio a-radio--medium is-checked"
+    class="o-radio o-radio--medium is-checked"
     role="radio"
   >
     <input
       aria-hidden="true"
-      class="a-radio__inner"
+      class="o-radio__inner"
       name="radio"
       type="radio"
       value="2"
     />
      
     <span
-      class="a-radio__label"
+      class="o-radio__label"
     >
       
       2
@@ -2167,19 +2167,19 @@ exports[`Storyshots Radio with a disabled 1`] = `
 
 exports[`Storyshots Radio with editable size 1`] = `
 <label
-  class="a-radio a-radio--medium"
+  class="o-radio o-radio--medium"
   role="radio"
 >
   <input
     aria-hidden="true"
-    class="a-radio__inner"
+    class="o-radio__inner"
     name="radio"
     type="radio"
     value="1"
   />
    
   <span
-    class="a-radio__label"
+    class="o-radio__label"
   >
     
       Radio
@@ -2190,7 +2190,7 @@ exports[`Storyshots Radio with editable size 1`] = `
 
 exports[`Storyshots Row default 1`] = `
 <div
-  class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
   style="margin-left: -10px; margin-right: -10px;"
 >
   simple row
@@ -2199,7 +2199,7 @@ exports[`Storyshots Row default 1`] = `
 
 exports[`Storyshots Row justify and align center 1`] = `
 <div
-  class="a-row is-justify-center is-align-center is-content-flex-start is-direction-row is-wrap"
+  class="o-row is-justify-center is-align-center is-content-flex-start is-direction-row is-wrap"
   style="margin-left: -10px; margin-right: -10px;"
 >
   <div
@@ -2222,7 +2222,7 @@ exports[`Storyshots Row justify and align center 1`] = `
 
 exports[`Storyshots Row justify center 1`] = `
 <div
-  class="a-row is-justify-center is-align-flex-start is-content-flex-start is-direction-row is-wrap"
+  class="o-row is-justify-center is-align-flex-start is-content-flex-start is-direction-row is-wrap"
   style="margin-left: -10px; margin-right: -10px;"
 >
   
