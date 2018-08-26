@@ -1,25 +1,24 @@
 # Osiris UI
 
-![https://npmjs.com/package/@orisis-ui/orisis](https://img.shields.io/npm/v/@orisis-ui/oriris.svg?colorB=0099f9)
-[![Build Status](https://travis-ci.org/orisis-ui/osiris.svg?branch=master)](https://travis-ci.org/osiris-ui/osiris)
-> A Vue.js 2.0 universal responsive UI component library..
+> A Vue.js 2.0 universal responsive UI component library
 
+### 🚧 Under development, we working to release 1.0.0 very soon :fire:
 
 ## Docs
 
-* [**Home Page**](https://osiris-ui.github.com/osiris/)
-* [**Storybook**](https://atlas-storybook.cotabox.com.br/)
+* [**Home Page**](https://osiris-ui.github.io/osiris/#/)
+* [**Storybook**](https://osiris.netlify.com/)
 
 ## Getting Started
 
-Check out the [Quick Start](#quick-start) documentation to get started.
+Check out the [Quick Start](quick-start.md) documentation to get started.
 
 ## Contributing
 
-Check out the [Contributing Guide](CONTRIBUTING.md) for more details.
+Check out the [Contributing Guide](https://github.com/osiris-ui/osiris/blob/master/CONTRIBUTING.md) for more details.
 
 ### Credits
 
-Atlas styleguide follows the UIDE UI Kit (with customization by any contributor), that is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+Osiris UI is a open source project that originally follow the free styleguide created by Wagner Ramos, that you can [see here](https://dribbble.com/shots/4828637--Osiris-UI-Kit-Free-Sketch-Resource), we also have inspiration in the [UIDE Kit](https://dribbble.com/shots/3366725-UIDE-Kit-Style-Guide-Template-FREEBIE), that is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-See Dribble link for further details: https://dribbble.com/shots/3366725-UIDE-Kit-Style-Guide-Template-FREEBIE
+All modifications and new features does not need necessarely to follow one of theses two styleguides, they just inpired us to built a beauty UI lib.
