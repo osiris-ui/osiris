@@ -1,6 +1,7 @@
 # Typography
 
-All information about heading, paragraphs etc...
+The font chosen was Lato, which is avaiable at [Google Fonts](https://fonts.google.com/specimen/Lato). Check out the application and sizes:
+
 
 ## Headings
 
