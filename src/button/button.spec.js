@@ -20,7 +20,7 @@ describe('Button', () => {
   afterEach(reset);
 
   it('should be a default button at startup', () => {
-    const defaultClasses = ['a-button', 'a-button--default', 'a-button--normal'];
+    const defaultClasses = ['o-button', 'o-button--default', 'o-button--normal'];
 
     expect(wrapper.html()).toMatchSnapshot();
     expect(wrapper.classes()).toEqual(defaultClasses);
@@ -32,7 +32,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--primary');
+    expect(wrapper.classes()).toContain('o-button--primary');
   });
 
   it('should be a secondary button', () => {
@@ -41,7 +41,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--secondary');
+    expect(wrapper.classes()).toContain('o-button--secondary');
   });
 
   it('should be a info button', () => {
@@ -50,7 +50,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--info');
+    expect(wrapper.classes()).toContain('o-button--info');
   });
 
   it('should be a success button', () => {
@@ -59,7 +59,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--success');
+    expect(wrapper.classes()).toContain('o-button--success');
   });
 
   it('should be a warning button', () => {
@@ -68,7 +68,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--warning');
+    expect(wrapper.classes()).toContain('o-button--warning');
   });
 
   it('should be a danger button', () => {
@@ -77,7 +77,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--danger');
+    expect(wrapper.classes()).toContain('o-button--danger');
   });
 
   it('should be a text button', () => {
@@ -86,7 +86,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--text');
+    expect(wrapper.classes()).toContain('o-button--text');
   });
 
   it('should be a mini button', () => {
@@ -95,7 +95,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--mini');
+    expect(wrapper.classes()).toContain('o-button--mini');
   });
 
   it('should be a small button', () => {
@@ -104,7 +104,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--small');
+    expect(wrapper.classes()).toContain('o-button--small');
   });
 
   it('should be a normal button', () => {
@@ -113,7 +113,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--normal');
+    expect(wrapper.classes()).toContain('o-button--normal');
   });
 
   it('should be a large button', () => {
@@ -122,7 +122,7 @@ describe('Button', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-button--large');
+    expect(wrapper.classes()).toContain('o-button--large');
   });
 
   it('should be a round button', () => {

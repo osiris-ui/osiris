@@ -1,19 +1,19 @@
 <template>
-  <div class="a-form-item">
+  <div class="o-form-item">
     <label
       v-if="label"
       :style="{
         width: labelWidth,
       }"
       :for="prop"
-      class="a-form-item__label">
+      class="o-form-item__label">
       {{ label }}
     </label>
     <slot
-      class="a-form-item__label"
+      class="o-form-item__label"
       name="label" />
 
-    <div class="a-form-item__content">
+    <div class="o-form-item__content">
       <slot />
     </div>
   </div>
@@ -22,7 +22,7 @@
 <script>
 export default {
 
-  name: 'AFormItem',
+  name: 'OFormItem',
 
   inject: ['labelWidth'],
 

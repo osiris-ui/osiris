@@ -1,99 +1,99 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Input should be a default input at startup 1`] = `
-<div class="a-input a-input--normal" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--normal" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
   <!---->
 </div>
 `;
 
 exports[`Input should be a large input 1`] = `
-<div class="a-input a-input--large" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--large" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
   <!---->
 </div>
 `;
 
 exports[`Input should be a mini input 1`] = `
-<div class="a-input a-input--mini" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--mini" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
   <!---->
 </div>
 `;
 
 exports[`Input should be a small input 1`] = `
-<div class="a-input a-input--small" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--small" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
   <!---->
 </div>
 `;
 
 exports[`Input should be disabled 1`] = `
-<div class="a-input a-input--normal is-disabled" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner" disabled="disabled">
+<div class="o-input o-input--normal is-disabled" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner" disabled="disabled">
   <!---->
   <!---->
 </div>
 `;
 
 exports[`Input should be readonly 1`] = `
-<div class="a-input a-input--normal" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner" readonly="readonly">
+<div class="o-input o-input--normal" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner" readonly="readonly">
   <!---->
   <!---->
 </div>
 `;
 
 exports[`Input should have a error status 1`] = `
-<div class="a-input a-input--normal a-input__suffix is-error" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--normal o-input__suffix is-error" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
-  <i class="a-input__icon--suffix a-icon a-icon-x"></i>
+  <i class="o-input__icon--suffix o-icon o-icon-x"></i>
 </div>
 `;
 
 exports[`Input should have a prefix icon through slot 1`] = `
-<div class="a-input a-input--normal a-input__prefix" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--normal o-input__prefix" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
   <!---->
-  <i class="a-icon a-icon-calendar"></i>
+  <i class="o-icon o-icon-calendar"></i>
 </div>
 `;
 
 exports[`Input should have a prefixIcon 1`] = `
-<div class="a-input a-input--normal a-input__prefix" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
-  <i class="a-input__icon--prefix a-icon a-icon-search"></i>
+<div class="o-input o-input--normal o-input__prefix" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
+  <i class="o-input__icon--prefix o-icon o-icon-search"></i>
   <!---->
 </div>
 `;
 
 exports[`Input should have a success status 1`] = `
-<div class="a-input a-input--normal a-input__suffix is-success" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--normal o-input__suffix is-success" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
-  <i class="a-input__icon--suffix a-icon a-icon-check"></i>
+  <i class="o-input__icon--suffix o-icon o-icon-check"></i>
 </div>
 `;
 
 exports[`Input should have a suffix icon through slot 1`] = `
-<div class="a-input a-input--normal a-input__suffix" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--normal o-input__suffix" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
   <!---->
-  <i class="a-icon a-icon-calendar"></i>
+  <i class="o-icon o-icon-calendar"></i>
 </div>
 `;
 
 exports[`Input should have a suffixIcon 1`] = `
-<div class="a-input a-input--normal a-input__suffix" style="width: 300px;">
-  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="a-input__inner">
+<div class="o-input o-input--normal o-input__suffix" style="width: 300px;">
+  <input placeholder="" type="text" min="0" max="Infinity" minlength="0" maxlength="Infinity" class="o-input__inner">
   <!---->
-  <i class="a-input__icon--suffix a-icon a-icon-search"></i>
+  <i class="o-input__icon--suffix o-icon o-icon-search"></i>
 </div>
 `;

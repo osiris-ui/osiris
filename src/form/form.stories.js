@@ -5,9 +5,9 @@ import {
   text,
 } from '@storybook/addon-knobs/vue';
 
-import AForm from './form.vue';
-import AFormItem from '../formItem';
-import AInput from '../input';
+import OForm from './form.vue';
+import OFormItem from '../formItem';
+import OInput from '../input';
 
 const POSITION = {
   top: 'top',
@@ -19,7 +19,7 @@ storiesOf('Form', module)
   // .add('default', () => '<a-row>simple row</a-row>');
   .addDecorator(withKnobs)
   .add('basic usage', () => ({
-    components: { AForm, AFormItem, AInput },
+    components: { OForm, OFormItem, OInput },
     data() {
       return {
         data: '',
@@ -27,14 +27,14 @@ storiesOf('Form', module)
     },
 
     template: `
-      <a-form
+      <o-form
         label-position="${select('Label Position', POSITION, String(POSITION.top))}"
         label-width="${text('Label Width', '100px')}">
-        <a-form-item
+        <o-form-item
           label="E-mail"
           prop="email">
-          <a-input v-model="data"></a-input>
-        </a-form-item>
-      </a-form>
+          <o-input v-model="data"></o-input>
+        </o-form-item>
+      </o-form>
     `,
   }));

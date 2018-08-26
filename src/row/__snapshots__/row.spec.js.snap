@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Row when pass no props should match with the snapshot 1`] = `<div class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap" style="margin-left: -10px; margin-right: -10px;"></div>`;
+exports[`Row when pass no props should match with the snapshot 1`] = `<div class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap" style="margin-left: -10px; margin-right: -10px;"></div>`;
 
-exports[`Row when pass some props and the prop is another tag like section should match with the snapshot 1`] = `<section class="a-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap" style="margin-left: -10px; margin-right: -10px;"></section>`;
+exports[`Row when pass some props and the prop is another tag like section should match with the snapshot 1`] = `<section class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap" style="margin-left: -10px; margin-right: -10px;"></section>`;
 
-exports[`Row when pass some props and the props are {"justify":"flex-end","align":"flex-end","content":"center","direction":"column","wrap":"no-wrap"} should match with the snapshot 1`] = `<div class="a-row is-justify-flex-end is-align-flex-end is-content-center is-direction-column is-no-wrap" style="margin-left: -10px; margin-right: -10px;"></div>`;
+exports[`Row when pass some props and the props are {"justify":"flex-end","align":"flex-end","content":"center","direction":"column","wrap":"no-wrap"} should match with the snapshot 1`] = `<div class="o-row is-justify-flex-end is-align-flex-end is-content-center is-direction-column is-no-wrap" style="margin-left: -10px; margin-right: -10px;"></div>`;

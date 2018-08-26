@@ -31,7 +31,7 @@ describe('Input', () => {
   afterEach(reset);
 
   it('should be a default input at startup', () => {
-    const defaultClasses = ['a-input', 'a-input--normal'];
+    const defaultClasses = ['o-input', 'o-input--normal'];
 
     expect(wrapper.html()).toMatchSnapshot();
     expect(wrapper.classes()).toEqual(defaultClasses);
@@ -43,7 +43,7 @@ describe('Input', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-input--large');
+    expect(wrapper.classes()).toContain('o-input--large');
   });
 
   it('should be a small input', () => {
@@ -52,7 +52,7 @@ describe('Input', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-input--small');
+    expect(wrapper.classes()).toContain('o-input--small');
   });
 
   it('should be a mini input', () => {
@@ -61,7 +61,7 @@ describe('Input', () => {
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-input--mini');
+    expect(wrapper.classes()).toContain('o-input--mini');
   });
 
   it('should be disabled', () => {
@@ -85,22 +85,22 @@ describe('Input', () => {
 
   it('should have a prefixIcon', () => {
     wrapper.setProps({
-      prefixIcon: 'a-icon a-icon-search',
+      prefixIcon: 'o-icon o-icon-search',
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.html()).toContain('a-input__prefix');
-    expect(wrapper.html()).toContain('<i', 'a-icon', 'a-icon-search', 'a-icon--prefix');
+    expect(wrapper.html()).toContain('o-input__prefix');
+    expect(wrapper.html()).toContain('<i', 'o-icon', 'o-icon-search', 'o-icon--prefix');
   });
 
   it('should have a suffixIcon', () => {
     wrapper.setProps({
-      suffixIcon: 'a-icon a-icon-search',
+      suffixIcon: 'o-icon o-icon-search',
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-input__suffix');
-    expect(wrapper.html()).toContain('<i', 'a-icon', 'a-icon-search', 'a-icon--suffix');
+    expect(wrapper.classes()).toContain('o-input__suffix');
+    expect(wrapper.html()).toContain('<i', 'o-icon', 'o-icon-search', 'o-icon--suffix');
   });
 
   it('should have a success status', () => {
@@ -110,7 +110,7 @@ describe('Input', () => {
 
     expect(wrapper.html()).toMatchSnapshot();
     expect(wrapper.classes()).toContain('is-success');
-    expect(wrapper.html()).toContain('<i', 'a-icon', 'a-icon-check', 'a-icon--suffix');
+    expect(wrapper.html()).toContain('<i', 'o-icon', 'o-icon-check', 'o-icon--suffix');
   });
 
   it('should have a error status', () => {
@@ -120,7 +120,7 @@ describe('Input', () => {
 
     expect(wrapper.html()).toMatchSnapshot();
     expect(wrapper.classes()).toContain('is-error');
-    expect(wrapper.html()).toContain('<i', 'a-icon', 'a-icon-x', 'a-icon--suffix');
+    expect(wrapper.html()).toContain('<i', 'o-icon', 'o-icon-x', 'o-icon--suffix');
   });
 
   it('should emit a focus event', () => {
@@ -149,24 +149,24 @@ describe('Input', () => {
   it('should have a suffix icon through slot', () => {
     wrapper = mount(Input, {
       slots: {
-        suffix: '<i class="a-icon a-icon-calendar"></i>',
+        suffix: '<i class="o-icon o-icon-calendar"></i>',
       },
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-input__suffix');
-    expect(wrapper.html()).toContain('<i', 'a-icon', 'a-icon-calendar', 'a-icon--suffix');
+    expect(wrapper.classes()).toContain('o-input__suffix');
+    expect(wrapper.html()).toContain('<i', 'o-icon', 'o-icon-calendar', 'o-icon--suffix');
   });
 
   it('should have a prefix icon through slot', () => {
     wrapper = mount(Input, {
       slots: {
-        prefix: '<i class="a-icon a-icon-calendar"></i>',
+        prefix: '<i class="o-icon o-icon-calendar"></i>',
       },
     });
 
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.classes()).toContain('a-input__prefix');
-    expect(wrapper.html()).toContain('<i', 'a-icon', 'a-icon-calendar', 'a-icon--prefix');
+    expect(wrapper.classes()).toContain('o-input__prefix');
+    expect(wrapper.html()).toContain('<i', 'o-icon', 'o-icon-calendar', 'o-icon--prefix');
   });
 });

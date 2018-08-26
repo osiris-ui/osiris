@@ -1,155 +1,155 @@
 import { storiesOf } from '@storybook/vue';
 
-import AButton from './button.vue';
+import OButton from './button.vue';
 
 storiesOf('Button', module)
-  // .add('default', () => '<a-row>simple row</a-row>');
+  // .add('default', () => '<o-row>simple row</o-row>');
   .add('types', () => ({
-    components: { AButton },
+    components: { OButton },
     template: `
       <div>
-        <a-button>Default</a-button>
-        <a-button type="primary">Primary</a-button>
-        <a-button type="secondary">Secondary</a-button>
-        <a-button type="info">Info</a-button>
-        <a-button type="success">Success</a-button>
-        <a-button type="warning">Warning</a-button>
+        <o-button>Default</o-button>
+        <o-button type="primary">Primary</o-button>
+        <o-button type="secondary">Secondary</o-button>
+        <o-button type="info">Info</o-button>
+        <o-button type="success">Success</o-button>
+        <o-button type="warning">Warning</o-button>
         <div style="margin-top:10px; margin-left: 0">
-          <a-button type="danger">Danger</a-button>
-          <a-button type="text">Text</a-button>
+          <o-button type="danger">Danger</o-button>
+          <o-button type="text">Text</o-button>
         </div>
       </div>
     `,
   }))
   .add('plain', () => ({
-    components: { AButton },
+    components: { OButton },
     template: `
       <div>
-        <a-button plain>Default</a-button>
-        <a-button type="primary" plain>Primary</a-button>
-        <a-button type="secondary" plain>Secondary</a-button>
-        <a-button type="info" plain>Info</a-button>
-        <a-button type="success" plain>Success</a-button>
-        <a-button type="warning" plain>Warning</a-button>
+        <o-button plain>Default</o-button>
+        <o-button type="primary" plain>Primary</o-button>
+        <o-button type="secondary" plain>Secondary</o-button>
+        <o-button type="info" plain>Info</o-button>
+        <o-button type="success" plain>Success</o-button>
+        <o-button type="warning" plain>Warning</o-button>
         <div style="margin-top:10px; margin-left: 0">
-          <a-button type="danger" plain>Danger</a-button>
+          <o-button type="danger" plain>Danger</o-button>
         </div>
       </div>
     `,
   }))
   .add('disabled', () => ({
-    components: { AButton },
+    components: { OButton },
     template: `
     <div>
       <div>
-        <a-button disabled>Default</a-button>
-        <a-button type="primary" disabled>Primary</a-button>
-        <a-button type="secondary" disabled>Secondary</a-button>
-        <a-button type="info" disabled>Info</a-button>
-        <a-button type="success" disabled>Success</a-button>
-        <a-button type="warning" disabled>Warning</a-button>
+        <o-button disabled>Default</o-button>
+        <o-button type="primary" disabled>Primary</o-button>
+        <o-button type="secondary" disabled>Secondary</o-button>
+        <o-button type="info" disabled>Info</o-button>
+        <o-button type="success" disabled>Success</o-button>
+        <o-button type="warning" disabled>Warning</o-button>
         <div style="margin-top:10px; margin-left: 0">
-          <a-button type="danger" disabled>Danger</a-button>
-          <a-button type="text" disabled>Text</a-button>
+          <o-button type="danger" disabled>Danger</o-button>
+          <o-button type="text" disabled>Text</o-button>
         </div>
       </div>
       <div style="margin-top: 10px">
-        <a-button plain disabled>Default</a-button>
-        <a-button type="primary" plain disabled>Primary</a-button>
-        <a-button type="secondary" plain disabled>Secondary</a-button>
-        <a-button type="info" plain disabled>Info</a-button>
-        <a-button type="success" plain disabled>Success</a-button>
-        <a-button type="warning" plain disabled>Warning</a-button>
+        <o-button plain disabled>Default</o-button>
+        <o-button type="primary" plain disabled>Primary</o-button>
+        <o-button type="secondary" plain disabled>Secondary</o-button>
+        <o-button type="info" plain disabled>Info</o-button>
+        <o-button type="success" plain disabled>Success</o-button>
+        <o-button type="warning" plain disabled>Warning</o-button>
         <div style="margin-top:10px; margin-left: 0">
-          <a-button type="danger" plain disabled>Danger</a-button>
-          <a-button type="text" plain disabled>Text</a-button>
+          <o-button type="danger" plain disabled>Danger</o-button>
+          <o-button type="text" plain disabled>Text</o-button>
         </div>
       </div>
     </div>
     `,
   }))
   .add('sizes', () => ({
-    components: { AButton },
+    components: { OButton },
     template: `
       <div>
         <div>
-          <a-button size="large">Default Large</a-button>
-          <a-button>Default Normal</a-button>
-          <a-button size="small">Default Small</a-button>
-          <a-button size="mini">Default Mini</a-button>
+          <o-button size="large">Default Large</o-button>
+          <o-button>Default Normal</o-button>
+          <o-button size="small">Default Small</o-button>
+          <o-button size="mini">Default Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="primary" size="large">Primary Large</a-button>
-          <a-button type="primary">Primary Normal</a-button>
-          <a-button type="primary" size="small">Primary Small</a-button>
-          <a-button type="primary" size="mini">Primary Mini</a-button>
+          <o-button type="primary" size="large">Primary Large</o-button>
+          <o-button type="primary">Primary Normal</o-button>
+          <o-button type="primary" size="small">Primary Small</o-button>
+          <o-button type="primary" size="mini">Primary Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="secondary" size="large">Secondary Large</a-button>
-          <a-button type="secondary">Secondary Normal</a-button>
-          <a-button type="secondary" size="small">Secondary Small</a-button>
-          <a-button type="secondary" size="mini">Secondary Mini</a-button>
+          <o-button type="secondary" size="large">Secondary Large</o-button>
+          <o-button type="secondary">Secondary Normal</o-button>
+          <o-button type="secondary" size="small">Secondary Small</o-button>
+          <o-button type="secondary" size="mini">Secondary Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="info" size="large">Info Large</a-button>
-          <a-button type="info">Info Normal</a-button>
-          <a-button type="info" size="small">Info Small</a-button>
-          <a-button type="info" size="mini">Info Mini</a-button>
+          <o-button type="info" size="large">Info Large</o-button>
+          <o-button type="info">Info Normal</o-button>
+          <o-button type="info" size="small">Info Small</o-button>
+          <o-button type="info" size="mini">Info Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="success" size="large">Success Large</a-button>
-          <a-button type="success">Success Normal</a-button>
-          <a-button type="success" size="small">Success Small</a-button>
-          <a-button type="success" size="mini">Success Mini</a-button>
+          <o-button type="success" size="large">Success Large</o-button>
+          <o-button type="success">Success Normal</o-button>
+          <o-button type="success" size="small">Success Small</o-button>
+          <o-button type="success" size="mini">Success Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="warning" size="large">Warning Large</a-button>
-          <a-button type="warning">Warning Normal</a-button>
-          <a-button type="warning" size="small">Warning Small</a-button>
-          <a-button type="warning" size="mini">Warning Mini</a-button>
+          <o-button type="warning" size="large">Warning Large</o-button>
+          <o-button type="warning">Warning Normal</o-button>
+          <o-button type="warning" size="small">Warning Small</o-button>
+          <o-button type="warning" size="mini">Warning Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="danger" size="large">Danger Large</a-button>
-          <a-button type="danger">Danger Normal</a-button>
-          <a-button type="danger" size="small">Danger Small</a-button>
-          <a-button type="danger" size="mini">Danger Mini</a-button>
+          <o-button type="danger" size="large">Danger Large</o-button>
+          <o-button type="danger">Danger Normal</o-button>
+          <o-button type="danger" size="small">Danger Small</o-button>
+          <o-button type="danger" size="mini">Danger Mini</o-button>
         </div>
         <div style="margin-top: 10px">
-          <a-button type="text" size="large">Text Large</a-button>
-          <a-button type="text">Text Normal</a-button>
-          <a-button type="text" size="small">Text Small</a-button>
-          <a-button type="text" size="mini">Text Mini</a-button>
+          <o-button type="text" size="large">Text Large</o-button>
+          <o-button type="text">Text Normal</o-button>
+          <o-button type="text" size="small">Text Small</o-button>
+          <o-button type="text" size="mini">Text Mini</o-button>
         </div>
       </div>
     `,
   }))
   .add('round', () => ({
-    components: { AButton },
+    components: { OButton },
     template: `
       <div>
-        <a-button round>Default</a-button>
-        <a-button type="primary" round>Primary</a-button>
-        <a-button type="secondary" round>Secondary</a-button>
-        <a-button type="info" round>Info</a-button>
-        <a-button type="success" round>Success</a-button>
-        <a-button type="warning" round>Warning</a-button>
+        <o-button round>Default</o-button>
+        <o-button type="primary" round>Primary</o-button>
+        <o-button type="secondary" round>Secondary</o-button>
+        <o-button type="info" round>Info</o-button>
+        <o-button type="success" round>Success</o-button>
+        <o-button type="warning" round>Warning</o-button>
         <div style="margin-top:10px; margin-left: 0">
-          <a-button type="danger" round>Danger</a-button>
+          <o-button type="danger" round>Danger</o-button>
         </div>
       </div>
     `,
   }))
   .add('circle', () => ({
-    components: { AButton },
+    components: { OButton },
     template: `
       <div>
-        <a-button circle>D</a-button>
-        <a-button type="primary" circle>P</a-button>
-        <a-button type="secondary" circle>S</a-button>
-        <a-button type="info" circle>I</a-button>
-        <a-button type="success" circle>SC</a-button>
-        <a-button type="warning" circle>W</a-button>
-        <a-button type="danger" circle>D</a-button>
+        <o-button circle>D</o-button>
+        <o-button type="primary" circle>P</o-button>
+        <o-button type="secondary" circle>S</o-button>
+        <o-button type="info" circle>I</o-button>
+        <o-button type="success" circle>SC</o-button>
+        <o-button type="warning" circle>W</o-button>
+        <o-button type="danger" circle>D</o-button>
       </div>
     `,
   }));

@@ -1,8 +1,8 @@
 <template>
   <form
-    :class="[`a-form--${labelPosition}`]"
+    :class="[`o-form--${labelPosition}`]"
     :style="{ width }"
-    class="a-form"
+    class="o-form"
     @submit="handleSubmit">
     <slot />
   </form>
@@ -11,7 +11,7 @@
 <script>
 export default {
 
-  name: 'AFormItem',
+  name: 'OFormItem',
 
   props: {
     labelPosition: {

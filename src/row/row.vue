@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'ARow',
+  name: 'ORow',
   props: {
     gutter: {
       type: Number,
@@ -49,7 +49,7 @@ export default {
     },
     classList() {
       return [
-        'a-row',
+        'o-row',
         `is-justify-${this.justify}`,
         `is-align-${this.align}`,
         `is-content-${this.content}`,
