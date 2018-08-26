@@ -30,6 +30,6 @@ Check out the [Contributing Guide](CONTRIBUTING.md) for more details.
 
 ### Credits
 
-Atlas styleguide follows the UIDE UI Kit (with customization by any contributor), that is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+Osiris UI is a open source project that originally follow the free styleguide created by Wagner Ramos, that you can [see here](https://dribbble.com/shots/4828637--Osiris-UI-Kit-Free-Sketch-Resource), we also have inspiration in the [UIDE Kit](https://dribbble.com/shots/3366725-UIDE-Kit-Style-Guide-Template-FREEBIE), that is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
 
-See Dribble link for further details: https://dribbble.com/shots/3366725-UIDE-Kit-Style-Guide-Template-FREEBIE
+All modifications and new features does not need necessarely to follow one of theses two styleguide, they just inpired us to built a beauty UI lib.
