@@ -18,7 +18,7 @@
 ## Docs
 
 * [**Home Page**](https://osiris-ui.github.com/osiris/)
-* [**Storybook**](https://atlas-storybook.cotabox.com.br/)
+* [**Storybook**](https://osiris.netlify.com)
 
 ## Getting Started
 
