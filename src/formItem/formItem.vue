@@ -32,7 +32,8 @@
 </template>
 
 <script>
-import { omit, isEmpty } from 'lodash';
+import omit from 'lodash/omit';
+import isEmpty from 'lodash/isEmpty';
 import validate from 'validate.js';
 import { CollapseTransition } from 'vue2-transitions';
 import dispatch from '../mixins/dispatch';

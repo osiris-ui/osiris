@@ -1,9 +1,6 @@
 const vue = require('rollup-plugin-vue');
 
 module.exports = {
-  globals: {
-    lodash: 'lodash'
-  },
   outDir: 'dist',
   babel: {
     babelrc: false,

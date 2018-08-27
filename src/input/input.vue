@@ -48,7 +48,7 @@ import dispatch from '../mixins/dispatch';
 
 export default {
 
-  name: 'AInput',
+  name: 'OInput',
   mixins: [dispatch],
   inject: {
     isFormItemSuccess: {
