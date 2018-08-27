@@ -9,6 +9,7 @@ import OForm from './form.vue';
 import OFormItem from '../formItem';
 import OInput from '../input';
 import OButton from '../button';
+import ORadio from '../radio';
 
 const POSITION = {
   top: 'top',
@@ -25,12 +26,14 @@ storiesOf('Form', module)
       OFormItem,
       OInput,
       OButton,
+      ORadio,
     },
     data() {
       return {
         form: {
           name: '',
           email: '',
+          isReal: '',
         },
 
         rules: {
@@ -47,6 +50,20 @@ storiesOf('Form', module)
               message: 'This is not a valid email',
             },
             trigger: 'blur',
+          },
+
+          isReal: {
+            presence: {
+              message: 'Are you really a real person?',
+            },
+
+            validator(value) {
+              if (value !== true) return 'You must be a real person';
+
+              return undefined;
+            },
+
+            trigger: 'change',
           },
         },
       };
@@ -81,6 +98,13 @@ storiesOf('Form', module)
           label="E-mail"
           prop="email">
           <o-input v-model="form.email"></o-input>
+        </o-form-item>
+
+        <o-form-item
+          label="Are your a real person?"
+          prop="isReal">
+          <o-radio v-model="form.isReal" :value="true">Yes</o-radio>
+          <o-radio v-model="form.isReal" :value="false">No</o-radio>
         </o-form-item>
 
         <o-button type="primary" native-type="submit" @click="validate">Validate</o-button>

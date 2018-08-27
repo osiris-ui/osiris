@@ -121,6 +121,10 @@ export default {
 
       const rules = !isEmpty(this.rules) ? this.rules : this.formRules[this.prop];
 
+      if (rules.validator) {
+        validate.validators.validator = rules.validator;
+      }
+
       if (!rules.presence && !this.model[this.prop]) return this.turnValid();
 
       const errors = validate.single(value, omit(rules, 'trigger'));

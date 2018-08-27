@@ -12,8 +12,8 @@ We created a integrated form validation system, heavily inspired on [Element](ht
     ref="form"
     :rules="rules"
     :model="form"
-    label-position="top"
-    label-width="100"
+    label-position="${select('Label Position', POSITION, String(POSITION.top))}"
+    label-width="${text('Label Width', '100px')}"
     @submit="validate">
 
     <o-form-item
@@ -28,6 +28,13 @@ We created a integrated form validation system, heavily inspired on [Element](ht
       <o-input v-model="form.email"></o-input>
     </o-form-item>
 
+    <o-form-item
+      label="Are your a real person?"
+      prop="isReal">
+      <o-radio v-model="form.isReal" :value="true">Yes</o-radio>
+      <o-radio v-model="form.isReal" :value="false">No</o-radio>
+    </o-form-item>
+
     <o-button type="primary" native-type="submit" @click="validate">Validate</o-button>
     <o-button @click="clearValidation">Clear validation</o-button>
   </o-form>
@@ -40,6 +47,7 @@ We created a integrated form validation system, heavily inspired on [Element](ht
         form: {
           name: '',
           email: '',
+          isReal: '',
         },
 
         rules: {
@@ -56,6 +64,20 @@ We created a integrated form validation system, heavily inspired on [Element](ht
               message: 'This is not a valid email',
             },
             trigger: 'blur',
+          },
+
+          isReal: {
+            presence: {
+              message: 'Are you really a real person?',
+            },
+
+            validator(value) {
+              if (value !== true) return 'You must be a real person';
+
+              return undefined;
+            },
+
+            trigger: 'change',
           },
         },
       };
