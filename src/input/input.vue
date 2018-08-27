@@ -53,12 +53,12 @@ export default {
   inject: {
     isFormItemSuccess: {
       from: 'isSuccess',
-      default: () => false,
+      default: () => () => false,
     },
 
     isFormItemError: {
       from: 'isError',
-      default: () => false,
+      default: () => () => false,
     },
   },
 

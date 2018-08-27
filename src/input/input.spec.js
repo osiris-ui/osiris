@@ -143,7 +143,6 @@ describe('Input', () => {
 
     expect(wrapper.vm.$data.currentValue).toBe('abc');
     expect(wrapper.emitted().input).toBeTruthy();
-    expect(wrapper.emitted().change).toBeTruthy();
   });
 
   it('should have a suffix icon through slot', () => {
