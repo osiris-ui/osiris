@@ -72,6 +72,10 @@ export default {
     validate() {
       return this.fields.forEach(field => field.validate());
     },
+
+    clearValidation() {
+      return this.fields.forEach(field => field.clearValidation());
+    },
   },
 };
 </script>

@@ -19,11 +19,13 @@
 
     <div class="o-form-item__content">
       <slot />
-      <small
-        v-if="isError"
-        class="o-form-item__error">
-        {{ errorMessage }}
-      </small>
+      <collapse-transition>
+        <small
+          v-if="isError"
+          class="o-form-item__error">
+          {{ errorMessage }}
+        </small>
+      </collapse-transition>
     </div>
   </div>
 </template>
@@ -31,11 +33,13 @@
 <script>
 import { omit, isEmpty } from 'lodash';
 import validate from 'validate.js';
+import { CollapseTransition } from 'vue2-transitions';
 import dispatch from '../mixins/dispatch';
 
 export default {
 
   name: 'OFormItem',
+  components: { CollapseTransition },
   mixins: [dispatch],
 
   inject: {
@@ -126,6 +130,12 @@ export default {
       }
 
       return this.turnValid();
+    },
+
+    clearValidation() {
+      this.isError = false;
+      this.isSuccess = false;
+      this.errorMessage = '';
     },
 
     turnValid() {

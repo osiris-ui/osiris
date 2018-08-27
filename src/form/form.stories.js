@@ -56,6 +56,10 @@ storiesOf('Form', module)
       validate() {
         return this.$refs.form.validate();
       },
+
+      clearValidation() {
+        return this.$refs.form.clearValidation();
+      },
     },
 
     template: `
@@ -80,6 +84,7 @@ storiesOf('Form', module)
         </o-form-item>
 
         <o-button type="primary" @click="validate">Validate</o-button>
+        <o-button @click="clearValidation">Clear validation</o-button>
       </o-form>
     `,
   }));
