@@ -1,6 +1,6 @@
 {
   "name": "@osiris-ui/osiris",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "A Vue.js 2.0 universal responsive UI component library",
   "main": "dist/osiris.js",
   "module": "dist/osiris.es.js",
@@ -38,6 +38,7 @@
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.6",
     "babel-jest": "^23.4.2",
+    "babel-plugin-lodash": "^3.3.4",
     "babel-preset-env": "^1.7.0",
     "bili": "^3.1.2",
     "css-loader": "^1.0.0",
