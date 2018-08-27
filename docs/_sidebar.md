@@ -10,6 +10,7 @@
   - [Icon](icon.md)
 
 - Form
+  - [Form](form.md)
   - [Input](input.md)
   - [Radio](radio.md)
 

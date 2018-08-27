@@ -1,3 +1,3 @@
-import input from './input.vue';
+import form from './form.vue';
 
-export default input;
+export default form;

@@ -55,8 +55,9 @@ describe('Radio', () => {
 
     it('should change isChecked to true', () => {
       wrapper.find('input').trigger('change');
-      wrapper.update();
-      expect(wrapper.vm.isChecked).toBeTruthy();
+      wrapper.vm.$nextTick(() => {
+        expect(wrapper.vm.isChecked).toBeTruthy();
+      });
     });
   });
 

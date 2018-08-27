@@ -11,8 +11,8 @@
     <input
       :name="name"
       :value="value"
-      v-model="modelValue"
       :disabled="disabled"
+      :checked="isChecked"
       type="radio"
       class="o-radio__inner"
       aria-hidden="true"
@@ -27,8 +27,12 @@
 </template>
 
 <script>
+import dispatch from '../mixins/dispatch';
+
 export default {
   name: 'ORadio',
+  mixins: [dispatch],
+
   model: {
     prop: 'modelValue',
     event: 'change',
@@ -55,6 +59,7 @@ export default {
   methods: {
     handleChange() {
       this.$emit('change', this.value);
+      this.dispatch('OFormItem', 'o.form.change', this.value);
     },
   },
 };

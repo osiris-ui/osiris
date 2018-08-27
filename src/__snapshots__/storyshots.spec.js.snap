@@ -790,16 +790,27 @@ exports[`Storyshots Form basic usage 1`] = `
   <div
     class="o-form-item"
   >
-    <label
+    <div
       class="o-form-item__label"
-      for="email"
       style="width: 100px;"
     >
+      <span
+        class="color-danger"
+      >
+        
+      *
+    
+      </span>
+       
+      <label
+        for="name"
+      >
+        
+        Name
       
-    E-mail
-  
-    </label>
-      
+      </label>
+    </div>
+     
     <div
       class="o-form-item__content"
     >
@@ -822,8 +833,136 @@ exports[`Storyshots Form basic usage 1`] = `
         <!---->
           
       </div>
+       
+      <!---->
     </div>
   </div>
+   
+  <div
+    class="o-form-item"
+  >
+    <div
+      class="o-form-item__label"
+      style="width: 100px;"
+    >
+      <!---->
+       
+      <label
+        for="email"
+      >
+        
+        E-mail
+      
+      </label>
+    </div>
+     
+    <div
+      class="o-form-item__content"
+    >
+      <div
+        class="o-input o-input--normal"
+        style="width: 300px;"
+      >
+        <input
+          class="o-input__inner"
+          max="Infinity"
+          maxlength="Infinity"
+          min="0"
+          minlength="0"
+          placeholder=""
+          type="text"
+        />
+         
+        <!---->
+         
+        <!---->
+          
+      </div>
+       
+      <!---->
+    </div>
+  </div>
+   
+  <div
+    class="o-form-item"
+  >
+    <div
+      class="o-form-item__label"
+      style="width: 100px;"
+    >
+      <span
+        class="color-danger"
+      >
+        
+      *
+    
+      </span>
+       
+      <label
+        for="isReal"
+      >
+        
+        Are your a real person?
+      
+      </label>
+    </div>
+     
+    <div
+      class="o-form-item__content"
+    >
+      <label
+        class="o-radio o-radio--medium"
+        role="radio"
+      >
+        <input
+          aria-hidden="true"
+          class="o-radio__inner"
+          type="radio"
+          value="true"
+        />
+         
+        <span
+          class="o-radio__label"
+        >
+          Yes
+        </span>
+      </label>
+       
+      <label
+        class="o-radio o-radio--medium"
+        role="radio"
+      >
+        <input
+          aria-hidden="true"
+          class="o-radio__inner"
+          type="radio"
+          value="false"
+        />
+         
+        <span
+          class="o-radio__label"
+        >
+          No
+        </span>
+      </label>
+       
+      <!---->
+    </div>
+  </div>
+   
+  <button
+    class="o-button o-button--primary o-button--normal"
+    type="submit"
+  >
+    Validate
+  </button>
+   
+  <button
+    class="o-button o-button--default o-button--normal"
+    type="button"
+  >
+    Clear validation
+  </button>
 </form>
 `;
 
