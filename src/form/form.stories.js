@@ -35,7 +35,10 @@ storiesOf('Form', module)
 
         rules: {
           name: {
-            presence: true,
+            presence: {
+              allowEmpty: false,
+              message: 'Please, tell us your name',
+            },
             trigger: 'blur',
           },
 
@@ -67,7 +70,7 @@ storiesOf('Form', module)
         <o-form-item
           label="Name"
           prop="name">
-          <o-input v-model="form.email"></o-input>
+          <o-input v-model="form.name"></o-input>
         </o-form-item>
 
         <o-form-item

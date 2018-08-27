@@ -82,8 +82,8 @@ export default {
 
   computed: {
     trigger() {
-      if (this.prop && (!isEmpty(this.rules) || !isEmpty(this.formRules))) {
-        return this.rules.trigger || this.formRules.trigger;
+      if (this.prop && ((!isEmpty(this.rules) || !isEmpty(this.formRules)))) {
+        return this.rules.trigger || this.formRules[this.prop].trigger;
       }
 
       return null;
@@ -115,10 +115,6 @@ export default {
       const value = param || this.model[this.prop];
 
       const rules = !isEmpty(this.rules) ? this.rules : this.formRules[this.prop];
-      console.log({
-        prop: this.prop,
-        rules: this.rules,
-      });
 
       if (!rules.presence && !this.model[this.prop]) return this.turnValid();
 
