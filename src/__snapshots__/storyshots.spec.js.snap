@@ -635,6 +635,109 @@ exports[`Storyshots Button types 1`] = `
 </div>
 `;
 
+exports[`Storyshots Checkbox default 1`] = `
+<div>
+  <p>
+    Selected Value: 1
+  </p>
+   
+  <label
+    class="o-checkbox o-checkbox--medium is-checked"
+    role="checkbox"
+  >
+    <input
+      aria-hidden="true"
+      class="o-checkbox__inner"
+      name="check"
+      type="checkbox"
+      value="1"
+    />
+     
+    <span
+      class="o-checkbox__label"
+    >
+      
+      checkbox
+    
+    </span>
+  </label>
+</div>
+`;
+
+exports[`Storyshots Checkbox with a disabled 1`] = `
+<label
+  class="o-checkbox o-checkbox--medium is-disabled"
+  role="checkbox"
+>
+  <input
+    aria-hidden="true"
+    class="o-checkbox__inner"
+    disabled="disabled"
+    name="check"
+    type="checkbox"
+    value="1"
+  />
+   
+  <span
+    class="o-checkbox__label"
+  >
+    
+      Disabled checkbox
+    
+  </span>
+</label>
+`;
+
+exports[`Storyshots Checkbox with model being an array 1`] = `
+<div>
+  <p>
+    Model Value: []
+  </p>
+   
+  <label
+    class="o-checkbox o-checkbox--medium"
+    role="checkbox"
+  >
+    <input
+      aria-hidden="true"
+      class="o-checkbox__inner"
+      name="check"
+      type="checkbox"
+      value="1"
+    />
+     
+    <span
+      class="o-checkbox__label"
+    >
+      
+      1
+    
+    </span>
+  </label>
+   
+  <label
+    class="o-checkbox o-checkbox--medium"
+    role="checkbox"
+  >
+    <input
+      aria-hidden="true"
+      class="o-checkbox__inner"
+      name="check"
+      type="checkbox"
+      value="2"
+    />
+     
+    <span
+      class="o-checkbox__label"
+    >
+      
+      2
+    
+    </span>
+  </label>
+</div>
+`;
+
 exports[`Storyshots Col default 1`] = `
 <div
   class="o-row is-justify-flex-start is-align-flex-start is-content-flex-start is-direction-row is-wrap"
