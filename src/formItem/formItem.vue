@@ -1,6 +1,10 @@
 <template>
   <div class="o-form-item">
-    <div class="o-form-item__label">
+    <div
+      :style="{
+        width: labelWidth,
+      }"
+      class="o-form-item__label">
       <span
         v-if="isRequired"
         class="color-danger">
@@ -8,9 +12,6 @@
       </span>
       <slot name="label">
         <label
-          :style="{
-            width: labelWidth,
-          }"
           :for="prop">
           {{ label }}
         </label>

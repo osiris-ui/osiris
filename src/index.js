@@ -3,6 +3,8 @@ import col from './col';
 import button from './button';
 import input from './input';
 import radio from './radio';
+import form from './form';
+import formItem from './formItem';
 
 const components = [
   row,
@@ -10,6 +12,8 @@ const components = [
   button,
   input,
   radio,
+  form,
+  formItem,
 ];
 
 function install(Vue) {
@@ -29,4 +33,6 @@ export default {
   button,
   input,
   radio,
+  form,
+  formItem,
 };

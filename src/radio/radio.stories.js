@@ -23,8 +23,8 @@ storiesOf('Radio', module)
     template: `
     <div>
       <p>Selected Value: {{modelValue}}</p>
-      <o-radio v-model="modelValue" :value="1" name="radio" label="1" />
-      <o-radio v-model="modelValue" :value="2" name="radio" label="2" />
+      <o-radio v-model="modelValue" :value="1" name="radio" label="1"></o-radio>
+      <o-radio v-model="modelValue" :value="2" name="radio" label="2"></o-radio>
     </div>
     `,
   }))
@@ -40,8 +40,8 @@ storiesOf('Radio', module)
     template: `
     <div>
       <p>Selected Value: {{modelValue}}</p>
-      <o-radio v-model="modelValue" :value="1" :disabled="true" name="radio" label="Disabled" />
-      <o-radio v-model="modelValue" :value="2" name="radio" label="2" />
+      <o-radio v-model="modelValue" :value="1" :disabled="true" name="radio" label="Disabled"></o-radio>
+      <o-radio v-model="modelValue" :value="2" name="radio" label="2"></o-radio>
     </div>
     `,
   }))

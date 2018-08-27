@@ -83,7 +83,7 @@ storiesOf('Form', module)
           <o-input v-model="form.email"></o-input>
         </o-form-item>
 
-        <o-button type="primary" @click="validate">Validate</o-button>
+        <o-button type="primary" native-type="submit" @click="validate">Validate</o-button>
         <o-button @click="clearValidation">Clear validation</o-button>
       </o-form>
     `,

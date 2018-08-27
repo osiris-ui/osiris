@@ -11,8 +11,8 @@
     <input
       :name="name"
       :value="value"
-      v-model="modelValue"
       :disabled="disabled"
+      :checked="isChecked"
       type="radio"
       class="o-radio__inner"
       aria-hidden="true"
