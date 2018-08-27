@@ -8,6 +8,7 @@ import {
 import OForm from './form.vue';
 import OFormItem from '../formItem';
 import OInput from '../input';
+import OButton from '../button';
 
 const POSITION = {
   top: 'top',
@@ -19,22 +20,63 @@ storiesOf('Form', module)
   // .add('default', () => '<a-row>simple row</a-row>');
   .addDecorator(withKnobs)
   .add('basic usage', () => ({
-    components: { OForm, OFormItem, OInput },
+    components: {
+      OForm,
+      OFormItem,
+      OInput,
+      OButton,
+    },
     data() {
       return {
-        data: '',
+        form: {
+          name: '',
+          email: '',
+        },
+
+        rules: {
+          name: {
+            presence: true,
+            trigger: 'blur',
+          },
+
+          email: {
+            email: {
+              message: 'This is not a valid email',
+            },
+            trigger: 'blur',
+          },
+        },
       };
+    },
+
+    methods: {
+      validate() {
+        return this.$refs.form.validate();
+      },
     },
 
     template: `
       <o-form
+        ref="form"
+        :rules="rules"
+        :model="form"
         label-position="${select('Label Position', POSITION, String(POSITION.top))}"
-        label-width="${text('Label Width', '100px')}">
+        label-width="${text('Label Width', '100px')}"
+        @submit="validate">
+
+        <o-form-item
+          label="Name"
+          prop="name">
+          <o-input v-model="form.email"></o-input>
+        </o-form-item>
+
         <o-form-item
           label="E-mail"
           prop="email">
-          <o-input v-model="data"></o-input>
+          <o-input v-model="form.email"></o-input>
         </o-form-item>
+
+        <o-button type="primary" @click="validate">Validate</o-button>
       </o-form>
     `,
   }));

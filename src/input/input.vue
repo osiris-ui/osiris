@@ -4,9 +4,9 @@
     :class="[`o-input--${size}`, {
       'is-disabled': disabled,
       'o-input__prefix': prefixIcon || hasPrefix,
-      'o-input__suffix': suffixIcon || hasSuffix || isError || isSuccess,
-      'is-success': isSuccess,
-      'is-error': isError,
+      'o-input__suffix': suffixIcon || hasSuffix || isInputError || isInputSuccess,
+      'is-success': isInputSuccess,
+      'is-error': isInputError,
     }]"
     class="o-input">
     <input
@@ -29,10 +29,10 @@
       :class="`${ prefixIcon }`"
       class="o-input__icon--prefix"/>
     <i
-      v-if="suffixIcon || isError || isSuccess"
-      :class="isError || isSuccess ? {
-        'o-icon o-icon-x': isError,
-        'o-icon o-icon-check': isSuccess,
+      v-if="suffixIcon || isInputError || isInputSuccess"
+      :class="isInputError || isInputSuccess ? {
+        'o-icon o-icon-x': isInputError,
+        'o-icon o-icon-check': isInputSuccess,
       } : `${
         suffixIcon
       }`"
@@ -44,9 +44,24 @@
 </template>
 
 <script>
+import dispatch from '../mixins/dispatch';
+
 export default {
 
   name: 'AInput',
+  mixins: [dispatch],
+  inject: {
+    isFormItemSuccess: {
+      from: 'isSuccess',
+      default: () => false,
+    },
+
+    isFormItemError: {
+      from: 'isError',
+      default: () => false,
+    },
+  },
+
   props: {
     name: {
       type: String,
@@ -148,6 +163,14 @@ export default {
     hasSuffix() {
       return !!this.$slots.suffix;
     },
+
+    isInputSuccess() {
+      return this.isSuccess ? this.isSuccess : this.isFormItemSuccess();
+    },
+
+    isInputError() {
+      return this.isError ? this.isError : this.isFormItemError();
+    },
   },
 
   watch: {
@@ -161,17 +184,26 @@ export default {
   methods: {
     handleInput(evt) {
       const { value } = evt.target;
-
       this.$emit('input', value);
+      this.dispatch('OFormItem', 'o.form.input', value);
+    },
+
+    handleChange(evt) {
+      const { value } = evt.target;
       this.$emit('change', value);
+      this.dispatch('OFormItem', 'o.form.change', value);
     },
 
     handleFocus(evt) {
       this.$emit('focus', evt);
+      this.dispatch('OFormItem', 'o.form.focus', evt);
     },
 
     handleBlur(evt) {
+      const { value } = evt.target;
+
       this.$emit('blur', evt);
+      this.dispatch('OFormItem', 'o.form.blur', value);
     },
   },
 };
