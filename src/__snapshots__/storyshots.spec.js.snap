@@ -895,7 +895,7 @@ exports[`Storyshots Form basic usage 1`] = `
   >
     <div
       class="o-form-item__label"
-      style="width: 100px;"
+      style="width: 200px;"
     >
       <span
         class="color-danger"
@@ -946,7 +946,7 @@ exports[`Storyshots Form basic usage 1`] = `
   >
     <div
       class="o-form-item__label"
-      style="width: 100px;"
+      style="width: 200px;"
     >
       <!---->
        
@@ -991,7 +991,7 @@ exports[`Storyshots Form basic usage 1`] = `
   >
     <div
       class="o-form-item__label"
-      style="width: 100px;"
+      style="width: 200px;"
     >
       <span
         class="color-danger"
@@ -1046,6 +1046,109 @@ exports[`Storyshots Form basic usage 1`] = `
           class="o-radio__label"
         >
           No
+        </span>
+      </label>
+       
+      <!---->
+    </div>
+  </div>
+   
+  <div
+    class="o-form-item"
+  >
+    <div
+      class="o-form-item__label"
+      style="width: 200px;"
+    >
+      <span
+        class="color-danger"
+      >
+        
+      *
+    
+      </span>
+       
+      <label
+        for="languages"
+      >
+        
+        Which following languages do you know?
+      
+      </label>
+    </div>
+     
+    <div
+      class="o-form-item__content"
+    >
+      <label
+        class="o-checkbox o-checkbox--medium"
+        role="checkbox"
+      >
+        <input
+          aria-hidden="true"
+          class="o-checkbox__inner"
+          type="checkbox"
+          value="Javascript"
+        />
+         
+        <span
+          class="o-checkbox__label"
+        >
+          Javascript
+        </span>
+      </label>
+       
+      <label
+        class="o-checkbox o-checkbox--medium"
+        role="checkbox"
+      >
+        <input
+          aria-hidden="true"
+          class="o-checkbox__inner"
+          type="checkbox"
+          value="PHP"
+        />
+         
+        <span
+          class="o-checkbox__label"
+        >
+          PHP
+        </span>
+      </label>
+       
+      <label
+        class="o-checkbox o-checkbox--medium"
+        role="checkbox"
+      >
+        <input
+          aria-hidden="true"
+          class="o-checkbox__inner"
+          type="checkbox"
+          value="Python"
+        />
+         
+        <span
+          class="o-checkbox__label"
+        >
+          Python
+        </span>
+      </label>
+       
+      <label
+        class="o-checkbox o-checkbox--medium"
+        role="checkbox"
+      >
+        <input
+          aria-hidden="true"
+          class="o-checkbox__inner"
+          type="checkbox"
+          value="Ruby"
+        />
+         
+        <span
+          class="o-checkbox__label"
+        >
+          Ruby
         </span>
       </label>
        
