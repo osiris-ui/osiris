@@ -27,12 +27,17 @@
 </template>
 
 <script>
+import dispatch from '../mixins/dispatch';
+
 export default {
   name: 'OCheckbox',
+  mixins: [dispatch],
+
   model: {
     prop: 'modelValue',
     event: 'change',
   },
+
   props: {
     label: [String, Number],
     disabled: Boolean,
@@ -57,8 +62,11 @@ export default {
   },
   methods: {
     addValueToModel() {
-      this.$emit('change', [...this.modelValue, this.value]);
+      const value = [...this.modelValue, this.value];
+      this.$emit('change', value);
+      this.dispatch('OFormItem', 'o.form.change', value);
     },
+
     removeValueFromModel() {
       const index = this.modelValue.indexOf(this.value);
       const val = [
@@ -66,7 +74,9 @@ export default {
         ...this.modelValue.slice(index + 1),
       ];
       this.$emit('change', val);
+      this.dispatch('OFormItem', 'o.form.change', val);
     },
+
     handleChange(event) {
       const { checked } = event.target;
 
@@ -76,6 +86,7 @@ export default {
       } else {
         const val = checked ? this.value : undefined;
         this.$emit('change', val);
+        this.dispatch('OFormItem', 'o.form.change', val);
       }
     },
   },
