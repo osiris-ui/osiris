@@ -13,5 +13,6 @@
   - [Form](form.md)
   - [Input](input.md)
   - [Radio](radio.md)
+  - [Checkbox](checkbox.md)
 
 - [Contributing](CONTRIBUTING.md)
