@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="osiris.svg">
+  <img src="https://github.com/osiris-ui/osiris/blob/master/osiris.svg">
 </p>
 
 <p align="center">
