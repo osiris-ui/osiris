@@ -5,6 +5,7 @@ import input from './input';
 import radio from './radio';
 import form from './form';
 import formItem from './formItem';
+import checkbox from './checkbox';
 
 const components = [
   row,
@@ -14,6 +15,7 @@ const components = [
   radio,
   form,
   formItem,
+  checkbox,
 ];
 
 function install(Vue) {
@@ -35,4 +37,5 @@ export default {
   radio,
   form,
   formItem,
+  checkbox,
 };

@@ -10,6 +10,7 @@ import OFormItem from '../formItem';
 import OInput from '../input';
 import OButton from '../button';
 import ORadio from '../radio';
+import OCheckbox from '../checkbox';
 
 const POSITION = {
   top: 'top',
@@ -27,6 +28,7 @@ storiesOf('Form', module)
       OInput,
       OButton,
       ORadio,
+      OCheckbox,
     },
     data() {
       return {
@@ -34,6 +36,7 @@ storiesOf('Form', module)
           name: '',
           email: '',
           isReal: '',
+          languages: [],
         },
 
         rules: {
@@ -65,6 +68,15 @@ storiesOf('Form', module)
 
             trigger: 'change',
           },
+
+          languages: {
+            presence: {
+              allowEmpty: false,
+              message: 'Please, select a least one',
+            },
+
+            trigger: 'change',
+          },
         },
       };
     },
@@ -85,7 +97,7 @@ storiesOf('Form', module)
         :rules="rules"
         :model="form"
         label-position="${select('Label Position', POSITION, String(POSITION.top))}"
-        label-width="${text('Label Width', '100px')}"
+        label-width="${text('Label Width', '200px')}"
         @submit="validate">
 
         <o-form-item
@@ -105,6 +117,15 @@ storiesOf('Form', module)
           prop="isReal">
           <o-radio v-model="form.isReal" :value="true">Yes</o-radio>
           <o-radio v-model="form.isReal" :value="false">No</o-radio>
+        </o-form-item>
+
+        <o-form-item
+          label="Which following languages do you know?"
+          prop="languages">
+          <o-checkbox v-model="form.languages" value="Javascript">Javascript</o-checkbox>
+          <o-checkbox v-model="form.languages" value="PHP">PHP</o-checkbox>
+          <o-checkbox v-model="form.languages" value="Python">Python</o-checkbox>
+          <o-checkbox v-model="form.languages" value="Ruby">Ruby</o-checkbox>
         </o-form-item>
 
         <o-button type="primary" native-type="submit" @click="validate">Validate</o-button>

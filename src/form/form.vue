@@ -26,7 +26,7 @@ export default {
 
     labelWidth: {
       type: String,
-      default: '100px',
+      default: '200px',
     },
 
     rules: {
