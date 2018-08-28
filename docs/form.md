@@ -12,8 +12,6 @@ We created a integrated form validation system, heavily inspired on [Element](ht
     ref="form"
     :rules="rules"
     :model="form"
-    label-position="${select('Label Position', POSITION, String(POSITION.top))}"
-    label-width="${text('Label Width', '100px')}"
     @submit="validate">
 
     <o-form-item
@@ -35,6 +33,15 @@ We created a integrated form validation system, heavily inspired on [Element](ht
       <o-radio v-model="form.isReal" :value="false">No</o-radio>
     </o-form-item>
 
+    <o-form-item
+      label="Which following languages do you know?"
+      prop="languages">
+      <o-checkbox v-model="form.languages" value="Javascript">Javascript</o-checkbox>
+      <o-checkbox v-model="form.languages" value="PHP">PHP</o-checkbox>
+      <o-checkbox v-model="form.languages" value="Python">Python</o-checkbox>
+      <o-checkbox v-model="form.languages" value="Ruby">Ruby</o-checkbox>
+    </o-form-item>
+
     <o-button type="primary" native-type="submit" @click="validate">Validate</o-button>
     <o-button @click="clearValidation">Clear validation</o-button>
   </o-form>
@@ -48,6 +55,7 @@ We created a integrated form validation system, heavily inspired on [Element](ht
           name: '',
           email: '',
           isReal: '',
+          languages: [],
         },
 
         rules: {
@@ -75,6 +83,15 @@ We created a integrated form validation system, heavily inspired on [Element](ht
               if (value !== true) return 'You must be a real person';
 
               return undefined;
+            },
+
+            trigger: 'change',
+          },
+
+          languages: {
+            presence: {
+              allowEmpty: false,
+              message: 'Please, select a least one',
             },
 
             trigger: 'change',
