@@ -57,6 +57,7 @@ export default {
       if (Array.isArray(this.modelValue)) {
         return this.modelValue.indexOf(this.value) >= 0;
       }
+
       return this.modelValue === this.value;
     },
   },
