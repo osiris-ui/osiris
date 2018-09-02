@@ -4,6 +4,7 @@
     :class="[`o-select--${size}`]"
     class="o-select">
     <button
+      ref="trigger"
       class="o-select__trigger"
       @keydown.esc="close"
       @keydown.up="highlightPrev"
@@ -11,13 +12,13 @@
       @keydown.enter.prevent="selectHighlighted"
       @click="open">
       <span
-        v-show="value"
+        v-show="currentValue"
         class="o-select__text">
-        {{ value }}
+        {{ currentValue }}
       </span>
 
       <span
-        v-if="!value"
+        v-if="!currentValue"
         class="o-select__placeholder">
         {{ placeholder }}
 
@@ -31,32 +32,52 @@
       </span>
     </button>
 
-    <ul
-      v-if="isOpen"
-      ref="options"
-      class="o-select__list">
-      <li
-        v-for="(option, i) in filteredOptions"
-        :key="option.value"
-        :class="{ 'is-highlighted': i === highlightedIndex }"
-        class="o-select__list-item"
-        @click="select(option)">
-        {{ option.label }}
-      </li>
-      <li
-        v-if="!options.length"
-        class="o-select__empty">
-        {{ emptyText }}
-      </li>
-    </ul>
+    <div
+      v-show="isOpen"
+      ref="dropdown"
+      class="o-select__dropdown o-popper">
+      <div class="o-select__dropdown__inner">
+        <ul
+          ref="options"
+          class="o-select__list">
+          <li
+            v-for="(option, i) in filteredOptions"
+            :key="option.value"
+            :class="{ 'is-highlighted': i === highlightedIndex }"
+            class="o-select__list-item"
+            @click="select(option)">
+            {{ option.label }}
+          </li>
+          <li
+            v-if="!options.length"
+            class="o-select__empty">
+            {{ emptyText }}
+          </li>
+        </ul>
+        <div class="o-popper__arrow" />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import Popper from 'popper.js';
+import dispatch from '../mixins/dispatch';
+
 export default {
 
   name: 'OSelect',
+  mixins: [dispatch],
+  model: {
+    event: 'change',
+  },
+
   props: {
+    value: {
+      type: [Array, String, Number, Object],
+      default: '',
+    },
+
     placeholder: {
       type: String,
       default: 'Select',
@@ -80,9 +101,9 @@ export default {
 
   data() {
     return {
-      value: '',
+      currentValue: this.value,
       isOpen: false,
-      highlightedIndex: 0,
+      highlightedIndex: -1,
       options: [
         {
           label: 'a',
@@ -96,6 +117,14 @@ export default {
           label: 'c',
           value: 'c',
         },
+        {
+          label: 'd',
+          value: 'd',
+        },
+        {
+          label: 'e',
+          value: 'e',
+        },
       ],
     };
   },
@@ -106,37 +135,65 @@ export default {
     },
   },
 
+  beforeDestroy() {
+    if (this.popper) {
+      this.popper.destroy();
+    }
+  },
+
   methods: {
+    setupPopper() {
+      if (this.popper === undefined) {
+        this.popper = new Popper(this.$refs.trigger, this.$refs.dropdown, {
+          placement: 'bottom',
+        });
+      } else {
+        this.popper.scheduleUpdate();
+      }
+    },
+
     select(option) {
-      this.value = option.value;
-      this.highlightedIndex = 0;
+      const { value } = option;
+      if (this.currentValue === value) return;
+
+      this.currentValue = value;
+      this.$emit('change', value);
+      this.dispatch('OFormItem', 'o.form.change', value);
+      this.highlightedIndex = -1;
       this.close();
     },
 
     open() {
       if (this.isOpen) {
-        return;
+        return this.close();
       }
 
       this.isOpen = true;
 
-      this.$nextTick(() => {
+      return this.$nextTick(() => {
+        this.setupPopper();
         this.scrollToHighlighted();
       });
     },
 
     close() {
       this.isOpen = false;
+      this.highlightedIndex = -1;
     },
 
     selectHighlighted() {
+      if (this.highlightedIndex === -1) {
+        this.highlightedIndex = 0;
+      }
+
       this.select(this.filteredOptions[this.highlightedIndex]);
     },
 
     scrollToHighlighted() {
-      this.$refs.options.children[this.highlightedIndex].scrollIntoView({
-        block: 'nearest',
-      });
+      this.$refs.options.children[this.highlightedIndex !== -1 ? this.highlightedIndex : 0]
+        .scrollIntoView({
+          block: 'nearest',
+        });
     },
 
     highlight(index) {
