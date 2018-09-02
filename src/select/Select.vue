@@ -14,7 +14,7 @@
       <span
         v-show="currentValue"
         class="o-select__text">
-        {{ currentValue }}
+        {{ label }}
       </span>
 
       <span
@@ -97,6 +97,11 @@ export default {
       type: String,
       default: 'normal',
     },
+
+    options: {
+      type: Array,
+      default: () => ([]),
+    },
   },
 
   data() {
@@ -104,34 +109,22 @@ export default {
       currentValue: this.value,
       isOpen: false,
       highlightedIndex: -1,
-      options: [
-        {
-          label: 'a',
-          value: 'a',
-        },
-        {
-          label: 'b',
-          value: 'b',
-        },
-        {
-          label: 'c',
-          value: 'c',
-        },
-        {
-          label: 'd',
-          value: 'd',
-        },
-        {
-          label: 'e',
-          value: 'e',
-        },
-      ],
     };
   },
 
   computed: {
     filteredOptions() {
       return this.options;
+    },
+
+    label() {
+      if (!this.options) return '';
+
+      const index = this.options.findIndex(option => option.value === this.currentValue);
+
+      if (index && index !== -1) return this.options[index].label;
+
+      return '';
     },
   },
 
