@@ -63,6 +63,7 @@
   "dependencies": {
     "codecov": "^3.0.4",
     "lodash": "^4.17.10",
+    "popper.js": "^1.14.4",
     "validate.js": "^0.12.0",
     "vue": "^2.5.16",
     "vue2-transitions": "^0.2.3"
