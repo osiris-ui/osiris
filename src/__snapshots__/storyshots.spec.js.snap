@@ -1213,6 +1213,8 @@ exports[`Storyshots Form basic usage 1`] = `
           </span>
         </button>
          
+        <!---->
+         
         <div
           class="o-select__dropdown o-popper"
           style="display: none;"
@@ -1336,6 +1338,8 @@ exports[`Storyshots Form basic usage 1`] = `
             />
           </span>
         </button>
+         
+        <!---->
          
         <div
           class="o-select__dropdown o-popper"
@@ -2862,6 +2866,8 @@ exports[`Storyshots Select Basic Usage 1`] = `
     </span>
   </button>
    
+  <!---->
+   
   <div
     class="o-select__dropdown o-popper"
     style="display: none;"
@@ -2871,6 +2877,80 @@ exports[`Storyshots Select Basic Usage 1`] = `
     >
       <ul
         class="o-select__list"
+      >
+        <li
+          class="o-select__list-item"
+        >
+          
+          São Paulo
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          London
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          Berlin
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          New York
+        
+        </li>
+      </ul>
+       
+      <!---->
+       
+      <div
+        class="o-popper__arrow"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Filterable 1`] = `
+<div
+  class="o-select o-select--normal"
+  style="width: 300px;"
+>
+  <!---->
+   
+  <div
+    class="o-select__trigger"
+    role="button"
+    style="width: 100%;"
+  >
+    <!---->
+     
+    <input
+      placeholder="Select"
+      style="max-width: 100%; width: 100px;"
+    />
+     
+    <i
+      class="o-input__icon--suffix o-icon o-icon-chevron-down"
+    />
+  </div>
+   
+  <div
+    class="o-select__dropdown o-popper"
+    style="display: none;"
+  >
+    <div
+      class="o-select__dropdown__inner"
+    >
+      <ul
+        class="o-select__list is-multiple"
       >
         <li
           class="o-select__list-item"
@@ -2942,6 +3022,8 @@ exports[`Storyshots Select Multiple Selection 1`] = `
       />
     </span>
   </button>
+   
+  <!---->
    
   <div
     class="o-select__dropdown o-popper"

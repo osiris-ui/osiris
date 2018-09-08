@@ -56,4 +56,30 @@ storiesOf('Select', module)
       };
     },
     template: '<o-select :options="options" multiple></o-select>',
+  }))
+  .add('Filterable', () => ({
+    components: { OSelect },
+    data() {
+      return {
+        options: [
+          {
+            label: 'São Paulo',
+            value: 'São Paulo',
+          },
+          {
+            label: 'London',
+            value: 'London',
+          },
+          {
+            label: 'Berlin',
+            value: 'Berlin',
+          },
+          {
+            label: 'New York',
+            value: 'New York',
+          },
+        ],
+      };
+    },
+    template: '<o-select :options="options" filterable multiple></o-select>',
   }));

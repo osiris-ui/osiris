@@ -4,6 +4,7 @@
     :class="[`o-select--${size}`]"
     class="o-select">
     <button
+      v-if="!filterable"
       ref="trigger"
       class="o-select__trigger"
       @keydown.esc="close"
@@ -48,12 +49,55 @@
     </button>
 
     <div
+      v-if="filterable"
+      ref="trigger"
+      style="width: 100%;"
+      class="o-select__trigger"
+      role="button"
+      @click="open">
+
+      <span v-if="currentValue && typeof currentValue === 'object'">
+        <span
+          v-for="option in currentValue"
+          :key="option"
+          class="o-select__multiple-tag">
+          {{ findLabel(option) }}
+
+          <button
+            class="o-select__disselect-button"
+            @click.stop="disselect(option)">
+            <i class="o-icon o-icon-x" />
+          </button>
+        </span>
+      </span>
+
+      <input
+        ref="trigger-input"
+        v-model="search"
+        :style="`width: ${search || (currentValue.length
+          || (typeof currentValue === 'string' && currentValue))
+        ? 20 + (10 * search.length) : 100}px`"
+        :placeholder="!currentValue || !currentValue.length ? placeholder : ''"
+        style="max-width: 100%"
+        @keydown="typing"
+        @keydown.esc="close"
+        @keydown.up="highlightPrev"
+        @keydown.down="highlightNext"
+        @keydown.delete="handleDelete"
+        @keydown.enter.prevent="selectHighlighted">
+
+      <i
+        :class="`o-icon o-icon-chevron-${isOpen ? 'up' : 'down'}`"
+        class="o-input__icon--suffix" />
+    </div>
+
+    <div
       v-show="isOpen"
       ref="dropdown"
       class="o-select__dropdown o-popper">
       <div class="o-select__dropdown__inner">
         <ul
-          v-if="options.length"
+          v-if="filteredOptions.length"
           ref="options"
           :class="{ 'is-multiple': multiple }"
           class="o-select__list">
@@ -70,9 +114,14 @@
           </li>
         </ul>
         <small
-          v-if="!options.length"
+          v-if="!filteredOptions.length && ((filterable && !search) || !filterable)"
           class="o-select__empty">
           {{ emptyText }}
+        </small>
+        <small
+          v-else-if="!filteredOptions.length && filterable && search"
+          class="o-select__empty">
+          {{ emptySearch }}
         </small>
         <div class="o-popper__arrow" />
       </div>
@@ -109,6 +158,11 @@ export default {
       default: 'There are no options available',
     },
 
+    emptySearch: {
+      type: String,
+      default: 'Your search did not match any listings',
+    },
+
     width: {
       type: String,
       default: '300px',
@@ -128,6 +182,11 @@ export default {
       type: Boolean,
       default: false,
     },
+
+    filterable: {
+      type: Boolean,
+      default: false,
+    },
   },
 
   data() {
@@ -135,12 +194,20 @@ export default {
       currentValue: this.value,
       isOpen: false,
       highlightedIndex: -1,
+      search: '',
+      isDeleting: false,
     };
   },
 
   computed: {
     filteredOptions() {
-      return this.options;
+      if ((this.search === this.currentValue) || (this.currentValue.indexOf(this.search) !== -1)) {
+        return this.options;
+      }
+
+      return this.options.filter(option => option.label
+        .toLowerCase()
+        .startsWith(this.search.toLowerCase()));
     },
 
     label() {
@@ -176,6 +243,8 @@ export default {
       if (this.currentValue === value) return;
 
       if (this.multiple && typeof this.currentValue === 'object') {
+        this.search = '';
+
         if (this.currentValue.includes(value)) {
           this.currentValue.splice(this.currentValue.indexOf(value), 1);
         } else {
@@ -183,12 +252,17 @@ export default {
         }
         this.$emit('change', this.currentValue);
         this.dispatch('OFormItem', 'o.form.change', this.currentValue);
+
+        if (this.filterable) {
+          this.$refs['trigger-input'].focus();
+        }
       } else if (this.multiple && typeof this.currentValue === 'string') {
         this.currentValue = [value];
         this.$emit('change', this.currentValue);
         this.dispatch('OFormItem', 'o.form.change', this.currentValue);
       } else {
         this.currentValue = value;
+        this.search = value;
         this.$emit('change', value);
         this.dispatch('OFormItem', 'o.form.change', value);
         this.highlightedIndex = -1;
@@ -203,9 +277,25 @@ export default {
 
       this.isOpen = true;
 
+      if (this.filterable) {
+        this.$refs['trigger-input'].focus();
+      }
+
       return this.$nextTick(() => {
         this.setupPopper();
         this.scrollToHighlighted();
+      });
+    },
+
+    typing() {
+      if (!this.multiple) {
+        this.currentValue = '';
+      }
+
+      this.isOpen = true;
+
+      return this.$nextTick(() => {
+        this.setupPopper();
       });
     },
 
@@ -264,6 +354,15 @@ export default {
         this.currentValue.splice(this.currentValue.indexOf(option), 1);
         this.$emit('change', this.currentValue);
         this.dispatch('OFormItem', 'o.form.change', this.currentValue);
+      }
+    },
+
+    handleDelete() {
+      if (!this.search && this.isDeleting) {
+        this.currentValue.pop();
+        this.isDeleting = false;
+      } else if (!this.search && !this.isDeleting) {;
+        this.isDeleting = true;
       }
     },
   },
