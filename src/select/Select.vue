@@ -361,7 +361,7 @@ export default {
       if (!this.search && this.isDeleting) {
         this.currentValue.pop();
         this.isDeleting = false;
-      } else if (!this.search && !this.isDeleting) {;
+      } else if (!this.search && !this.isDeleting) {
         this.isDeleting = true;
       }
     },
