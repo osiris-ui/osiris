@@ -6,7 +6,7 @@ import Radio from './radio';
 import Form from './form';
 import FormItem from './formItem';
 import Checkbox from './checkbox';
-import Select from './Select';
+import Select from './select';
 
 const components = [
   Row,
@@ -40,4 +40,5 @@ export default {
   Form,
   FormItem,
   Checkbox,
+  Select,
 };
