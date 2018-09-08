@@ -39,6 +39,7 @@ storiesOf('Form', module)
           email: '',
           isReal: '',
           country: '',
+          cities: [],
           languages: [],
         },
 
@@ -85,6 +86,15 @@ storiesOf('Form', module)
             presence: {
               allowEmpty: false,
               message: 'Please, select your country',
+            },
+
+            trigger: 'change',
+          },
+
+          cities: {
+            presence: {
+              allowEmpty: false,
+              message: 'Please, select at least 1 city',
             },
 
             trigger: 'change',
@@ -172,6 +182,46 @@ storiesOf('Form', module)
                 value: 'china',
               },
             ]">
+          </o-select>
+        </o-form-item>
+
+        <o-form-item
+          label="What places did you already visited?"
+          prop="cities">
+          <o-select
+            v-model="form.cities"
+            placeholder="Select the cities"
+            :options="[
+              {
+                label: 'São Paulo',
+                value: 'sao-paulo',
+              },
+              {
+                label: 'London',
+                value: 'london',
+              },
+              {
+                label: 'Berlin',
+                value: 'berlin',
+              },
+              {
+                label: 'Paris',
+                value: 'paris',
+              },
+              {
+                label: 'Roma',
+                value: 'roma',
+              },
+              {
+                label: 'Beijing',
+                value: 'beijing',
+              },
+              {
+                label: 'New York',
+                value: 'new york',
+              },
+            ]"
+            multiple>
           </o-select>
         </o-form-item>
 

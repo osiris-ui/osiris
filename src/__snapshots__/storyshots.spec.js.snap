@@ -1190,14 +1190,9 @@ exports[`Storyshots Form basic usage 1`] = `
         <button
           class="o-select__trigger"
         >
-          <span
-            class="o-select__text"
-            style="display: none;"
-          >
-            
-      
-    
-          </span>
+          <!---->
+           
+          <!---->
            
           <span
             class="o-select__placeholder"
@@ -1270,9 +1265,140 @@ exports[`Storyshots Form basic usage 1`] = `
           China
         
               </li>
-               
-              <!---->
             </ul>
+             
+            <!---->
+             
+            <div
+              class="o-popper__arrow"
+            />
+          </div>
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+  </div>
+   
+  <div
+    class="o-form-item"
+  >
+    <div
+      class="o-form-item__label"
+      style="width: 200px;"
+    >
+      <span
+        class="color-danger"
+      >
+        
+      *
+    
+      </span>
+       
+      <label
+        for="cities"
+      >
+        
+        What places did you already visited?
+      
+      </label>
+    </div>
+     
+    <div
+      class="o-form-item__content"
+    >
+      <div
+        class="o-select o-select--normal"
+        style="width: 300px;"
+      >
+        <button
+          class="o-select__trigger"
+        >
+          <!---->
+           
+          <span />
+           
+          <span
+            class="o-select__placeholder"
+          >
+            
+      Select the cities
+
+      
+            <!---->
+          </span>
+           
+          <span
+            class="o-select__arrow"
+          >
+            <i
+              class="o-icon o-icon-chevron-down"
+            />
+          </span>
+        </button>
+         
+        <div
+          class="o-select__dropdown o-popper"
+          style="display: none;"
+        >
+          <div
+            class="o-select__dropdown__inner"
+          >
+            <ul
+              class="o-select__list is-multiple"
+            >
+              <li
+                class="o-select__list-item"
+              >
+                
+          São Paulo
+        
+              </li>
+              <li
+                class="o-select__list-item"
+              >
+                
+          London
+        
+              </li>
+              <li
+                class="o-select__list-item"
+              >
+                
+          Berlin
+        
+              </li>
+              <li
+                class="o-select__list-item"
+              >
+                
+          Paris
+        
+              </li>
+              <li
+                class="o-select__list-item"
+              >
+                
+          Roma
+        
+              </li>
+              <li
+                class="o-select__list-item"
+              >
+                
+          Beijing
+        
+              </li>
+              <li
+                class="o-select__list-item"
+              >
+                
+          New York
+        
+              </li>
+            </ul>
+             
+            <!---->
              
             <div
               class="o-popper__arrow"
@@ -2705,7 +2831,7 @@ exports[`Storyshots Row justify center 1`] = `
 </div>
 `;
 
-exports[`Storyshots Select default 1`] = `
+exports[`Storyshots Select Basic Usage 1`] = `
 <div
   class="o-select o-select--normal"
   style="width: 300px;"
@@ -2713,14 +2839,9 @@ exports[`Storyshots Select default 1`] = `
   <button
     class="o-select__trigger"
   >
-    <span
-      class="o-select__text"
-      style="display: none;"
-    >
-      
-      
-    
-    </span>
+    <!---->
+     
+    <!---->
      
     <span
       class="o-select__placeholder"
@@ -2751,15 +2872,118 @@ exports[`Storyshots Select default 1`] = `
       <ul
         class="o-select__list"
       >
-         
         <li
-          class="o-select__empty"
+          class="o-select__list-item"
         >
           
-          There are no options available
+          São Paulo
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          London
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          Berlin
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          New York
         
         </li>
       </ul>
+       
+      <!---->
+       
+      <div
+        class="o-popper__arrow"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Multiple Selection 1`] = `
+<div
+  class="o-select o-select--normal"
+  style="width: 300px;"
+>
+  <button
+    class="o-select__trigger"
+  >
+    <!---->
+     
+    <!---->
+     
+    <span
+      class="o-select__placeholder"
+    >
+      
+      Select
+
+      
+      <!---->
+    </span>
+     
+    <span
+      class="o-select__arrow"
+    >
+      <i
+        class="o-icon o-icon-chevron-down"
+      />
+    </span>
+  </button>
+   
+  <div
+    class="o-select__dropdown o-popper"
+    style="display: none;"
+  >
+    <div
+      class="o-select__dropdown__inner"
+    >
+      <ul
+        class="o-select__list is-multiple"
+      >
+        <li
+          class="o-select__list-item"
+        >
+          
+          São Paulo
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          London
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          Berlin
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          New York
+        
+        </li>
+      </ul>
+       
+      <!---->
        
       <div
         class="o-popper__arrow"
