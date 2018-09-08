@@ -55,6 +55,5 @@ storiesOf('Select', module)
         ],
       };
     },
-    template: `<o-select v-model="selected" :options="options" multiple>
-      </o-select>`,
+    template: '<o-select :options="options" multiple></o-select>',
   }));
