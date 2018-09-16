@@ -1,7 +1,11 @@
 <template>
   <div
+    v-click-outside="close"
     :style="{ width }"
-    :class="[`o-select--${size}`]"
+    :class="[`o-select--${size}`, {
+      'is-clearable': clearable
+        && ((currentValue && !multiple) || (currentValue.length && multiple))
+    }]"
     class="o-select">
     <button
       v-if="!filterable"
@@ -46,6 +50,13 @@
       <span class="o-select__arrow">
         <i :class="`o-icon o-icon-chevron-${isOpen ? 'up' : 'down'}`" />
       </span>
+
+      <button
+        v-if="clearable && !multiple"
+        class="o-select__clearable"
+        @click.stop="disselect">
+        <i class="o-icon o-icon-x" />
+      </button>
     </button>
 
     <div
@@ -88,7 +99,14 @@
 
       <i
         :class="`o-icon o-icon-chevron-${isOpen ? 'up' : 'down'}`"
-        class="o-input__icon--suffix" />
+        class="o-input__icon--suffix o-select__arrow" />
+
+      <button
+        v-if="clearable && !multiple"
+        class="o-select__clearable"
+        @click="disselect">
+        <i class="o-icon o-icon-x" />
+      </button>
     </div>
 
     <div
@@ -131,16 +149,19 @@
 
 <script>
 import Popper from 'popper.js';
+import ClickOutside from 'vue-click-outside';
 import dispatch from '../mixins/dispatch';
 
 export default {
 
   name: 'OSelect',
+  directives: {
+    ClickOutside,
+  },
   mixins: [dispatch],
   model: {
     event: 'change',
   },
-
 
   props: {
     value: {
@@ -184,6 +205,11 @@ export default {
     },
 
     filterable: {
+      type: Boolean,
+      default: false,
+    },
+
+    clearable: {
       type: Boolean,
       default: false,
     },
@@ -352,9 +378,12 @@ export default {
     disselect(option) {
       if (this.multiple) {
         this.currentValue.splice(this.currentValue.indexOf(option), 1);
-        this.$emit('change', this.currentValue);
-        this.dispatch('OFormItem', 'o.form.change', this.currentValue);
+      } else {
+        this.currentValue = '';
+        this.search = '';
       }
+
+      return this.emit();
     },
 
     handleDelete() {
@@ -364,6 +393,11 @@ export default {
       } else if (!this.search && !this.isDeleting) {
         this.isDeleting = true;
       }
+    },
+
+    emit() {
+      this.$emit('change', this.currentValue);
+      this.dispatch('OFormItem', 'o.form.change', this.currentValue);
     },
   },
 };
