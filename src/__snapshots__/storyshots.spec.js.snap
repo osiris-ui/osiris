@@ -1211,6 +1211,8 @@ exports[`Storyshots Form basic usage 1`] = `
               class="o-icon o-icon-chevron-down"
             />
           </span>
+           
+          <!---->
         </button>
          
         <!---->
@@ -1337,6 +1339,8 @@ exports[`Storyshots Form basic usage 1`] = `
               class="o-icon o-icon-chevron-down"
             />
           </span>
+           
+          <!---->
         </button>
          
         <!---->
@@ -2864,6 +2868,99 @@ exports[`Storyshots Select Basic Usage 1`] = `
         class="o-icon o-icon-chevron-down"
       />
     </span>
+     
+    <!---->
+  </button>
+   
+  <!---->
+   
+  <div
+    class="o-select__dropdown o-popper"
+    style="display: none;"
+  >
+    <div
+      class="o-select__dropdown__inner"
+    >
+      <ul
+        class="o-select__list"
+      >
+        <li
+          class="o-select__list-item"
+        >
+          
+          São Paulo
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          London
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          Berlin
+        
+        </li>
+        <li
+          class="o-select__list-item"
+        >
+          
+          New York
+        
+        </li>
+      </ul>
+       
+      <!---->
+       
+      <div
+        class="o-popper__arrow"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Select Clearable 1`] = `
+<div
+  class="o-select o-select--normal"
+  style="width: 300px;"
+>
+  <button
+    class="o-select__trigger"
+  >
+    <!---->
+     
+    <!---->
+     
+    <span
+      class="o-select__placeholder"
+    >
+      
+      Select
+
+      
+      <!---->
+    </span>
+     
+    <span
+      class="o-select__arrow"
+    >
+      <i
+        class="o-icon o-icon-chevron-down"
+      />
+    </span>
+     
+    <button
+      class="o-select__clearable"
+    >
+      <i
+        class="o-icon o-icon-x"
+      />
+    </button>
   </button>
    
   <!---->
@@ -2938,8 +3035,10 @@ exports[`Storyshots Select Filterable 1`] = `
     />
      
     <i
-      class="o-input__icon--suffix o-icon o-icon-chevron-down"
+      class="o-input__icon--suffix o-select__arrow o-icon o-icon-chevron-down"
     />
+     
+    <!---->
   </div>
    
   <div
@@ -3021,6 +3120,8 @@ exports[`Storyshots Select Multiple Selection 1`] = `
         class="o-icon o-icon-chevron-down"
       />
     </span>
+     
+    <!---->
   </button>
    
   <!---->
