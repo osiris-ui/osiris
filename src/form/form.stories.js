@@ -11,6 +11,7 @@ import OInput from '../input';
 import OButton from '../button';
 import ORadio from '../radio';
 import OCheckbox from '../checkbox';
+import OSelect from '../select';
 
 const POSITION = {
   top: 'top',
@@ -29,6 +30,7 @@ storiesOf('Form', module)
       OButton,
       ORadio,
       OCheckbox,
+      OSelect,
     },
     data() {
       return {
@@ -36,6 +38,8 @@ storiesOf('Form', module)
           name: '',
           email: '',
           isReal: '',
+          country: '',
+          cities: [],
           languages: [],
         },
 
@@ -73,6 +77,24 @@ storiesOf('Form', module)
             presence: {
               allowEmpty: false,
               message: 'Please, select a least one',
+            },
+
+            trigger: 'change',
+          },
+
+          country: {
+            presence: {
+              allowEmpty: false,
+              message: 'Please, select your country',
+            },
+
+            trigger: 'change',
+          },
+
+          cities: {
+            presence: {
+              allowEmpty: false,
+              message: 'Please, select at least 1 city',
             },
 
             trigger: 'change',
@@ -126,6 +148,81 @@ storiesOf('Form', module)
           <o-checkbox v-model="form.languages" value="PHP">PHP</o-checkbox>
           <o-checkbox v-model="form.languages" value="Python">Python</o-checkbox>
           <o-checkbox v-model="form.languages" value="Ruby">Ruby</o-checkbox>
+        </o-form-item>
+
+        <o-form-item
+          label="Where are you from?"
+          prop="country">
+          <o-select
+            v-model="form.country"
+            placeholder="Select your country"
+            :options="[
+              {
+                label: 'Brazil',
+                value: 'brazil',
+              },
+              {
+                label: 'United States',
+                value: 'usa',
+              },
+              {
+                label: 'Germany',
+                value: 'germany',
+              },
+              {
+                label: 'French',
+                value: 'french',
+              },
+              {
+                label: 'Italy',
+                value: 'italy',
+              },
+              {
+                label: 'China',
+                value: 'china',
+              },
+            ]">
+          </o-select>
+        </o-form-item>
+
+        <o-form-item
+          label="What places did you already visited?"
+          prop="cities">
+          <o-select
+            v-model="form.cities"
+            placeholder="Select the cities"
+            :options="[
+              {
+                label: 'São Paulo',
+                value: 'sao-paulo',
+              },
+              {
+                label: 'London',
+                value: 'london',
+              },
+              {
+                label: 'Berlin',
+                value: 'berlin',
+              },
+              {
+                label: 'Paris',
+                value: 'paris',
+              },
+              {
+                label: 'Roma',
+                value: 'roma',
+              },
+              {
+                label: 'Beijing',
+                value: 'beijing',
+              },
+              {
+                label: 'New York',
+                value: 'new york',
+              },
+            ]"
+            multiple>
+          </o-select>
         </o-form-item>
 
         <o-button type="primary" native-type="submit" @click="validate">Validate</o-button>
