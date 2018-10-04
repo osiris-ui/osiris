@@ -10,18 +10,20 @@
     class="o-alert">
     <div>
       <div class="o-alert-icon">
-        <i :class="[
-        `o-icon-${icon}`
+        <i
+          :class="[
+            `o-icon-${icon}`
+          ]"
+          class="o-icon"/>
+      </div>
+      <div
+        :class="[
+          `o-alert-text--${type}`,
         ]"
-        class="o-icon">
-        </i>
-      </div>
-      <div :class="[
-      `o-alert-text--${type}`,
-      ]" class="o-alert-text">
-      <div>
-        <slot />
-      </div>
+        class="o-alert-text">
+        <div>
+          <slot />
+        </div>
       </div>
     </div>
   </div>
