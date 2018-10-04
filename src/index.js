@@ -7,6 +7,7 @@ import Form from './form';
 import FormItem from './formItem';
 import Checkbox from './checkbox';
 import Select from './select';
+import Alert from './alert';
 
 const components = [
   Row,
@@ -18,6 +19,7 @@ const components = [
   FormItem,
   Checkbox,
   Select,
+  Alert,
 ];
 
 function install(Vue) {
@@ -41,4 +43,5 @@ export default {
   FormItem,
   Checkbox,
   Select,
+  Alert,
 };

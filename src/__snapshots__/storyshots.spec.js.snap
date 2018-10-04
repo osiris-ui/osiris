@@ -1,5 +1,835 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Alert round 1`] = `
+<div>
+  <div
+    class="o-alert o-alert--primary o-alert--normal is-round"
+  >
+    <div>
+      <div
+        class="o-alert-icon"
+      >
+        <i
+          class="o-icon o-icon-check"
+        />
+      </div>
+       
+      <div
+        class="o-alert-text o-alert-text--primary"
+      >
+        <div>
+          Primary
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="o-alert o-alert--secondary o-alert--normal is-round"
+  >
+    <div>
+      <div
+        class="o-alert-icon"
+      >
+        <i
+          class="o-icon o-icon-check"
+        />
+      </div>
+       
+      <div
+        class="o-alert-text o-alert-text--secondary"
+      >
+        <div>
+          Secondary
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="o-alert o-alert--info o-alert--normal is-round"
+  >
+    <div>
+      <div
+        class="o-alert-icon"
+      >
+        <i
+          class="o-icon o-icon-check"
+        />
+      </div>
+       
+      <div
+        class="o-alert-text o-alert-text--info"
+      >
+        <div>
+          Info
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="o-alert o-alert--success o-alert--normal is-round"
+  >
+    <div>
+      <div
+        class="o-alert-icon"
+      >
+        <i
+          class="o-icon o-icon-check"
+        />
+      </div>
+       
+      <div
+        class="o-alert-text o-alert-text--success"
+      >
+        <div>
+          Success
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="o-alert o-alert--warning o-alert--normal is-round"
+  >
+    <div>
+      <div
+        class="o-alert-icon"
+      >
+        <i
+          class="o-icon o-icon-check"
+        />
+      </div>
+       
+      <div
+        class="o-alert-text o-alert-text--warning"
+      >
+        <div>
+          Warning
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px; margin-left: 0px;"
+  >
+    <div
+      class="o-alert o-alert--danger o-alert--normal is-round"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--danger"
+        >
+          <div>
+            Danger
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alert sizes 1`] = `
+<div>
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--primary o-alert--large"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--primary"
+        >
+          <div>
+            Primary Large
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--primary o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--primary"
+        >
+          <div>
+            Primary Normal
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--primary o-alert--small"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--primary"
+        >
+          <div>
+            Primary Small
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--primary o-alert--mini"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--primary"
+        >
+          <div>
+            Primary Mini
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--secondary o-alert--large"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--secondary"
+        >
+          <div>
+            Secondary Large
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--secondary o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--secondary"
+        >
+          <div>
+            Secondary Normal
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--secondary o-alert--small"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--secondary"
+        >
+          <div>
+            Secondary Small
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--secondary o-alert--mini"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--secondary"
+        >
+          <div>
+            Secondary Mini
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--info o-alert--large"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--info"
+        >
+          <div>
+            Info Large
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--info o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--info"
+        >
+          <div>
+            Info Normal
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--info o-alert--small"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--info"
+        >
+          <div>
+            Info Small
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--info o-alert--mini"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--info"
+        >
+          <div>
+            Info Mini
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--success o-alert--large"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--success"
+        >
+          <div>
+            Success Large
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--success o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--success"
+        >
+          <div>
+            Success Normal
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--success o-alert--small"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--success"
+        >
+          <div>
+            Success Small
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--success o-alert--mini"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--success"
+        >
+          <div>
+            Success Mini
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--warning o-alert--large"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--warning"
+        >
+          <div>
+            Warning Large
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--warning o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--warning"
+        >
+          <div>
+            Warning Normal
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--warning o-alert--small"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--warning"
+        >
+          <div>
+            Warning Small
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--warning o-alert--mini"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--warning"
+        >
+          <div>
+            Warning Mini
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--danger o-alert--large"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--danger"
+        >
+          <div>
+            Danger Large
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--danger o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--danger"
+        >
+          <div>
+            Danger Normal
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--danger o-alert--small"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--danger"
+        >
+          <div>
+            Danger Small
+          </div>
+        </div>
+      </div>
+    </div>
+     
+    <div
+      class="o-alert o-alert--danger o-alert--mini"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--danger"
+        >
+          <div>
+            Danger Mini
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Alert types 1`] = `
+<div>
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--primary o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--primary"
+        >
+          <div>
+            This is a primary alert
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--secondary o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--secondary"
+        >
+          <div>
+            This is a secondary alert
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--info o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--info"
+        >
+          <div>
+            This is an info alert
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--success o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--success"
+        >
+          <div>
+            This is a success alert
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div
+    style="margin-top: 10px;"
+  >
+    <div
+      class="o-alert o-alert--warning o-alert--normal"
+    >
+      <div>
+        <div
+          class="o-alert-icon"
+        >
+          <i
+            class="o-icon o-icon-check"
+          />
+        </div>
+         
+        <div
+          class="o-alert-text o-alert-text--warning"
+        >
+          <div>
+            This is a warning alert
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Storyshots Button circle 1`] = `
 <div>
   <button
