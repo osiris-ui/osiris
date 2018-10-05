@@ -32,7 +32,7 @@ exports[`Storyshots Alert round 1`] = `
         class="o-alert-icon"
       >
         <i
-          class="o-icon o-icon-check"
+          class="o-icon o-icon-play"
         />
       </div>
        
@@ -54,7 +54,7 @@ exports[`Storyshots Alert round 1`] = `
         class="o-alert-icon"
       >
         <i
-          class="o-icon o-icon-check"
+          class="o-icon o-icon-radio"
         />
       </div>
        
@@ -76,7 +76,7 @@ exports[`Storyshots Alert round 1`] = `
         class="o-alert-icon"
       >
         <i
-          class="o-icon o-icon-check"
+          class="o-icon o-icon-sun"
         />
       </div>
        
@@ -98,7 +98,7 @@ exports[`Storyshots Alert round 1`] = `
         class="o-alert-icon"
       >
         <i
-          class="o-icon o-icon-check"
+          class="o-icon o-icon-trash"
         />
       </div>
        
@@ -123,7 +123,7 @@ exports[`Storyshots Alert round 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-unlock"
           />
         </div>
          
@@ -245,7 +245,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-codepen"
           />
         </div>
          
@@ -267,7 +267,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-codepen"
           />
         </div>
          
@@ -289,7 +289,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-codepen"
           />
         </div>
          
@@ -311,7 +311,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-codepen"
           />
         </div>
          
@@ -337,7 +337,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-edit"
           />
         </div>
          
@@ -359,7 +359,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-edit"
           />
         </div>
          
@@ -381,7 +381,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-edit"
           />
         </div>
          
@@ -403,7 +403,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-edit"
           />
         </div>
          
@@ -429,7 +429,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-heart"
           />
         </div>
          
@@ -451,7 +451,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-heart"
           />
         </div>
          
@@ -473,7 +473,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-heart"
           />
         </div>
          
@@ -495,7 +495,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-heart"
           />
         </div>
          
@@ -521,7 +521,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-map"
           />
         </div>
          
@@ -543,7 +543,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-map"
           />
         </div>
          
@@ -565,7 +565,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-map"
           />
         </div>
          
@@ -587,7 +587,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-map"
           />
         </div>
          
@@ -613,7 +613,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-move"
           />
         </div>
          
@@ -635,7 +635,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-move"
           />
         </div>
          
@@ -657,7 +657,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-move"
           />
         </div>
          
@@ -679,7 +679,7 @@ exports[`Storyshots Alert sizes 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-move"
           />
         </div>
          
@@ -735,7 +735,7 @@ exports[`Storyshots Alert types 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-arrow-left"
           />
         </div>
          
@@ -761,7 +761,7 @@ exports[`Storyshots Alert types 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-bar-chart"
           />
         </div>
          
@@ -787,7 +787,7 @@ exports[`Storyshots Alert types 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-bookmark"
           />
         </div>
          
@@ -813,7 +813,7 @@ exports[`Storyshots Alert types 1`] = `
           class="o-alert-icon"
         >
           <i
-            class="o-icon o-icon-check"
+            class="o-icon o-icon-circle"
           />
         </div>
          
