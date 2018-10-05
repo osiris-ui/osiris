@@ -12,16 +12,16 @@ storiesOf('Alert', module)
           <o-alert type="primary">This is a primary alert</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="secondary">This is a secondary alert</o-alert>
+          <o-alert type="secondary" icon="arrow-left">This is a secondary alert</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="info">This is an info alert</o-alert>
+          <o-alert type="info" icon="bar-chart">This is an info alert</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="success">This is a success alert</o-alert>
+          <o-alert type="success" icon="bookmark">This is a success alert</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="warning">This is a warning alert</o-alert>
+          <o-alert type="warning" icon="circle">This is a warning alert</o-alert>
         </div>
       </div>
     `,
@@ -37,34 +37,34 @@ storiesOf('Alert', module)
           <o-alert type="primary" size="mini">Primary Mini</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="secondary" size="large">Secondary Large</o-alert>
-          <o-alert type="secondary">Secondary Normal</o-alert>
-          <o-alert type="secondary" size="small">Secondary Small</o-alert>
-          <o-alert type="secondary" size="mini">Secondary Mini</o-alert>
+          <o-alert type="secondary" size="large" icon="codepen">Secondary Large</o-alert>
+          <o-alert type="secondary" icon="codepen">Secondary Normal</o-alert>
+          <o-alert type="secondary" size="small" icon="codepen">Secondary Small</o-alert>
+          <o-alert type="secondary" size="mini" icon="codepen">Secondary Mini</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="info" size="large">Info Large</o-alert>
-          <o-alert type="info">Info Normal</o-alert>
-          <o-alert type="info" size="small">Info Small</o-alert>
-          <o-alert type="info" size="mini">Info Mini</o-alert>
+          <o-alert type="info" size="large" icon="edit">Info Large</o-alert>
+          <o-alert type="info" icon="edit">Info Normal</o-alert>
+          <o-alert type="info" size="small" icon="edit">Info Small</o-alert>
+          <o-alert type="info" size="mini" icon="edit">Info Mini</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="success" size="large">Success Large</o-alert>
-          <o-alert type="success">Success Normal</o-alert>
-          <o-alert type="success" size="small">Success Small</o-alert>
-          <o-alert type="success" size="mini">Success Mini</o-alert>
+          <o-alert type="success" size="large" icon="heart">Success Large</o-alert>
+          <o-alert type="success" icon="heart">Success Normal</o-alert>
+          <o-alert type="success" size="small" icon="heart">Success Small</o-alert>
+          <o-alert type="success" size="mini" icon="heart">Success Mini</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="warning" size="large">Warning Large</o-alert>
-          <o-alert type="warning">Warning Normal</o-alert>
-          <o-alert type="warning" size="small">Warning Small</o-alert>
-          <o-alert type="warning" size="mini">Warning Mini</o-alert>
+          <o-alert type="warning" size="large" icon="map">Warning Large</o-alert>
+          <o-alert type="warning" icon="map">Warning Normal</o-alert>
+          <o-alert type="warning" size="small" icon="map">Warning Small</o-alert>
+          <o-alert type="warning" size="mini" icon="map">Warning Mini</o-alert>
         </div>
         <div style="margin-top: 10px">
-          <o-alert type="danger" size="large">Danger Large</o-alert>
-          <o-alert type="danger">Danger Normal</o-alert>
-          <o-alert type="danger" size="small">Danger Small</o-alert>
-          <o-alert type="danger" size="mini">Danger Mini</o-alert>
+          <o-alert type="danger" size="large" icon="move">Danger Large</o-alert>
+          <o-alert type="danger" icon="move">Danger Normal</o-alert>
+          <o-alert type="danger" size="small" icon="move">Danger Small</o-alert>
+          <o-alert type="danger" size="mini" icon="move">Danger Mini</o-alert>
         </div>
       </div>
     `,
@@ -74,12 +74,12 @@ storiesOf('Alert', module)
     template: `
       <div>
         <o-alert type="primary" round>Primary</o-alert>
-        <o-alert type="secondary" round>Secondary</o-alert>
-        <o-alert type="info" round>Info</o-alert>
-        <o-alert type="success" round>Success</o-alert>
-        <o-alert type="warning" round>Warning</o-alert>
+        <o-alert type="secondary" round icon="play">Secondary</o-alert>
+        <o-alert type="info" round icon="radio">Info</o-alert>
+        <o-alert type="success" round icon="sun">Success</o-alert>
+        <o-alert type="warning" round icon="trash">Warning</o-alert>
         <div style="margin-top:10px; margin-left: 0">
-          <o-alert type="danger" round>Danger</o-alert>
+          <o-alert type="danger" round icon="unlock">Danger</o-alert>
         </div>
       </div>
     `,
