@@ -13,7 +13,7 @@
 
 > A Vue.js 2.0 universal responsive UI component library..
 
-### 🚧 Under development, we working to release 1.0.0 very soon :fire:
+### 🚧 Only for study purposes, do not use in production
 
 ## Docs
 
