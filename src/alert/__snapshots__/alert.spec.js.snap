@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`alert should be a danger alert 1`] = `
+<div class="o-alert o-alert--danger o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--danger">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a info alert 1`] = `
+<div class="o-alert o-alert--info o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--info">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a large alert 1`] = `
+<div class="o-alert o-alert--primary o-alert--large">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a mini alert 1`] = `
+<div class="o-alert o-alert--primary o-alert--mini">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a normal alert 1`] = `
+<div class="o-alert o-alert--primary o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a primary alert 1`] = `
+<div class="o-alert o-alert--primary o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a primary alert at startup 1`] = `
+<div class="o-alert o-alert--primary o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a round alert 1`] = `
+<div class="o-alert o-alert--primary o-alert--normal is-round">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a secondary alert 1`] = `
+<div class="o-alert o-alert--secondary o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--secondary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a small alert 1`] = `
+<div class="o-alert o-alert--primary o-alert--small">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--primary">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a success alert 1`] = `
+<div class="o-alert o-alert--success o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--success">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`alert should be a warning alert 1`] = `
+<div class="o-alert o-alert--warning o-alert--normal">
+  <div>
+    <div class="o-alert-icon">
+      <i class="o-icon o-icon-check"></i>
+    </div>
+    <div class="o-alert-text o-alert-text--warning">
+      <div></div>
+    </div>
+  </div>
+</div>
+`;
