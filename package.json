@@ -30,7 +30,7 @@
   "homepage": "https://github.com/osiris-ui/osiris#readme",
   "devDependencies": {
     "@storybook/addon-knobs": "^3.4.10",
-    "@storybook/addon-storyshots": "^3.4.10",
+    "@storybook/addon-storyshots": "^7.6.24",
     "@storybook/addon-storysource": "^3.4.8",
     "@storybook/storybook-deployer": "^2.3.0",
     "@storybook/vue": "^3.4.8",
